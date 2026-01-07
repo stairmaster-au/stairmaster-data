@@ -1,0 +1,404 @@
+{
+  "metadata": {
+    "publishedAt": "2026-01-07T23:39:20.311Z",
+    "source": "https://docs.google.com/spreadsheets/d/1uy4s1Q0kpLEE8aGH4gX3lLWXgn8meUlJP86UvbIfrUk/edit"
+  },
+  "houseTypes": [
+    {
+      "code": "Antigua 270",
+      "name": "Antigua 270"
+    },
+    {
+      "code": "Antigua 290",
+      "name": "Antigua 290"
+    },
+    {
+      "code": "Antigua 310",
+      "name": "Antigua 310"
+    },
+    {
+      "code": "Barcelona 260",
+      "name": "Barcelona 260"
+    },
+    {
+      "code": "Barcelona 280",
+      "name": "Barcelona 280"
+    },
+    {
+      "code": "Bayside 360 MKII",
+      "name": "Bayside 360 MKII"
+    },
+    {
+      "code": "Bayside 390",
+      "name": "Bayside 390"
+    },
+    {
+      "code": "Boston 330",
+      "name": "Boston 330"
+    },
+    {
+      "code": "Boston 340",
+      "name": "Boston 340"
+    },
+    {
+      "code": "Boston 360",
+      "name": "Boston 360"
+    },
+    {
+      "code": "Boston 370",
+      "name": "Boston 370"
+    },
+    {
+      "code": "Boston 400",
+      "name": "Boston 400"
+    },
+    {
+      "code": "Brooklyn 320",
+      "name": "Brooklyn 320"
+    },
+    {
+      "code": "Crestmead 370",
+      "name": "Crestmead 370"
+    },
+    {
+      "code": "Crestmead 410 MKII",
+      "name": "Crestmead 410 MKII"
+    },
+    {
+      "code": "Crestmead 430",
+      "name": "Crestmead 430"
+    },
+    {
+      "code": "Grande 430",
+      "name": "Grande 430"
+    },
+    {
+      "code": "Grande 460",
+      "name": "Grande 460"
+    },
+    {
+      "code": "Grande 480",
+      "name": "Grande 480"
+    },
+    {
+      "code": "Grande 530",
+      "name": "Grande 530"
+    },
+    {
+      "code": "Hamilton 340",
+      "name": "Hamilton 340"
+    },
+    {
+      "code": "Hawthorne 260",
+      "name": "Hawthorne 260"
+    },
+    {
+      "code": "Hawthorne 290",
+      "name": "Hawthorne 290"
+    },
+    {
+      "code": "Hawthorne 310",
+      "name": "Hawthorne 310"
+    },
+    {
+      "code": "Lilyfield 300",
+      "name": "Lilyfield 300"
+    },
+    {
+      "code": "Lilyfield 320 MKII",
+      "name": "Lilyfield 320 MKII"
+    },
+    {
+      "code": "Lincoln 370",
+      "name": "Lincoln 370"
+    },
+    {
+      "code": "Madison 320",
+      "name": "Madison 320"
+    },
+    {
+      "code": "Madison 350 MKII",
+      "name": "Madison 350 MKII"
+    },
+    {
+      "code": "Madison 360",
+      "name": "Madison 360"
+    },
+    {
+      "code": "Monterey 250",
+      "name": "Monterey 250"
+    },
+    {
+      "code": "Monterey 280",
+      "name": "Monterey 280"
+    },
+    {
+      "code": "Monterey 310",
+      "name": "Monterey 310"
+    },
+    {
+      "code": "Paddington 270",
+      "name": "Paddington 270"
+    },
+    {
+      "code": "Paddington 290",
+      "name": "Paddington 290"
+    },
+    {
+      "code": "Paddington 300",
+      "name": "Paddington 300"
+    },
+    {
+      "code": "Paddington 300 MKII",
+      "name": "Paddington 300 MKII"
+    },
+    {
+      "code": "Paddington 320",
+      "name": "Paddington 320"
+    },
+    {
+      "code": "Parkhill 270",
+      "name": "Parkhill 270"
+    },
+    {
+      "code": "Parkhill 300",
+      "name": "Parkhill 300"
+    },
+    {
+      "code": "Parkhill 310",
+      "name": "Parkhill 310"
+    },
+    {
+      "code": "Parkhill 320",
+      "name": "Parkhill 320"
+    },
+    {
+      "code": "Portland 280",
+      "name": "Portland 280"
+    },
+    {
+      "code": "Portland 320",
+      "name": "Portland 320"
+    },
+    {
+      "code": "Sheridan 340",
+      "name": "Sheridan 340"
+    },
+    {
+      "code": "Sheridan 380",
+      "name": "Sheridan 380"
+    },
+    {
+      "code": "Sherwood 390",
+      "name": "Sherwood 390"
+    },
+    {
+      "code": "Sherwood 440",
+      "name": "Sherwood 440"
+    },
+    {
+      "code": "Teneriffe 310",
+      "name": "Teneriffe 310"
+    },
+    {
+      "code": "Teneriffe 340",
+      "name": "Teneriffe 340"
+    },
+    {
+      "code": "Teneriffe 360",
+      "name": "Teneriffe 360"
+    }
+  ],
+  "ranges": [
+    {
+      "code": "Mode",
+      "name": "Mode (Aspire)",
+      "order": 1
+    },
+    {
+      "code": "Classic",
+      "name": "Classic (Luxe)",
+      "order": 2
+    },
+    {
+      "code": "Nouveau",
+      "name": "Nouveau (Diamond)",
+      "order": 3
+    },
+    {
+      "code": "Neo Modern",
+      "name": "Neo Modern",
+      "order": 4
+    },
+    {
+      "code": "Hamptons",
+      "name": "Hamptons",
+      "order": 5
+    },
+    {
+      "code": "Coastal Hamptons",
+      "name": "Coastal Hamptons",
+      "order": 6
+    }
+  ],
+  "designOptions": [
+    {
+      "code": "Type 1",
+      "name": "Type 1",
+      "description": "Carpet grade treads/risers, closed paint stringers",
+      "order": 1
+    },
+    {
+      "code": "Type 10",
+      "name": "Type 10",
+      "description": "1st tread/riser Durian, rest carpet, closed paint stringers",
+      "order": 2
+    },
+    {
+      "code": "Type 20",
+      "name": "Type 20",
+      "description": "Durian treads/risers, closed paint stringers",
+      "order": 3
+    },
+    {
+      "code": "Type 21",
+      "name": "Type 21",
+      "description": "Durian treads, paint risers, closed paint stringers",
+      "order": 4
+    },
+    {
+      "code": "Type 30",
+      "name": "Type 30",
+      "description": "Full Durian + sawtooth stringer",
+      "order": 5
+    },
+    {
+      "code": "Type 31",
+      "name": "Type 31",
+      "description": "Durian treads, paint risers + sawtooth stringer",
+      "order": 6
+    }
+  ],
+  "models": [
+    {
+      "houseType": "Antigua 270",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "dcbfde3dd2ef4856a6d89d28696e2c5d",
+      "sketchfabName": "Antigua 270 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/dcbfde3dd2ef4856a6d89d28696e2c5d"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "58a9c06e76084494a4a6096862f79b49",
+      "sketchfabName": "Antigua 270 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/58a9c06e76084494a4a6096862f79b49"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "700d939bccff42b596eea80021fda31e",
+      "sketchfabName": "Antigua 270 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/700d939bccff42b596eea80021fda31e"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "700d939bccff42b596eea80021fda31e",
+      "sketchfabName": "Antigua 270 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/700d939bccff42b596eea80021fda31e"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "6423599bbc014a7c85786f46db3a8c6f",
+      "sketchfabName": "Antigua 270 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/6423599bbc014a7c85786f46db3a8c6f"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "941db305989a4665908f73cf7bd7cefe",
+      "sketchfabName": "Antigua 270 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/941db305989a4665908f73cf7bd7cefe"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "cf17d16249624a88b307cf28e0f34c5f",
+      "sketchfabName": "Antigua 270 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/cf17d16249624a88b307cf28e0f34c5f"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "08c94fc5b722409982b44ef1c96a4e1c",
+      "sketchfabName": "Antigua 270 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/08c94fc5b722409982b44ef1c96a4e1c"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "32b6cad6c17741f99c46c0b6267ccf17",
+      "sketchfabName": "Antigua 270 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/32b6cad6c17741f99c46c0b6267ccf17"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "8247bdf56d6d4fd5afbf73705b3bc14b",
+      "sketchfabName": "Antigua 270 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/8247bdf56d6d4fd5afbf73705b3bc14b"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "f9046958e1274185b38338487262a349",
+      "sketchfabName": "Antigua 270 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/f9046958e1274185b38338487262a349"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "4e25d821b55242f99503d530faeb7634",
+      "sketchfabName": "Antigua 270 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/4e25d821b55242f99503d530faeb7634"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "30079f8a12b34a80b587744246aceb20",
+      "sketchfabName": "Antigua 270 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/30079f8a12b34a80b587744246aceb20"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "e363a6f8cbb4484aacf553b19a38230e",
+      "sketchfabName": "Antigua 270 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/e363a6f8cbb4484aacf553b19a38230e"
+    },
+    {
+      "houseType": "Antigua 270",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "e363a6f8cbb4484aacf553b19a38230e",
+      "sketchfabName": "Antigua 270 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/e363a6f8cbb4484aacf553b19a38230e"
+    }
+  ]
+}
