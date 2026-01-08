@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "publishedAt": "2026-01-07T23:39:20.311Z",
+    "publishedAt": "2026-01-08T00:55:53.108Z",
     "source": "https://docs.google.com/spreadsheets/d/1uy4s1Q0kpLEE8aGH4gX3lLWXgn8meUlJP86UvbIfrUk/edit"
   },
   "houseTypes": [
@@ -399,6 +399,14 @@
       "sketchfabUID": "e363a6f8cbb4484aacf553b19a38230e",
       "sketchfabName": "Antigua 270 - Nouveau (Type 30)",
       "viewerURL": "https://sketchfab.com/3d-models/e363a6f8cbb4484aacf553b19a38230e"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "296130f5ed1e47b0ba05bd5cff63be09",
+      "sketchfabName": "Antigua 290 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/296130f5ed1e47b0ba05bd5cff63be09"
     }
   ]
 }
