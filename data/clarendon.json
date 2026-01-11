@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "publishedAt": "2026-01-08T00:57:35.514Z",
+    "publishedAt": "2026-01-11T02:44:13.920Z",
     "source": "https://docs.google.com/spreadsheets/d/1uy4s1Q0kpLEE8aGH4gX3lLWXgn8meUlJP86UvbIfrUk/edit"
   },
   "houseTypes": [
@@ -212,17 +212,17 @@
   "ranges": [
     {
       "code": "Mode",
-      "name": "Mode (Aspire)",
+      "name": "Mode",
       "order": 1
     },
     {
       "code": "Classic",
-      "name": "Classic (Luxe)",
+      "name": "Classic",
       "order": 2
     },
     {
       "code": "Nouveau",
-      "name": "Nouveau (Diamond)",
+      "name": "Nouveau",
       "order": 3
     },
     {
@@ -403,10 +403,1810 @@
     {
       "houseType": "Antigua 290",
       "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "abbaef494d62475482f12ed23d9135ba",
+      "sketchfabName": "Antigua 290 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/abbaef494d62475482f12ed23d9135ba"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "0e3e8e0a79f14a69801a0967c17db653",
+      "sketchfabName": "Antigua 290 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/0e3e8e0a79f14a69801a0967c17db653"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "de0c3770002347b99fccc1ffae4d117f",
+      "sketchfabName": "Antigua 290 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/de0c3770002347b99fccc1ffae4d117f"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "13712e6fe9d146d6b92c93ec8a058659",
+      "sketchfabName": "Antigua 290 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/13712e6fe9d146d6b92c93ec8a058659"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Classic",
       "designOption": "Type 30",
       "sketchfabUID": "296130f5ed1e47b0ba05bd5cff63be09",
       "sketchfabName": "Antigua 290 - Classic (Type 30)",
       "viewerURL": "https://sketchfab.com/3d-models/296130f5ed1e47b0ba05bd5cff63be09"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "296130f5ed1e47b0ba05bd5cff63be09",
+      "sketchfabName": "Antigua 290 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/296130f5ed1e47b0ba05bd5cff63be09"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "8b4ecac5ce6a49c5a9f7bdd45b46a54c",
+      "sketchfabName": "Antigua 290 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/8b4ecac5ce6a49c5a9f7bdd45b46a54c"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "5c4728a7452a4d09b19576c48333f25f",
+      "sketchfabName": "Antigua 290 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/5c4728a7452a4d09b19576c48333f25f"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "b56c3a0894d94617b6850bd135ab22be",
+      "sketchfabName": "Antigua 290 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/b56c3a0894d94617b6850bd135ab22be"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "e387e1565c2f4727950929b92a8a90a2",
+      "sketchfabName": "Antigua 290 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/e387e1565c2f4727950929b92a8a90a2"
+    },
+    {
+      "houseType": "Antigua 290",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "303eedafc22d4f68aa8d26669cb26e73",
+      "sketchfabName": "Antigua 290 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/303eedafc22d4f68aa8d26669cb26e73"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "0ffe34e5cc8643d4b965c61eafccb260",
+      "sketchfabName": "Barcelona 260 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/0ffe34e5cc8643d4b965c61eafccb260"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "0ffe34e5cc8643d4b965c61eafccb260",
+      "sketchfabName": "Barcelona 260 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/0ffe34e5cc8643d4b965c61eafccb260"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "8b65a42240314deb86cb28ff0508b7c8",
+      "sketchfabName": "Barcelona 260 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/8b65a42240314deb86cb28ff0508b7c8"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "8302d351126645d580834b3656740277",
+      "sketchfabName": "Barcelona 260 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/8302d351126645d580834b3656740277"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "8302d351126645d580834b3656740277",
+      "sketchfabName": "Barcelona 260 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/8302d351126645d580834b3656740277"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "fef2dc5bffff453798ed38b31f97c99f",
+      "sketchfabName": "Barcelona 260 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/fef2dc5bffff453798ed38b31f97c99f"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "b9f72a45f78b4f1ea99a0f0f910f43d2",
+      "sketchfabName": "Barcelona 260 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/b9f72a45f78b4f1ea99a0f0f910f43d2"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "0f67162d228742ef8ededc221d54a3e6",
+      "sketchfabName": "Barcelona 260 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/0f67162d228742ef8ededc221d54a3e6"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "0f67162d228742ef8ededc221d54a3e6",
+      "sketchfabName": "Barcelona 260 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/0f67162d228742ef8ededc221d54a3e6"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "5ea3690a84ee4a148e33f62d5d2ee05a",
+      "sketchfabName": "Barcelona 260 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/5ea3690a84ee4a148e33f62d5d2ee05a"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "df5076d9c1154b4881f976a3311c1642",
+      "sketchfabName": "Barcelona 260 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/df5076d9c1154b4881f976a3311c1642"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "b8c109826f914f89a83786a3d99915e2",
+      "sketchfabName": "Barcelona 260 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/b8c109826f914f89a83786a3d99915e2"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "494368a4e42c44449312bd5191f521db",
+      "sketchfabName": "Barcelona 260 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/494368a4e42c44449312bd5191f521db"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "4bed9189a0094dcbb82ec5847f1b7c42",
+      "sketchfabName": "Barcelona 260 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/4bed9189a0094dcbb82ec5847f1b7c42"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "7836e66b195b4de98adda5687bd7340b",
+      "sketchfabName": "Barcelona 260 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/7836e66b195b4de98adda5687bd7340b"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "7836e66b195b4de98adda5687bd7340b",
+      "sketchfabName": "Barcelona 260 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/7836e66b195b4de98adda5687bd7340b"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "9c59cbe2921a4d178bb2b99b471f868d",
+      "sketchfabName": "Barcelona 260 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/9c59cbe2921a4d178bb2b99b471f868d"
+    },
+    {
+      "houseType": "Barcelona 260",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "9c59cbe2921a4d178bb2b99b471f868d",
+      "sketchfabName": "Barcelona 260 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/9c59cbe2921a4d178bb2b99b471f868d"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "53814deaa1e1471d836c17e71a7bb253",
+      "sketchfabName": "Barcelona 280 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/53814deaa1e1471d836c17e71a7bb253"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "bca948beead04f8e90303272d34c2a6f",
+      "sketchfabName": "Barcelona 280 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/bca948beead04f8e90303272d34c2a6f"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "632a33382ac74e8c834e9455692fdd2c",
+      "sketchfabName": "Barcelona 280 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/632a33382ac74e8c834e9455692fdd2c"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "df7092967c754786ad5c32bbaae18c02",
+      "sketchfabName": "Barcelona 280 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/df7092967c754786ad5c32bbaae18c02"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "df7092967c754786ad5c32bbaae18c02",
+      "sketchfabName": "Barcelona 280 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/df7092967c754786ad5c32bbaae18c02"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "e13fc0f31872467fbf0e366c1c0e66fd",
+      "sketchfabName": "Barcelona 280 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/e13fc0f31872467fbf0e366c1c0e66fd"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "6bcac79747e8444ca598b840e7108201",
+      "sketchfabName": "Barcelona 280 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/6bcac79747e8444ca598b840e7108201"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "807ea3447ed34861b289966de1ad2350",
+      "sketchfabName": "Barcelona 280 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/807ea3447ed34861b289966de1ad2350"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "bb0b179a229a4e06a128a56439bfcd3d",
+      "sketchfabName": "Barcelona 280 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/bb0b179a229a4e06a128a56439bfcd3d"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "677be457494a4c0f91369e1af51deaf5",
+      "sketchfabName": "Barcelona 280 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/677be457494a4c0f91369e1af51deaf5"
+    },
+    {
+      "houseType": "Barcelona 280",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "c77b1bf3e9b74897a0eec96a4899d6db",
+      "sketchfabName": "Barcelona 280 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/c77b1bf3e9b74897a0eec96a4899d6db"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "24e401dcccce452eab18074aae9a873c",
+      "sketchfabName": "Bayside 360 MKII - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/24e401dcccce452eab18074aae9a873c"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "3a915e63ce744733b5b84af46c98170f",
+      "sketchfabName": "Bayside 360 MKII - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/3a915e63ce744733b5b84af46c98170f"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "01b79adf0239474aa68e054bae93241b",
+      "sketchfabName": "Bayside 360 MKII - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/01b79adf0239474aa68e054bae93241b"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "369bb0cd5ad54c2abd9fe8cb547f180b",
+      "sketchfabName": "Bayside 360 MKII - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/369bb0cd5ad54c2abd9fe8cb547f180b"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "fc2a62d4211f4adab85d73a1b796b3fb",
+      "sketchfabName": "Bayside 360 MKII - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/fc2a62d4211f4adab85d73a1b796b3fb"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "4acd7dd2212447e7af2d9ea776ac663f",
+      "sketchfabName": "Bayside 360 MKII - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/4acd7dd2212447e7af2d9ea776ac663f"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "4acd7dd2212447e7af2d9ea776ac663f",
+      "sketchfabName": "Bayside 360 MKII - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/4acd7dd2212447e7af2d9ea776ac663f"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "bc937d8bd4aa49bba26fec0e4b8fd9a7",
+      "sketchfabName": "Bayside 360 MKII - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/bc937d8bd4aa49bba26fec0e4b8fd9a7"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "134ee3509f844eae819a8245006a69ce",
+      "sketchfabName": "Bayside 360 MKII - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/134ee3509f844eae819a8245006a69ce"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "72e3a7b9e59f4ca6bd61e987033aab0d",
+      "sketchfabName": "Bayside 360 MKII - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/72e3a7b9e59f4ca6bd61e987033aab0d"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "18e9819c1c43486cb10f781035cce15c",
+      "sketchfabName": "Bayside 360 MKII - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/18e9819c1c43486cb10f781035cce15c"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "1efaae2a69bb4eefb23d71a69a8fee5a",
+      "sketchfabName": "Bayside 360 MKII - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/1efaae2a69bb4eefb23d71a69a8fee5a"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "9f59c8e54593450caab60c072deaa918",
+      "sketchfabName": "Bayside 360 MKII - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/9f59c8e54593450caab60c072deaa918"
+    },
+    {
+      "houseType": "Bayside 360 MKII",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "85aafc4a640347ecbda992e6c9bfacad",
+      "sketchfabName": "Bayside 360 MKII - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/85aafc4a640347ecbda992e6c9bfacad"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "86e8c33a5ade43729b424ac2b1fac354",
+      "sketchfabName": "Boston 330 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/86e8c33a5ade43729b424ac2b1fac354"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "5a0241fb14e641aeb04e87f05663ae06",
+      "sketchfabName": "Boston 330 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/5a0241fb14e641aeb04e87f05663ae06"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "7a6ccbff564847e9a5c8f83aed7cacdd",
+      "sketchfabName": "Boston 330 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/7a6ccbff564847e9a5c8f83aed7cacdd"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "12caafe47ce14fa281d78778f2860d96",
+      "sketchfabName": "Boston 330 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/12caafe47ce14fa281d78778f2860d96"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "2bfd43bbe9744a9a8e97352f25d7cf66",
+      "sketchfabName": "Boston 330 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/2bfd43bbe9744a9a8e97352f25d7cf66"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "3fcb13c1f49645baacb5ef99d7775e93",
+      "sketchfabName": "Boston 330 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/3fcb13c1f49645baacb5ef99d7775e93"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "bd2b584411424cd48fe9f3a712a947bf",
+      "sketchfabName": "Boston 330 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/bd2b584411424cd48fe9f3a712a947bf"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "8392bab6d38f4adcbea366ca13720162",
+      "sketchfabName": "Boston 330 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/8392bab6d38f4adcbea366ca13720162"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "4e60c713922b4dcaaed5d146dcc46177",
+      "sketchfabName": "Boston 330 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/4e60c713922b4dcaaed5d146dcc46177"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "937ce2ff35604a219d1e05a48e1b4a74",
+      "sketchfabName": "Boston 330 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/937ce2ff35604a219d1e05a48e1b4a74"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "9b058f862fba438c9aa8a681f349acb9",
+      "sketchfabName": "Boston 330 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/9b058f862fba438c9aa8a681f349acb9"
+    },
+    {
+      "houseType": "Boston 330",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "60f1aff40f174b769a56d664efc92a04",
+      "sketchfabName": "Boston 330 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/60f1aff40f174b769a56d664efc92a04"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "e8593937d735416b9b95b192ccca9dec",
+      "sketchfabName": "Boston 340 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/e8593937d735416b9b95b192ccca9dec"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "b86e19ac38c14391a357744c2b96a8b8",
+      "sketchfabName": "Boston 340 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/b86e19ac38c14391a357744c2b96a8b8"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "41f9611a5de44ffc8dec6642e8f1d959",
+      "sketchfabName": "Boston 340 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/41f9611a5de44ffc8dec6642e8f1d959"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "40f25300ee4f444fab8ded8cb302dfe5",
+      "sketchfabName": "Boston 340 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/40f25300ee4f444fab8ded8cb302dfe5"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "f9446ba694844216b7e7e010b4404958",
+      "sketchfabName": "Boston 340 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/f9446ba694844216b7e7e010b4404958"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "03c59a1785e74b97b3edb93a54f8e06d",
+      "sketchfabName": "Boston 340 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/03c59a1785e74b97b3edb93a54f8e06d"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "03c59a1785e74b97b3edb93a54f8e06d",
+      "sketchfabName": "Boston 340 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/03c59a1785e74b97b3edb93a54f8e06d"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "cf1506639da04ae79a011da5f9ad25ee",
+      "sketchfabName": "Boston 340 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/cf1506639da04ae79a011da5f9ad25ee"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "cf1506639da04ae79a011da5f9ad25ee",
+      "sketchfabName": "Boston 340 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/cf1506639da04ae79a011da5f9ad25ee"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "03923e3fc4844b77af3c704930fc07b9",
+      "sketchfabName": "Boston 340 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/03923e3fc4844b77af3c704930fc07b9"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "03923e3fc4844b77af3c704930fc07b9",
+      "sketchfabName": "Boston 340 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/03923e3fc4844b77af3c704930fc07b9"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "ae7cc5283136420b982833b477c3532c",
+      "sketchfabName": "Boston 340 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/ae7cc5283136420b982833b477c3532c"
+    },
+    {
+      "houseType": "Boston 340",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "8a203012bca044bd8da5689c5f43eed2",
+      "sketchfabName": "Boston 340 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/8a203012bca044bd8da5689c5f43eed2"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "bc2b3e1070e443a1a2d857dee0c95b69",
+      "sketchfabName": "Boston 360 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/bc2b3e1070e443a1a2d857dee0c95b69"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "c0fa6b95f438427e9fe2ac45cf70ff6a",
+      "sketchfabName": "Boston 360 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/c0fa6b95f438427e9fe2ac45cf70ff6a"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "640d062d948b4c1595542749bd2294ee",
+      "sketchfabName": "Boston 360 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/640d062d948b4c1595542749bd2294ee"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "3dfd64b7adbb48338a0d4e627f2d96bd",
+      "sketchfabName": "Boston 360 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/3dfd64b7adbb48338a0d4e627f2d96bd"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "3dfd64b7adbb48338a0d4e627f2d96bd",
+      "sketchfabName": "Boston 360 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/3dfd64b7adbb48338a0d4e627f2d96bd"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "df7e683f69f0493b842af43aab2e41eb",
+      "sketchfabName": "Boston 360 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/df7e683f69f0493b842af43aab2e41eb"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "e8d6d4f7408a48ab9d36cc0347aff534",
+      "sketchfabName": "Boston 360 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/e8d6d4f7408a48ab9d36cc0347aff534"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "e42e41178b5a4772a3ab4c3ab54085cd",
+      "sketchfabName": "Boston 360 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/e42e41178b5a4772a3ab4c3ab54085cd"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "e42e41178b5a4772a3ab4c3ab54085cd",
+      "sketchfabName": "Boston 360 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/e42e41178b5a4772a3ab4c3ab54085cd"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "ebe4169c79564e5baf291888db13f0ae",
+      "sketchfabName": "Boston 360 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/ebe4169c79564e5baf291888db13f0ae"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "9e1c59ec610f4eb3b3c0188b484711d7",
+      "sketchfabName": "Boston 360 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/9e1c59ec610f4eb3b3c0188b484711d7"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "9e1c59ec610f4eb3b3c0188b484711d7",
+      "sketchfabName": "Boston 360 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/9e1c59ec610f4eb3b3c0188b484711d7"
+    },
+    {
+      "houseType": "Boston 360",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "2423acebdf1848b489349765ff762bed",
+      "sketchfabName": "Boston 360 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/2423acebdf1848b489349765ff762bed"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "cdd34d61291541d3bcb96c4b8e1cf694",
+      "sketchfabName": "Boston 370 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/cdd34d61291541d3bcb96c4b8e1cf694"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "7b277e7c41a7414ebd7b9b6486a6f7e0",
+      "sketchfabName": "Boston 370 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/7b277e7c41a7414ebd7b9b6486a6f7e0"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "98ba1ac3e1fe4603bee2f25e1342dd2e",
+      "sketchfabName": "Boston 370 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/98ba1ac3e1fe4603bee2f25e1342dd2e"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "98ba1ac3e1fe4603bee2f25e1342dd2e",
+      "sketchfabName": "Boston 370 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/98ba1ac3e1fe4603bee2f25e1342dd2e"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "703599756e15415693a24e09b19a1307",
+      "sketchfabName": "Boston 370 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/703599756e15415693a24e09b19a1307"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "703599756e15415693a24e09b19a1307",
+      "sketchfabName": "Boston 370 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/703599756e15415693a24e09b19a1307"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "1c6c083368db4c489d43e77392a622c2",
+      "sketchfabName": "Boston 370 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/1c6c083368db4c489d43e77392a622c2"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "04e63d115bca4076a55b264d52eea55d",
+      "sketchfabName": "Boston 370 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/04e63d115bca4076a55b264d52eea55d"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "04e63d115bca4076a55b264d52eea55d",
+      "sketchfabName": "Boston 370 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/04e63d115bca4076a55b264d52eea55d"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "ff3495265a604c6b97d6b2b8a42d89d5",
+      "sketchfabName": "Boston 370 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/ff3495265a604c6b97d6b2b8a42d89d5"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "870964db351443ff88a6198421db82b2",
+      "sketchfabName": "Boston 370 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/870964db351443ff88a6198421db82b2"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "870964db351443ff88a6198421db82b2",
+      "sketchfabName": "Boston 370 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/870964db351443ff88a6198421db82b2"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "cd3fd6e06cc44430b525fa40aa3d2e69",
+      "sketchfabName": "Boston 370 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/cd3fd6e06cc44430b525fa40aa3d2e69"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "cd3fd6e06cc44430b525fa40aa3d2e69",
+      "sketchfabName": "Boston 370 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/cd3fd6e06cc44430b525fa40aa3d2e69"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "c3292721ca3b4680b48a1f8a4d3bcfad",
+      "sketchfabName": "Boston 370 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/c3292721ca3b4680b48a1f8a4d3bcfad"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "3d24cb3e64ee43bda58ee6ec94be1100",
+      "sketchfabName": "Boston 370 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/3d24cb3e64ee43bda58ee6ec94be1100"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "3d24cb3e64ee43bda58ee6ec94be1100",
+      "sketchfabName": "Boston 370 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/3d24cb3e64ee43bda58ee6ec94be1100"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "ab6604052a834c059650fa3b7d45e969",
+      "sketchfabName": "Boston 370 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/ab6604052a834c059650fa3b7d45e969"
+    },
+    {
+      "houseType": "Boston 370",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "ab6604052a834c059650fa3b7d45e969",
+      "sketchfabName": "Boston 370 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/ab6604052a834c059650fa3b7d45e969"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "c4f32eb8bb1448669ada73ca31cbc692",
+      "sketchfabName": "Boston 400 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/c4f32eb8bb1448669ada73ca31cbc692"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "c4f32eb8bb1448669ada73ca31cbc692",
+      "sketchfabName": "Boston 400 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/c4f32eb8bb1448669ada73ca31cbc692"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "7223263bd50046618c395f534949460f",
+      "sketchfabName": "Boston 400 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/7223263bd50046618c395f534949460f"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "7223263bd50046618c395f534949460f",
+      "sketchfabName": "Boston 400 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/7223263bd50046618c395f534949460f"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "3276914df367413e8902137adc4e8a3a",
+      "sketchfabName": "Boston 400 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/3276914df367413e8902137adc4e8a3a"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "0500f913b55c48ffa928f843576153c0",
+      "sketchfabName": "Boston 400 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/0500f913b55c48ffa928f843576153c0"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "0500f913b55c48ffa928f843576153c0",
+      "sketchfabName": "Boston 400 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/0500f913b55c48ffa928f843576153c0"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "e73ecc9cdd7445b19f40d3a9272d57c6",
+      "sketchfabName": "Boston 400 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/e73ecc9cdd7445b19f40d3a9272d57c6"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "e9857c4099604721a66cdea1ab7fdaba",
+      "sketchfabName": "Boston 400 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/e9857c4099604721a66cdea1ab7fdaba"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "e9857c4099604721a66cdea1ab7fdaba",
+      "sketchfabName": "Boston 400 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/e9857c4099604721a66cdea1ab7fdaba"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "506c0422a0ad4f1f8072634516e943f8",
+      "sketchfabName": "Boston 400 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/506c0422a0ad4f1f8072634516e943f8"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "501b10eaef634171ae4926cfd3731874",
+      "sketchfabName": "Boston 400 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/501b10eaef634171ae4926cfd3731874"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "fd461974de0d4a2a887f9140233033bc",
+      "sketchfabName": "Boston 400 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/fd461974de0d4a2a887f9140233033bc"
+    },
+    {
+      "houseType": "Boston 400",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "fd461974de0d4a2a887f9140233033bc",
+      "sketchfabName": "Boston 400 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/fd461974de0d4a2a887f9140233033bc"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "5a8ca7a40ca548e1bef20392167d216c",
+      "sketchfabName": "Brooklyn 320 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/5a8ca7a40ca548e1bef20392167d216c"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "90d5f26891ce498c9e861f34431e04b4",
+      "sketchfabName": "Brooklyn 320 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/90d5f26891ce498c9e861f34431e04b4"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "65a49bfb4900400d9694083cef13cbbc",
+      "sketchfabName": "Brooklyn 320 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/65a49bfb4900400d9694083cef13cbbc"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "f21d65fe4aa74e9dac70e352a2965727",
+      "sketchfabName": "Brooklyn 320 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/f21d65fe4aa74e9dac70e352a2965727"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "f21d65fe4aa74e9dac70e352a2965727",
+      "sketchfabName": "Brooklyn 320 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/f21d65fe4aa74e9dac70e352a2965727"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "8f94a4002526454192b486bfc3d4dc2f",
+      "sketchfabName": "Brooklyn 320 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/8f94a4002526454192b486bfc3d4dc2f"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "8f94a4002526454192b486bfc3d4dc2f",
+      "sketchfabName": "Brooklyn 320 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/8f94a4002526454192b486bfc3d4dc2f"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "ec5ae3477959467587e35a1c6731bc43",
+      "sketchfabName": "Brooklyn 320 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/ec5ae3477959467587e35a1c6731bc43"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "ec5ae3477959467587e35a1c6731bc43",
+      "sketchfabName": "Brooklyn 320 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/ec5ae3477959467587e35a1c6731bc43"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "ef0ae6bbe7784a75a09f86f9807404c3",
+      "sketchfabName": "Brooklyn 320 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/ef0ae6bbe7784a75a09f86f9807404c3"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "1fd955b61b2949c596ccd6b8d35164a4",
+      "sketchfabName": "Brooklyn 320 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/1fd955b61b2949c596ccd6b8d35164a4"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "ed8c52a282e54e7c8c77b43a69c7bc57",
+      "sketchfabName": "Brooklyn 320 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/ed8c52a282e54e7c8c77b43a69c7bc57"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "e5493ab8c1dc4aa5b599ba944c1cfbee",
+      "sketchfabName": "Brooklyn 320 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/e5493ab8c1dc4aa5b599ba944c1cfbee"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "9d198377ee6d40f68500028027016de9",
+      "sketchfabName": "Brooklyn 320 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/9d198377ee6d40f68500028027016de9"
+    },
+    {
+      "houseType": "Brooklyn 320",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "f7c34993478e46e5a3c7c6b7e1d56aef",
+      "sketchfabName": "Brooklyn 320 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/f7c34993478e46e5a3c7c6b7e1d56aef"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "6dbe5c476a6d422e922f605ac26e881e",
+      "sketchfabName": "Crestmead 370 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/6dbe5c476a6d422e922f605ac26e881e"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "8306e88752734bfa84f4999b081485e3",
+      "sketchfabName": "Crestmead 370 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/8306e88752734bfa84f4999b081485e3"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "8306e88752734bfa84f4999b081485e3",
+      "sketchfabName": "Crestmead 370 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/8306e88752734bfa84f4999b081485e3"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "436363a5172747338f39ea7a3e52ddc4",
+      "sketchfabName": "Crestmead 370 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/436363a5172747338f39ea7a3e52ddc4"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "6a8d628b40f0472195762172b6e45b50",
+      "sketchfabName": "Crestmead 370 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/6a8d628b40f0472195762172b6e45b50"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "6f4c9952afee4018971d9bd7a686e428",
+      "sketchfabName": "Crestmead 370 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/6f4c9952afee4018971d9bd7a686e428"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "2fa12486c6e5461ea3ba6fb09c449a76",
+      "sketchfabName": "Crestmead 370 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/2fa12486c6e5461ea3ba6fb09c449a76"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "2fa12486c6e5461ea3ba6fb09c449a76",
+      "sketchfabName": "Crestmead 370 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/2fa12486c6e5461ea3ba6fb09c449a76"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "2b9a2d0060ba4de58c8468f88a17454f",
+      "sketchfabName": "Crestmead 370 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/2b9a2d0060ba4de58c8468f88a17454f"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "f8239334c6134d5e863283773b2fa955",
+      "sketchfabName": "Crestmead 370 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/f8239334c6134d5e863283773b2fa955"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "6da4565262fa4fd2b0b0c94d87260a74",
+      "sketchfabName": "Crestmead 370 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/6da4565262fa4fd2b0b0c94d87260a74"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "56c1f3eacbca4506b88ba1a5bd8c8ed1",
+      "sketchfabName": "Crestmead 370 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/56c1f3eacbca4506b88ba1a5bd8c8ed1"
+    },
+    {
+      "houseType": "Crestmead 370",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "7a796378f28d42dab089fa59cb63b3c4",
+      "sketchfabName": "Crestmead 370 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/7a796378f28d42dab089fa59cb63b3c4"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "43f3406526b4435687f853a38f0c8d98",
+      "sketchfabName": "Grande 430 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/43f3406526b4435687f853a38f0c8d98"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "43f3406526b4435687f853a38f0c8d98",
+      "sketchfabName": "Grande 430 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/43f3406526b4435687f853a38f0c8d98"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "afde7b57344841118483fae919b7635c",
+      "sketchfabName": "Grande 430 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/afde7b57344841118483fae919b7635c"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "9c63e0339db047e3b31076e09ae68883",
+      "sketchfabName": "Grande 430 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/9c63e0339db047e3b31076e09ae68883"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "9c63e0339db047e3b31076e09ae68883",
+      "sketchfabName": "Grande 430 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/9c63e0339db047e3b31076e09ae68883"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "663258aa6a9b4acba28b872b2900e93f",
+      "sketchfabName": "Grande 430 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/663258aa6a9b4acba28b872b2900e93f"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "4892553bb02a45b5bfff21d389b226cf",
+      "sketchfabName": "Grande 430 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/4892553bb02a45b5bfff21d389b226cf"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "96b872aeb1c9421aa0a7d297553a7788",
+      "sketchfabName": "Grande 430 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/96b872aeb1c9421aa0a7d297553a7788"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "ec0640e4708c429cb8cb22ca85ee5e99",
+      "sketchfabName": "Grande 430 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/ec0640e4708c429cb8cb22ca85ee5e99"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "7bddc7e12c7f427ebde6af27871e7ba2",
+      "sketchfabName": "Grande 430 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/7bddc7e12c7f427ebde6af27871e7ba2"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "a025bd62d667484194abe6441a8afc7b",
+      "sketchfabName": "Grande 430 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/a025bd62d667484194abe6441a8afc7b"
+    },
+    {
+      "houseType": "Grande 430",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "48451714c02c4d75878c4787feb65628",
+      "sketchfabName": "Grande 430 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/48451714c02c4d75878c4787feb65628"
+    },
+    {
+      "houseType": "Grande 480",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "f412722b9b1142e4a396a87a67c03172",
+      "sketchfabName": "Grande 480 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/f412722b9b1142e4a396a87a67c03172"
+    },
+    {
+      "houseType": "Grande 480",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "6452ab5f2410496c92e674c45c3493aa",
+      "sketchfabName": "Grande 480 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/6452ab5f2410496c92e674c45c3493aa"
+    },
+    {
+      "houseType": "Grande 480",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "6c61aeff97e54da0bb8296c1917748c9",
+      "sketchfabName": "Grande 480 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/6c61aeff97e54da0bb8296c1917748c9"
+    },
+    {
+      "houseType": "Grande 480",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "281272ce14034039953f3ac640e21fc7",
+      "sketchfabName": "Grande 480 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/281272ce14034039953f3ac640e21fc7"
+    },
+    {
+      "houseType": "Grande 480",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "a87ea7a91b674df1b19176ee709b369a",
+      "sketchfabName": "Grande 480 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/a87ea7a91b674df1b19176ee709b369a"
+    },
+    {
+      "houseType": "Grande 480",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "842dd29b53fc4d7e90884aefe6390d06",
+      "sketchfabName": "Grande 480 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/842dd29b53fc4d7e90884aefe6390d06"
+    },
+    {
+      "houseType": "Grande 480",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "7208aecf034c4ab9b0ba91c661d101ac",
+      "sketchfabName": "Grande 480 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/7208aecf034c4ab9b0ba91c661d101ac"
+    },
+    {
+      "houseType": "Grande 480",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "7709fec355bb4e72b993851a70992a30",
+      "sketchfabName": "Grande 480 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/7709fec355bb4e72b993851a70992a30"
+    },
+    {
+      "houseType": "Grande 480",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "9a759ee4b760436aa2aeb0a34f2186eb",
+      "sketchfabName": "Grande 480 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/9a759ee4b760436aa2aeb0a34f2186eb"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "0e4ac823ec4846bba1ee7c12d9a12ad6",
+      "sketchfabName": "Grande 530 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/0e4ac823ec4846bba1ee7c12d9a12ad6"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "6ed0ad956ec24c03ad699253b6b0510f",
+      "sketchfabName": "Grande 530 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/6ed0ad956ec24c03ad699253b6b0510f"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "9523e9a1ddf54a38a3d73a96527189a5",
+      "sketchfabName": "Grande 530 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/9523e9a1ddf54a38a3d73a96527189a5"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "313bde13e1b24e0cb052fec18ce99c9d",
+      "sketchfabName": "Grande 530 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/313bde13e1b24e0cb052fec18ce99c9d"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "22a0f94764b94fd99c9561afcdf2c373",
+      "sketchfabName": "Grande 530 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/22a0f94764b94fd99c9561afcdf2c373"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "f93e98dde3784bf8b370c95e2bd45682",
+      "sketchfabName": "Grande 530 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/f93e98dde3784bf8b370c95e2bd45682"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "0c337b41f2be4ffcad6447cd81e9d4cf",
+      "sketchfabName": "Grande 530 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/0c337b41f2be4ffcad6447cd81e9d4cf"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "f3e318155747494a9d6205a8169e9c85",
+      "sketchfabName": "Grande 530 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/f3e318155747494a9d6205a8169e9c85"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "5abe649d0c714c0d8bc19cafc285df6f",
+      "sketchfabName": "Grande 530 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/5abe649d0c714c0d8bc19cafc285df6f"
+    },
+    {
+      "houseType": "Grande 530",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "962a1f151ec74faba3006188937d2145",
+      "sketchfabName": "Grande 530 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/962a1f151ec74faba3006188937d2145"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "8c479943f674434e87f96963a1dc360b",
+      "sketchfabName": "Hamilton 340 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/8c479943f674434e87f96963a1dc360b"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "8c479943f674434e87f96963a1dc360b",
+      "sketchfabName": "Hamilton 340 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/8c479943f674434e87f96963a1dc360b"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "1d95e45b556a4720a2d77dc555a3a3aa",
+      "sketchfabName": "Hamilton 340 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/1d95e45b556a4720a2d77dc555a3a3aa"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "899b11657b9f4b0ab9323b99732f536c",
+      "sketchfabName": "Hamilton 340 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/899b11657b9f4b0ab9323b99732f536c"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "93c3c6ae70254c1c98f96da230e062d3",
+      "sketchfabName": "Hamilton 340 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/93c3c6ae70254c1c98f96da230e062d3"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "9809fdb84a7543649ebaebb6e51afe10",
+      "sketchfabName": "Hamilton 340 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/9809fdb84a7543649ebaebb6e51afe10"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "b124f62501a445fca826545d651ee533",
+      "sketchfabName": "Hamilton 340 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/b124f62501a445fca826545d651ee533"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "65b14ef7a2814ce6b5e9514afd832a0c",
+      "sketchfabName": "Hamilton 340 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/65b14ef7a2814ce6b5e9514afd832a0c"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "d43b2457a8cb462eb6e818ebd84cfd5e",
+      "sketchfabName": "Hamilton 340 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/d43b2457a8cb462eb6e818ebd84cfd5e"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "cddcb1b827c44c669939cb3980200709",
+      "sketchfabName": "Hamilton 340 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/cddcb1b827c44c669939cb3980200709"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "cddcb1b827c44c669939cb3980200709",
+      "sketchfabName": "Hamilton 340 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/cddcb1b827c44c669939cb3980200709"
+    },
+    {
+      "houseType": "Hamilton 340",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "4358c2f0e53d4f3097270b9d2dfd1c09",
+      "sketchfabName": "Hamilton 340 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/4358c2f0e53d4f3097270b9d2dfd1c09"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "366ac97efe794f0f95eee2536f71a124",
+      "sketchfabName": "Hawthorne 310 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/366ac97efe794f0f95eee2536f71a124"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "4023bc6e88474f0785867dfd2007e56b",
+      "sketchfabName": "Hawthorne 310 - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/4023bc6e88474f0785867dfd2007e56b"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "009fd22c8cdc4ff8a625e2e9805a22a4",
+      "sketchfabName": "Hawthorne 310 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/009fd22c8cdc4ff8a625e2e9805a22a4"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "26485cb5ca2843e5abff8256e59ec485",
+      "sketchfabName": "Hawthorne 310 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/26485cb5ca2843e5abff8256e59ec485"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "c92cfbf4c70c49139865c036927ce9ca",
+      "sketchfabName": "Hawthorne 310 - Coastal Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/c92cfbf4c70c49139865c036927ce9ca"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "sketchfabUID": "05dafc2b6035455e88fce3079ce7988a",
+      "sketchfabName": "Hawthorne 310 - Hamptons (Type 31)",
+      "viewerURL": "https://sketchfab.com/3d-models/05dafc2b6035455e88fce3079ce7988a"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "4274e03f14ed4b89bc9da2bf74f9c78a",
+      "sketchfabName": "Hawthorne 310 - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/4274e03f14ed4b89bc9da2bf74f9c78a"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "2075d04bb07e498bb72687f45c5a3241",
+      "sketchfabName": "Hawthorne 310 - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/2075d04bb07e498bb72687f45c5a3241"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "0f68a18c78414b458289a40497513a3d",
+      "sketchfabName": "Hawthorne 310 - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/0f68a18c78414b458289a40497513a3d"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "ec5e8c4b8b15409ea791f2bdc32c64a1",
+      "sketchfabName": "Hawthorne 310 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/ec5e8c4b8b15409ea791f2bdc32c64a1"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "ec5e8c4b8b15409ea791f2bdc32c64a1",
+      "sketchfabName": "Hawthorne 310 - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/ec5e8c4b8b15409ea791f2bdc32c64a1"
+    },
+    {
+      "houseType": "Hawthorne 310",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "c4376fe694ee4acdaec1be7b002703a7",
+      "sketchfabName": "Hawthorne 310 - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/c4376fe694ee4acdaec1be7b002703a7"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "d8df7e4161ca450c9854094b23729fdc",
+      "sketchfabName": "Lilyfield 320 MKII - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/d8df7e4161ca450c9854094b23729fdc"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "4c304fbcdf944e59ac627039f0bba811",
+      "sketchfabName": "Lilyfield 320 MKII - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/4c304fbcdf944e59ac627039f0bba811"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Classic",
+      "designOption": "Type 10",
+      "sketchfabUID": "4c304fbcdf944e59ac627039f0bba811",
+      "sketchfabName": "Lilyfield 320 MKII - Classic (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/4c304fbcdf944e59ac627039f0bba811"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "3c177ac2f95f41bc83f51e15961e7154",
+      "sketchfabName": "Lilyfield 320 MKII - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/3c177ac2f95f41bc83f51e15961e7154"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "21d6d04dd9f249089d5c6025ff9a600e",
+      "sketchfabName": "Lilyfield 320 MKII - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/21d6d04dd9f249089d5c6025ff9a600e"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "78bdb093860b4a47b45dff80f7d704c0",
+      "sketchfabName": "Lilyfield 320 MKII - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/78bdb093860b4a47b45dff80f7d704c0"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "0834b19a1ebb4bf28034d4821f665e27",
+      "sketchfabName": "Lilyfield 320 MKII - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/0834b19a1ebb4bf28034d4821f665e27"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "38095738e3fc40cb87003e19a00fe0dd",
+      "sketchfabName": "Lilyfield 320 MKII - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/38095738e3fc40cb87003e19a00fe0dd"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Mode",
+      "designOption": "Type 10",
+      "sketchfabUID": "38095738e3fc40cb87003e19a00fe0dd",
+      "sketchfabName": "Lilyfield 320 MKII - Mode (Type 10)",
+      "viewerURL": "https://sketchfab.com/3d-models/38095738e3fc40cb87003e19a00fe0dd"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "690b012ce9fc4dd1b3c92ffc34fce594",
+      "sketchfabName": "Lilyfield 320 MKII - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/690b012ce9fc4dd1b3c92ffc34fce594"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Mode",
+      "designOption": "Type 20",
+      "sketchfabUID": "690b012ce9fc4dd1b3c92ffc34fce594",
+      "sketchfabName": "Lilyfield 320 MKII - Mode (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/690b012ce9fc4dd1b3c92ffc34fce594"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "4140735c26db49fdbeae08540544cb0f",
+      "sketchfabName": "Lilyfield 320 MKII - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/4140735c26db49fdbeae08540544cb0f"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Mode",
+      "designOption": "Type 21",
+      "sketchfabUID": "4140735c26db49fdbeae08540544cb0f",
+      "sketchfabName": "Lilyfield 320 MKII - Mode (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/4140735c26db49fdbeae08540544cb0f"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Neo Modern",
+      "designOption": "Type 20",
+      "sketchfabUID": "f0545d83b773484e893b136322f4dfd4",
+      "sketchfabName": "Lilyfield 320 MKII - Neo Modern (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/f0545d83b773484e893b136322f4dfd4"
+    },
+    {
+      "houseType": "Lilyfield 320 MKII",
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "sketchfabUID": "51f5e353056f4d83a3b29b7736b7e32f",
+      "sketchfabName": "Lilyfield 320 MKII - Nouveau (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/51f5e353056f4d83a3b29b7736b7e32f"
+    },
+    {
+      "houseType": "Lincoln 370",
+      "range": "Classic",
+      "designOption": "Type 1",
+      "sketchfabUID": "ac4cb36d5953434bb3cd8eaf02f61e78",
+      "sketchfabName": "Lincoln 370 - Classic (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/ac4cb36d5953434bb3cd8eaf02f61e78"
+    },
+    {
+      "houseType": "Lincoln 370",
+      "range": "Classic",
+      "designOption": "Type 20",
+      "sketchfabUID": "13c6110fcd2b4c0b8286863440b79215",
+      "sketchfabName": "Lincoln 370 - Classic (Type 20)",
+      "viewerURL": "https://sketchfab.com/3d-models/13c6110fcd2b4c0b8286863440b79215"
+    },
+    {
+      "houseType": "Lincoln 370",
+      "range": "Classic",
+      "designOption": "Type 30",
+      "sketchfabUID": "b966b60f063142009fb39558b46fb312",
+      "sketchfabName": "Lincoln 370 - Classic (Type 30)",
+      "viewerURL": "https://sketchfab.com/3d-models/b966b60f063142009fb39558b46fb312"
     }
   ]
 }
