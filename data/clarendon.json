@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "publishedAt": "2026-01-12T03:08:32.526Z",
+    "publishedAt": "2026-01-12T03:08:57.581Z",
     "source": "https://docs.google.com/spreadsheets/d/1uy4s1Q0kpLEE8aGH4gX3lLWXgn8meUlJP86UvbIfrUk/edit"
   },
   "houseTypes": [
@@ -2215,6 +2215,14 @@
       "sketchfabUID": "8ad6879b6b79412191e788473a7a983f",
       "sketchfabName": "Paddington 300 - Classic (Type 1)",
       "viewerURL": "https://sketchfab.com/3d-models/8ad6879b6b79412191e788473a7a983f"
+    },
+    {
+      "houseType": "Paddington 300",
+      "range": "Classic",
+      "designOption": "Type 21",
+      "sketchfabUID": "45a5485bdd0b4da99b1dc459e6b1c195",
+      "sketchfabName": "Paddington 300 - Classic (Type 21)",
+      "viewerURL": "https://sketchfab.com/3d-models/45a5485bdd0b4da99b1dc459e6b1c195"
     },
     {
       "houseType": "Parkhill 270",
