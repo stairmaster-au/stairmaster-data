@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "publishedAt": "2026-01-11T02:44:13.920Z",
+    "publishedAt": "2026-01-12T01:00:08.522Z",
     "source": "https://docs.google.com/spreadsheets/d/1uy4s1Q0kpLEE8aGH4gX3lLWXgn8meUlJP86UvbIfrUk/edit"
   },
   "houseTypes": [
@@ -2207,6 +2207,14 @@
       "sketchfabUID": "b966b60f063142009fb39558b46fb312",
       "sketchfabName": "Lincoln 370 - Classic (Type 30)",
       "viewerURL": "https://sketchfab.com/3d-models/b966b60f063142009fb39558b46fb312"
+    },
+    {
+      "houseType": "Parkhill 270",
+      "range": "Mode",
+      "designOption": "Type 1",
+      "sketchfabUID": "41a95d9f407840baa4fae3a3892bf6e4",
+      "sketchfabName": "Parkhill 270 - Mode (Type 1)",
+      "viewerURL": "https://sketchfab.com/3d-models/41a95d9f407840baa4fae3a3892bf6e4"
     }
   ]
 }
