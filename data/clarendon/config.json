@@ -1,10 +1,115 @@
 {
-  "exportedAt": "2026-02-25T04:50:56.828Z",
+  "exportedAt": "2026-02-25T04:55:44.713Z",
   "exportedBy": "ptaylor@stairmaster.com.au",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
   "textureBasePath": "https://raw.githubusercontent.com/stairmaster-au/stairmaster-data/main/textures/",
-  "models": {},
+  "models": {
+    "Barcelona 260|RH|16|CoastalHamptons|Type 31": {
+      "uid": "0580a95aca404713a16867826dae0dff",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31"
+    },
+    "Barcelona 260|RH|16|Classic|Type 30": {
+      "uid": "2e1a9213e3864a46aa3a4941dd5e388d",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 30"
+    },
+    "Barcelona 260|RH|16|Classic|Type 21": {
+      "uid": "aec8b9191fa8482f95b6e396b27c0cf7",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 21"
+    },
+    "Barcelona 260|RH|16|Classic|Type 10": {
+      "uid": "5fa0aa5103974f75ac13d7cd6f4cc954",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 10"
+    },
+    "Barcelona 260|RH|16|Nouveau|Type 30": {
+      "uid": "ea8ff27cb93f4cfea43aec0e6f90b5dc",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30"
+    },
+    "Barcelona 260|RH|16|Mode|Type 21": {
+      "uid": "f85a8552a6f14cf29ece3ce62835cfba",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21"
+    },
+    "Barcelona 260|RH|16|Modern|Type 20": {
+      "uid": "9d2a8dcfb1444273afc2eae407dca025",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Modern",
+      "designOption": "Type 20"
+    },
+    "Barcelona 260|RH|16|Mode|Type 1": {
+      "uid": "2a4f4f958e8742aa828e6004729522a6",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1"
+    },
+    "Barcelona 260|RH|16|Hamptons|Type 31": {
+      "uid": "9da3c5739dea43179439e05b7b2fdf7e",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31"
+    },
+    "Barcelona 260|RH|16|Classic|Type 1": {
+      "uid": "cc4f283ef192417581df9c4401ea5def",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1"
+    },
+    "Barcelona 260|RH|16|Classic|Type 20": {
+      "uid": "43f087c872234269b0a6694c38ff032d",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 20"
+    },
+    "Barcelona 260|RH|16|Mode|Type 20": {
+      "uid": "498d0b3ddb814cb1af5649bb3a0efa72",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20"
+    },
+    "Barcelona 260|RH|16|Mode|Type 10": {
+      "uid": "90934f04ba9d49dca5d37a8488fc0b47",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 10"
+    }
+  },
   "ranges": {
     "Mode": {
       "display": "Mode",
@@ -2507,7 +2612,7 @@
     }
   },
   "_stats": {
-    "models": 0,
+    "models": 13,
     "cfoRows": 139,
     "sfMaterials": 31,
     "smMaterials": 16,
