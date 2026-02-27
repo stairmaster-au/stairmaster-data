@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-02-25T08:11:55.939Z",
+  "exportedAt": "2026-02-27T06:38:37.061Z",
   "exportedBy": "ptaylor@stairmaster.com.au",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -100,7 +100,7 @@
         "HANDRAIL",
         "Upper_Rim",
         "TREAD",
-        "RISER",
+        "BULLNOSE_RISER",
         "STRINGER",
         "VOID_TRIM",
         "FLOOR AND WELL",
@@ -122,7 +122,7 @@
         "CAPPING",
         "STRINGER",
         "FLOOR AND WELL",
-        "RISER",
+        "BULLNOSE_RISER",
         "TREAD",
         "WALL_RAIL_BRACKET"
       ]
@@ -245,7 +245,7 @@
         "VOID_TRIM",
         "TREAD",
         "NEWEL",
-        "RISER",
+        "BULLNOSE_RISER",
         "BOTTOM_RAIL"
       ]
     },
@@ -285,7 +285,7 @@
         "TREAD",
         "STRINGER",
         "VOID_TRIM",
-        "RISER"
+        "BULLNOSE_RISER"
       ]
     },
     "Grande 530|RH|16|Mode|Type 21": {
@@ -320,7 +320,7 @@
         "STRINGER",
         "VOID_TRIM",
         "GLASS_PANEL",
-        "RISER",
+        "BULLNOSE_RISER",
         "FLOOR AND WELL",
         "NEWEL",
         "Upper_Rim"
@@ -357,7 +357,7 @@
         "BALUSTER",
         "Upper_Rim",
         "FLOOR AND WELL",
-        "RISER",
+        "BULLNOSE_RISER",
         "VOID_TRIM",
         "TREAD",
         "BOTTOM_RAIL",
@@ -418,7 +418,7 @@
       "components": [
         "STRINGER",
         "FLOOR AND WELL",
-        "RISER",
+        "BULLNOSE_RISER",
         "VOID_TRIM",
         "NEWEL",
         "Upper_Rim",
@@ -456,7 +456,7 @@
       "designOption": "Type 20",
       "components": [
         "STRINGER",
-        "RISER",
+        "BULLNOSE_RISER",
         "BOTTOM_RAIL",
         "Upper_Rim",
         "TREAD",
@@ -536,7 +536,7 @@
         "BALUSTER",
         "Upper_Rim",
         "NEWEL",
-        "RISER",
+        "BULLNOSE_RISER",
         "TREAD",
         "STRINGER",
         "VOID_TRIM",
@@ -558,7 +558,7 @@
         "WALL_RAIL_BRACKET",
         "Upper_Rim",
         "CAPPING",
-        "RISER",
+        "BULLNOSE_RISER",
         "TREAD",
         "FLOOR AND WELL"
       ]
@@ -643,7 +643,6 @@
         "TREAD",
         "BOTTOM_RAIL",
         "VOID_TRIM",
-        "RISER",
         "NEWEL"
       ]
     },
@@ -678,10 +677,9 @@
       "components": [
         "STRINGER",
         "TREAD",
-        "RISER",
+        "BULLNOSE_RISER",
         "BALUSTER",
         "NEWEL",
-        "BULLNOSE_RISER",
         "FLOOR AND WELL",
         "HANDRAIL",
         "Upper_Rim",
@@ -749,7 +747,6 @@
         "BULLNOSE_TREAD",
         "HANDRAIL",
         "BULLNOSE_RISER",
-        "RISER",
         "BOTTOM_RAIL"
       ]
     },
@@ -827,7 +824,6 @@
         "STRINGER",
         "CAPPING",
         "HANDRAIL",
-        "RISER",
         "BULLNOSE_TREAD"
       ]
     },
@@ -848,7 +844,6 @@
         "BULLNOSE_TREAD",
         "HANDRAIL",
         "NEWEL",
-        "RISER",
         "BULLNOSE_RISER",
         "Upper_Rim",
         "FLOOR AND WELL"
@@ -882,12 +877,13 @@
       "range": "Classic",
       "designOption": "Type 10",
       "components": [
-        "RISER",
+        "BULLNOSE_RISER",
         "VOID_TRIM",
         "BOTTOM_RAIL",
         "HANDRAIL",
         "BALUSTER",
         "FLOOR AND WELL",
+        "RISER",
         "TREAD",
         "NEWEL",
         "STRINGER",
@@ -902,7 +898,7 @@
       "range": "Classic",
       "designOption": "Type 20",
       "components": [
-        "RISER",
+        "BULLNOSE_RISER",
         "HANDRAIL",
         "Upper_Rim",
         "TREAD",
@@ -948,7 +944,7 @@
         "STRINGER",
         "VOID_TRIM",
         "HANDRAIL",
-        "RISER",
+        "BULLNOSE_RISER",
         "TREAD",
         "Upper_Rim",
         "FLOOR AND WELL"
@@ -1006,7 +1002,7 @@
         "HANDRAIL",
         "BOTTOM_RAIL",
         "NEWEL",
-        "RISER",
+        "BULLNOSE_RISER",
         "GLASS_PANEL",
         "FLOOR AND WELL",
         "VOID_TRIM",
@@ -1032,7 +1028,7 @@
         "BOTTOM_RAIL",
         "NEWEL",
         "TREAD",
-        "RISER"
+        "BULLNOSE_RISER"
       ]
     },
     "Boston 330|LH|16|Mode|Type 21": {
@@ -1068,7 +1064,7 @@
         "HANDRAIL",
         "Upper_Rim",
         "TREAD",
-        "RISER"
+        "BULLNOSE_RISER"
       ]
     },
     "Boston 330|LH|16|Mode|Type 1": {
@@ -1103,8 +1099,9 @@
         "HANDRAIL",
         "WALL_RAIL_BRACKET",
         "STRINGER",
-        "RISER",
-        "Upper_Rim"
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "RISER"
       ]
     }
   },
@@ -1168,7 +1165,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -1176,7 +1175,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -1184,7 +1185,9 @@
         "material": "Carpet Grade MDF / Pine",
         "materialCode": "CarpetGrey",
         "style": "Bullnose Nosing",
-        "alts": []
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Risers",
@@ -1192,7 +1195,9 @@
         "material": "Carpet Grade MDF / Pine",
         "materialCode": "CarpetGrey",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -1200,7 +1205,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -1208,20 +1215,20 @@
         "material": "Satin Chrome",
         "materialCode": "PC_SatinChrome",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "Black",
             "code": "PC_SatinBlack",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Capping",
@@ -1229,7 +1236,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Shadowline 10x10mm (shadowline is painted)",
-        "alts": []
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
       }
     ],
     "Mode|Type 10": [
@@ -1239,7 +1248,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -1247,7 +1258,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -1255,7 +1268,9 @@
         "material": "Carpet Grade MDF / Pine",
         "materialCode": "CarpetGrey",
         "style": "Bullnose Nosing",
-        "alts": []
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Risers",
@@ -1263,7 +1278,9 @@
         "material": "Carpet Grade MDF / Pine",
         "materialCode": "CarpetGrey",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "1st Base Tread Only",
@@ -1271,7 +1288,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "1st Base Riser Only",
@@ -1279,7 +1304,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -1287,7 +1314,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -1295,20 +1324,20 @@
         "material": "Satin Chrome",
         "materialCode": "PC_SatinChrome",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "Black",
             "code": "PC_SatinBlack",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Capping",
@@ -1316,7 +1345,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Shadowline 10x10mm (shadowline is painted)",
-        "alts": []
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
       }
     ],
     "Mode|Type 20": [
@@ -1326,7 +1357,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -1334,7 +1367,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -1342,7 +1377,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "Risers",
@@ -1350,7 +1393,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -1358,7 +1403,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -1366,20 +1413,20 @@
         "material": "Satin Chrome",
         "materialCode": "PC_SatinChrome",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "Black",
             "code": "PC_SatinBlack",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Capping",
@@ -1387,7 +1434,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Shadowline 10x10mm (shadowline is painted)",
-        "alts": []
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
       }
     ],
     "Mode|Type 21": [
@@ -1397,7 +1446,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -1405,7 +1456,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -1413,7 +1466,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "Risers",
@@ -1421,7 +1482,9 @@
         "material": "Paint Grade MDF",
         "materialCode": "PaintedWhite",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -1429,7 +1492,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -1437,20 +1502,20 @@
         "material": "Satin Chrome",
         "materialCode": "PC_SatinChrome",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "Black",
             "code": "PC_SatinBlack",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Capping",
@@ -1458,7 +1523,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Shadowline 10x10mm (shadowline is painted)",
-        "alts": []
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
       }
     ],
     "Classic|Type 1": [
@@ -1468,7 +1535,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -1476,7 +1545,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -1484,7 +1555,9 @@
         "material": "Carpet Grade MDF / Pine",
         "materialCode": "CarpetGrey",
         "style": "Bullnose Nosing",
-        "alts": []
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Risers",
@@ -1492,7 +1565,9 @@
         "material": "Carpet Grade MDF / Pine",
         "materialCode": "CarpetGrey",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Posts",
@@ -1500,7 +1575,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Post Top",
@@ -1508,7 +1585,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Handrails",
@@ -1516,7 +1595,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -1524,7 +1605,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -1532,20 +1615,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Raking Bottomrails",
@@ -1553,7 +1636,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Level Bottom Rail",
@@ -1561,7 +1646,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Balusters / Panels",
@@ -1569,20 +1656,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Square",
+        "profileCode": "Square",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       }
     ],
     "Classic|Type 10": [
@@ -1592,7 +1679,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -1600,7 +1689,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -1608,7 +1699,9 @@
         "material": "Carpet Grade MDF / Pine",
         "materialCode": "CarpetGrey",
         "style": "Bullnose Nosing",
-        "alts": []
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Risers",
@@ -1616,7 +1709,9 @@
         "material": "Carpet Grade MDF / Pine",
         "materialCode": "CarpetGrey",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "1st Base Tread Only",
@@ -1624,7 +1719,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "1st Base Riser Only",
@@ -1632,7 +1735,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Posts",
@@ -1640,7 +1745,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Post Top",
@@ -1648,7 +1755,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Handrails",
@@ -1656,7 +1765,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -1664,7 +1775,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -1672,20 +1785,20 @@
         "material": "Black",
         "materialCode": "PC_SatinBlack",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Raking Bottomrails",
@@ -1693,7 +1806,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Level Bottom Rail",
@@ -1701,7 +1816,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Balusters / Panels",
@@ -1709,20 +1826,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Square",
+        "profileCode": "Square",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       }
     ],
     "Classic|Type 20": [
@@ -1732,7 +1849,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -1740,7 +1859,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -1748,7 +1869,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "Risers",
@@ -1756,7 +1885,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Posts",
@@ -1764,7 +1895,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Post Top",
@@ -1772,7 +1905,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Handrails",
@@ -1780,7 +1915,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -1788,7 +1925,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -1796,20 +1935,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Raking Bottomrails",
@@ -1817,7 +1956,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Level Bottom Rail",
@@ -1825,7 +1966,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Balusters / Panels",
@@ -1833,20 +1976,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Square",
+        "profileCode": "Square",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       }
     ],
     "Classic|Type 21": [
@@ -1856,7 +1999,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -1864,7 +2009,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -1872,7 +2019,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "Risers",
@@ -1880,7 +2035,9 @@
         "material": "Paint Grade MDF",
         "materialCode": "PaintedWhite",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Posts",
@@ -1888,7 +2045,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Post Top",
@@ -1896,7 +2055,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Handrails",
@@ -1904,7 +2065,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -1912,7 +2075,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -1920,20 +2085,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Raking Bottomrails",
@@ -1941,7 +2106,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Level Bottom Rail",
@@ -1949,7 +2116,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Balusters / Panels",
@@ -1957,20 +2126,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Square",
+        "profileCode": "Square",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       }
     ],
     "Classic|Type 30": [
@@ -1980,7 +2149,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -1988,7 +2159,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Sawtooth Mitred Rise",
-        "alts": []
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -1996,7 +2169,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "Risers",
@@ -2004,7 +2185,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Posts",
@@ -2012,7 +2195,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Post Top",
@@ -2020,7 +2205,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Handrails",
@@ -2028,7 +2215,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -2036,7 +2225,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -2044,20 +2235,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Level Bottom Rail",
@@ -2065,7 +2256,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Balusters / Panels",
@@ -2073,20 +2266,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Square",
+        "profileCode": "Square",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       }
     ],
     "Nouveau|Type 30": [
@@ -2096,7 +2289,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -2104,7 +2299,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Sawtooth Mitred Rise",
-        "alts": []
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -2112,7 +2309,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "Risers",
@@ -2120,7 +2325,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Posts",
@@ -2128,20 +2335,20 @@
         "material": "Stainless Steel",
         "materialCode": "SS_Satin",
         "style": "Square",
+        "profileCode": "Square",
         "alts": [
           {
             "material": "Black",
             "code": "PC_SatinBlack",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Newel Glass Clamps",
@@ -2149,20 +2356,20 @@
         "material": "Stainless Steel",
         "materialCode": "SS_Satin",
         "style": "D shape",
+        "profileCode": "D shape",
         "alts": [
           {
             "material": "Black",
             "code": "PC_SatinBlack",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Handrails",
@@ -2170,7 +2377,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -2178,7 +2387,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -2186,20 +2397,20 @@
         "material": "Satin Chrome",
         "materialCode": "PC_SatinChrome",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "Black",
             "code": "PC_SatinBlack",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Capping",
@@ -2207,7 +2418,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Shadowline",
-        "alts": []
+        "profileCode": "Shadowline",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Level Bottom Rail",
@@ -2215,7 +2428,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Balusters / Panels",
@@ -2223,7 +2438,9 @@
         "material": "Glass clear toughened 10mm",
         "materialCode": "GLASS_Clear",
         "style": "",
-        "alts": []
+        "profileCode": "",
+        "alts": [],
+        "profileAlts": []
       }
     ],
     "Modern|Type 20": [
@@ -2233,7 +2450,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -2241,7 +2460,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -2249,7 +2470,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "Risers",
@@ -2257,7 +2486,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Posts",
@@ -2265,7 +2496,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Post Top",
@@ -2273,7 +2506,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Handrails",
@@ -2281,7 +2516,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -2289,7 +2526,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -2297,20 +2536,20 @@
         "material": "Black",
         "materialCode": "PC_TexturedBlack",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "Silver",
             "code": "PC_SatinChrome",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Raking Bottomrails",
@@ -2318,7 +2557,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Level Bottom Rail",
@@ -2326,7 +2567,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Balusters / Panels",
@@ -2334,7 +2577,9 @@
         "material": "Glass clear toughened 10mm",
         "materialCode": "GLASS_Clear",
         "style": "Glass clear toughened 10mm",
-        "alts": []
+        "profileCode": "Glass clear toughened 10mm",
+        "alts": [],
+        "profileAlts": []
       }
     ],
     "Hamptons|Type 31": [
@@ -2344,7 +2589,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -2352,7 +2599,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Sawtooth Mitred Rise",
-        "alts": []
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -2360,7 +2609,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "Risers",
@@ -2368,7 +2625,9 @@
         "material": "Paint Grade MDF",
         "materialCode": "PaintedWhite",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Posts",
@@ -2376,7 +2635,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Clarendon Hamptons Design",
-        "alts": []
+        "profileCode": "Clarendon Hamptons Design",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Post Top",
@@ -2384,7 +2645,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Hamptons Newel Cap",
-        "alts": []
+        "profileCode": "Hamptons Newel Cap",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Handrails",
@@ -2392,7 +2655,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Ladies Waist",
-        "alts": []
+        "profileCode": "Ladies Waist",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -2400,7 +2665,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Ladies Waist",
-        "alts": []
+        "profileCode": "Ladies Waist",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -2408,20 +2675,20 @@
         "material": "Satin Chrome",
         "materialCode": "PC_SatinChrome",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "Black",
             "code": "PC_SatinBlack",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Capping",
@@ -2429,7 +2696,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Shadowline",
-        "alts": []
+        "profileCode": "Shadowline",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Level Bottom Rail",
@@ -2437,7 +2706,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Balusters / Panels",
@@ -2445,7 +2716,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Tapered",
-        "alts": []
+        "profileCode": "Tapered",
+        "alts": [],
+        "profileAlts": []
       }
     ],
     "CoastalHamptons|Type 31": [
@@ -2455,7 +2728,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Closed Housed",
-        "alts": []
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Stringers - Open Side",
@@ -2463,7 +2738,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Sawtooth Mitred Rise",
-        "alts": []
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Treads",
@@ -2471,7 +2748,15 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
       },
       {
         "component": "Risers",
@@ -2479,7 +2764,9 @@
         "material": "Paint Grade MDF",
         "materialCode": "PaintedWhite",
         "style": "Square Dressed",
-        "alts": []
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Posts",
@@ -2487,7 +2774,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Newel Post Top",
@@ -2495,7 +2784,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Hamptons Newel Cap",
-        "alts": []
+        "profileCode": "Hamptons Newel Cap",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Handrails",
@@ -2503,7 +2794,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rails",
@@ -2511,7 +2804,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Wall Rail Brackets",
@@ -2519,20 +2814,20 @@
         "material": "Satin Chrome",
         "materialCode": "PC_SatinChrome",
         "style": "Standard",
+        "profileCode": "Standard",
         "alts": [
           {
             "material": "Black",
             "code": "PC_SatinBlack",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           },
           {
             "material": "White",
             "code": "PC_SatinWhite",
-            "type": "inc",
-            "profile": ""
+            "type": "inc"
           }
-        ]
+        ],
+        "profileAlts": []
       },
       {
         "component": "Capping",
@@ -2540,7 +2835,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Shadowline",
-        "alts": []
+        "profileCode": "Shadowline",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Level Bottom Rail",
@@ -2548,7 +2845,9 @@
         "material": "Durian Stain Grade",
         "materialCode": "TIM_DurianDark",
         "style": "Pencil Round 3mm",
-        "alts": []
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
       },
       {
         "component": "Balusters / Panels",
@@ -2556,7 +2855,9 @@
         "material": "Paint Grade Pine",
         "materialCode": "PaintedWhite",
         "style": "Square",
-        "alts": []
+        "profileCode": "Square",
+        "alts": [],
+        "profileAlts": []
       }
     ]
   },
@@ -2582,7 +2883,7 @@
       "smMaterial": "PaintedGrey"
     },
     "_x0023_RISERDURIAN_DARK.jpg1111": {
-      "componentKey": "RISER",
+      "componentKey": "BULLNOSE_RISER",
       "smMaterial": "DurianDark"
     },
     "_x0023_HANDRAILDURIAN_DARK.jpg1111": {
@@ -2715,7 +3016,7 @@
     "SatinBlack": {
       "display": "Satin Black",
       "family": "Powdercoat",
-      "pbrPresetId": "PC_TexturedBlack"
+      "pbrPresetId": "PC_SatinBlack"
     },
     "SatinWhite": {
       "display": "Satin White",
