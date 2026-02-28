@@ -1,10 +1,4858 @@
 {
-  "exportedAt": "2026-02-28T06:35:36.682Z",
+  "exportedAt": "2026-02-28T06:36:10.613Z",
   "exportedBy": "ptaylor@stairmaster.com.au",
-  "stage": 2,
-  "builders": {},
-  "metadata": {
-    "variantCount": 0,
-    "houseTypeCount": 0
+  "builder": "Clarendon",
+  "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
+  "textureBasePath": "https://raw.githubusercontent.com/stairmaster-au/stairmaster-data/main/textures/",
+  "auth": {
+    "codes": [
+      "CLARENDON",
+      "CLQLD2025",
+      "STAIRS"
+    ]
+  },
+  "defaultSettings": {
+    "environment": {
+      "enable": true,
+      "exposure": 1.7,
+      "lightIntensity": 3,
+      "rotation": 5.8643062867009474,
+      "blur": 0,
+      "shadowEnabled": true
+    },
+    "background": {
+      "enable": true,
+      "color": [
+        0.27058823529411763,
+        0.27058823529411763,
+        0.27058823529411763
+      ],
+      "type": "color"
+    },
+    "postProcessing": {
+      "enable": true,
+      "sharpenEnable": false,
+      "sharpenFactor": 0.2,
+      "ssaoEnable": true,
+      "ssaoIntensity": 0.15,
+      "ssaoRadius": 0.1,
+      "ssaoBias": 0.014,
+      "vignetteEnable": false,
+      "vignetteAmount": 0.48,
+      "vignetteHardness": 0.73,
+      "bloomEnable": false,
+      "bloomThreshold": 0.8,
+      "bloomIntensity": 0.1,
+      "bloomRadius": 0.5,
+      "toneMappingEnable": true,
+      "toneMappingMethod": "filmic",
+      "toneMappingExposure": 1,
+      "toneMappingBrightness": 0.05,
+      "toneMappingContrast": 0,
+      "toneMappingSaturation": 0.8,
+      "chromaticAberrationEnable": false,
+      "chromaticAberrationFactor": 0.05,
+      "grainEnable": false,
+      "grainFactor": 0.15,
+      "grainAnimated": false,
+      "dofEnable": false,
+      "dofFocusDistance": 10.1,
+      "dofAperture": 0.01,
+      "dofBlurNear": 0.5,
+      "dofBlurFar": 0.5,
+      "ssrEnable": false,
+      "ssrFactor": 1,
+      "taaEnable": true,
+      "taaTransparent": true
+    },
+    "fov": 45,
+    "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e"
+  },
+  "models": {
+    "Grande 530|RH|16|Classic|Type 1": {
+      "uid": "2eee335d24de42ff96c77c3945a5b968",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "Upper_Rim",
+        "NEWEL",
+        "STRINGER",
+        "VOID_TRIM",
+        "BALUSTER",
+        "RISER",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "FLOOR AND WELL",
+        "HANDRAIL"
+      ]
+    },
+    "Grande 530|RH|16|Classic|Type 20": {
+      "uid": "5c2afc4db2b24ecb9abdcd27f370f88f",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 20",
+      "components": [
+        "HANDRAIL",
+        "Upper_Rim",
+        "TREAD",
+        "RISER",
+        "STRINGER",
+        "VOID_TRIM",
+        "FLOOR AND WELL",
+        "BOTTOM_RAIL",
+        "BALUSTER",
+        "NEWEL"
+      ]
+    },
+    "Grande 530|RH|16|Mode|Type 20": {
+      "uid": "5bd2889b008b4b0491dcbb3bb1ee21d5",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20",
+      "components": [
+        "HANDRAIL",
+        "Upper_Rim",
+        "CAPPING",
+        "STRINGER",
+        "FLOOR AND WELL",
+        "RISER",
+        "TREAD",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Grande 530|RH|16|Classic|Type 21": {
+      "uid": "662eeb498e874ff79f2b28f6c1126682",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 21",
+      "components": [
+        "TREAD",
+        "FLOOR AND WELL",
+        "VOID_TRIM",
+        "STRINGER",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "RISER"
+      ]
+    },
+    "Grande 530|RH|16|Hamptons|Type 31": {
+      "uid": "ce4695152c614158942512397395e27a",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "RISER",
+        "HANDRAIL",
+        "Upper_Rim",
+        "VOID_TRIM",
+        "FLOOR AND WELL",
+        "NEWEL",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "BALUSTER"
+      ]
+    },
+    "Grande 530|RH|16|CoastalHamptons|Type 31": {
+      "uid": "ce2a27282f02425ea7db833c4177ec8b",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "RISER",
+        "NEWEL",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "TREAD",
+        "BALUSTER",
+        "VOID_TRIM",
+        "Upper_Rim",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Grande 530|RH|16|Classic|Type 10": {
+      "uid": "e11bdda0597347288e1641688e28658a",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 10",
+      "components": [
+        "Upper_Rim",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "HANDRAIL",
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "TREAD",
+        "FLOOR AND WELL",
+        "BALUSTER",
+        "NEWEL",
+        "RISER"
+      ]
+    },
+    "Grande 530|RH|16|Mode|Type 10": {
+      "uid": "2558a8dc60754d11868125f7508e8575",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 10",
+      "components": [
+        "STRINGER",
+        "CAPPING",
+        "FLOOR AND WELL",
+        "TREAD",
+        "WALL_RAIL_BRACKET",
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "RISER",
+        "HANDRAIL",
+        "BULLNOSE_RISER"
+      ]
+    },
+    "Grande 530|RH|16|Classic|Type 30": {
+      "uid": "d9015ba0b64e4f66ab6d41b35bfa1377",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 30",
+      "components": [
+        "HANDRAIL",
+        "BALUSTER",
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "VOID_TRIM",
+        "TREAD",
+        "NEWEL",
+        "RISER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Grande 530|RH|16|Mode|Type 1": {
+      "uid": "c4db225fb38a4d07ae0105cf01ed083b",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "TREAD",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET",
+        "RISER",
+        "STRINGER",
+        "CAPPING",
+        "FLOOR AND WELL",
+        "HANDRAIL"
+      ]
+    },
+    "Grande 530|RH|16|Nouveau|Type 30": {
+      "uid": "8e179f976d0b4c5d9e2ff35db5e1da00",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "GLASS_CLAMP",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "FLOOR AND WELL",
+        "NEWEL",
+        "HANDRAIL",
+        "GLASS_PANEL",
+        "TREAD",
+        "STRINGER",
+        "VOID_TRIM",
+        "RISER"
+      ]
+    },
+    "Grande 530|RH|16|Mode|Type 21": {
+      "uid": "fb38f737c8824693a2a922863df8bad5",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "STRINGER",
+        "CAPPING",
+        "WALL_RAIL_BRACKET",
+        "HANDRAIL",
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "TREAD",
+        "RISER"
+      ]
+    },
+    "Grande 530|RH|16|Modern|Type 20": {
+      "uid": "92897faa04db4bf883db7eba071ef9dc",
+      "houseType": "Grande 530",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Modern",
+      "designOption": "Type 20",
+      "components": [
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "STRINGER",
+        "VOID_TRIM",
+        "GLASS_PANEL",
+        "RISER",
+        "FLOOR AND WELL",
+        "NEWEL",
+        "Upper_Rim"
+      ]
+    },
+    "Hawthorne 310|RH|16|Classic|Type 1": {
+      "uid": "58ac8b0439184d858bd613c3dfafbf76",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "FLOOR AND WELL",
+        "RISER",
+        "Upper_Rim",
+        "NEWEL",
+        "STRINGER",
+        "BALUSTER",
+        "HANDRAIL",
+        "TREAD"
+      ]
+    },
+    "Hawthorne 310|RH|16|Classic|Type 20": {
+      "uid": "957a7e7d4f564694bbf263af38cd8955",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 20",
+      "components": [
+        "NEWEL",
+        "HANDRAIL",
+        "Upper_Rim",
+        "RISER",
+        "FLOOR AND WELL",
+        "VOID_TRIM",
+        "TREAD",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "BALUSTER"
+      ]
+    },
+    "Hawthorne 310|RH|16|Classic|Type 21": {
+      "uid": "62befd27247a484a83338a3433343a9d",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 21",
+      "components": [
+        "TREAD",
+        "STRINGER",
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "BALUSTER",
+        "FLOOR AND WELL",
+        "RISER",
+        "NEWEL",
+        "Upper_Rim"
+      ]
+    },
+    "Hawthorne 310|RH|16|Classic|Type 30": {
+      "uid": "34bbc9246b7e4709976120bdc27d6a48",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 30",
+      "components": [
+        "VOID_TRIM",
+        "BALUSTER",
+        "HANDRAIL",
+        "Upper_Rim",
+        "TREAD",
+        "RISER",
+        "BOTTOM_RAIL",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "NEWEL"
+      ]
+    },
+    "Hawthorne 310|RH|16|CoastalHamptons|Type 31": {
+      "uid": "72933051cc9f4311afb570b8890b6bfc",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "Upper_Rim",
+        "STRINGER",
+        "FLOOR AND WELL",
+        "TREAD",
+        "VOID_TRIM",
+        "NEWEL",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "RISER"
+      ]
+    },
+    "Hawthorne 310|RH|16|Hamptons|Type 31": {
+      "uid": "2096a38662654722b02899c20c23fd9c",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "RISER",
+        "BALUSTER",
+        "Upper_Rim",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "TREAD",
+        "VOID_TRIM",
+        "FLOOR AND WELL",
+        "HANDRAIL"
+      ]
+    },
+    "Hawthorne 310|RH|16|Mode|Type 1": {
+      "uid": "e69b5d431b04409f98b5ba9d75bde9ba",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "RISER",
+        "CAPPING",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "Upper_Rim",
+        "TREAD",
+        "HANDRAIL",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Hawthorne 310|RH|16|Nouveau|Type 30": {
+      "uid": "7e9caec8333c417dbbe4aadb3565ddd4",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "NEWEL",
+        "GLASS_PANEL",
+        "Upper_Rim",
+        "RISER",
+        "TREAD",
+        "STRINGER",
+        "FLOOR AND WELL",
+        "GLASS_CLAMP",
+        "VOID_TRIM"
+      ]
+    },
+    "Hawthorne 310|RH|16|Mode|Type 21": {
+      "uid": "b8bcdf4be9514b569a6915fa878264f9",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "Upper_Rim",
+        "RISER",
+        "WALL_RAIL_BRACKET",
+        "CAPPING",
+        "TREAD",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "HANDRAIL"
+      ]
+    },
+    "Hawthorne 310|RH|16|Mode|Type 20": {
+      "uid": "f1e80fd11a4d445cbb5e57aa3b021103",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20",
+      "components": [
+        "TREAD",
+        "STRINGER",
+        "CAPPING",
+        "RISER",
+        "HANDRAIL",
+        "FLOOR AND WELL",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Hawthorne 310|RH|16|Modern|Type 20": {
+      "uid": "ff78bdc12c744d7cb5aac64b6a28fbe2",
+      "houseType": "Hawthorne 310",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Modern",
+      "designOption": "Type 20",
+      "components": [
+        "STRINGER",
+        "Upper_Rim",
+        "NEWEL",
+        "VOID_TRIM",
+        "HANDRAIL",
+        "RISER",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "FLOOR AND WELL",
+        "GLASS_PANEL"
+      ]
+    },
+    "Barcelona 260|RH|16|CoastalHamptons|Type 31": {
+      "uid": "0580a95aca404713a16867826dae0dff",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "FLOOR AND WELL",
+        "NEWEL",
+        "RISER",
+        "VOID_TRIM",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "STRINGER",
+        "BALUSTER",
+        "Upper_Rim"
+      ]
+    },
+    "Barcelona 260|RH|16|Classic|Type 30": {
+      "uid": "2e1a9213e3864a46aa3a4941dd5e388d",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 30",
+      "components": [
+        "BALUSTER",
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "RISER",
+        "VOID_TRIM",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "STRINGER",
+        "HANDRAIL"
+      ]
+    },
+    "Barcelona 260|RH|16|Classic|Type 21": {
+      "uid": "aec8b9191fa8482f95b6e396b27c0cf7",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 21",
+      "components": [
+        "STRINGER",
+        "VOID_TRIM",
+        "HANDRAIL",
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "BALUSTER",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "RISER",
+        "TREAD"
+      ]
+    },
+    "Barcelona 260|RH|16|Classic|Type 10": {
+      "uid": "5fa0aa5103974f75ac13d7cd6f4cc954",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 10",
+      "components": [
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "BALUSTER",
+        "RISER",
+        "NEWEL"
+      ]
+    },
+    "Barcelona 260|RH|16|Nouveau|Type 30": {
+      "uid": "ea8ff27cb93f4cfea43aec0e6f90b5dc",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "STRINGER",
+        "FLOOR AND WELL",
+        "RISER",
+        "VOID_TRIM",
+        "NEWEL",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "GLASS_PANEL",
+        "GLASS_CLAMP"
+      ]
+    },
+    "Barcelona 260|RH|16|Mode|Type 21": {
+      "uid": "f85a8552a6f14cf29ece3ce62835cfba",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "RISER",
+        "FLOOR AND WELL",
+        "TREAD",
+        "Upper_Rim",
+        "CAPPING",
+        "STRINGER",
+        "HANDRAIL",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Barcelona 260|RH|16|Modern|Type 20": {
+      "uid": "9d2a8dcfb1444273afc2eae407dca025",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Modern",
+      "designOption": "Type 20",
+      "components": [
+        "STRINGER",
+        "RISER",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "TREAD",
+        "HANDRAIL",
+        "NEWEL",
+        "GLASS_PANEL",
+        "FLOOR AND WELL",
+        "VOID_TRIM"
+      ]
+    },
+    "Barcelona 260|RH|16|Mode|Type 1": {
+      "uid": "2a4f4f958e8742aa828e6004729522a6",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "HANDRAIL",
+        "TREAD",
+        "CAPPING",
+        "STRINGER",
+        "RISER",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Barcelona 260|RH|16|Hamptons|Type 31": {
+      "uid": "9da3c5739dea43179439e05b7b2fdf7e",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "VOID_TRIM",
+        "TREAD",
+        "Upper_Rim",
+        "HANDRAIL",
+        "STRINGER",
+        "BALUSTER",
+        "FLOOR AND WELL",
+        "RISER"
+      ]
+    },
+    "Barcelona 260|RH|16|Classic|Type 1": {
+      "uid": "cc4f283ef192417581df9c4401ea5def",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "VOID_TRIM",
+        "HANDRAIL",
+        "TREAD",
+        "STRINGER",
+        "RISER",
+        "NEWEL",
+        "BALUSTER"
+      ]
+    },
+    "Barcelona 260|RH|16|Classic|Type 20": {
+      "uid": "43f087c872234269b0a6694c38ff032d",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 20",
+      "components": [
+        "BALUSTER",
+        "Upper_Rim",
+        "NEWEL",
+        "RISER",
+        "TREAD",
+        "STRINGER",
+        "VOID_TRIM",
+        "FLOOR AND WELL",
+        "HANDRAIL",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Barcelona 260|RH|16|Mode|Type 20": {
+      "uid": "498d0b3ddb814cb1af5649bb3a0efa72",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20",
+      "components": [
+        "STRINGER",
+        "HANDRAIL",
+        "WALL_RAIL_BRACKET",
+        "Upper_Rim",
+        "CAPPING",
+        "RISER",
+        "TREAD",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Barcelona 260|RH|16|Mode|Type 10": {
+      "uid": "90934f04ba9d49dca5d37a8488fc0b47",
+      "houseType": "Barcelona 260",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 10",
+      "components": [
+        "BULLNOSE_RISER",
+        "CAPPING",
+        "HANDRAIL",
+        "RISER",
+        "FLOOR AND WELL",
+        "WALL_RAIL_BRACKET",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "Upper_Rim",
+        "TREAD"
+      ]
+    },
+    "Crestmead 370|RH|16|Hamptons|Type 31": {
+      "uid": "eb3c1a6d648f4aab8b1ee5464ade1209",
+      "houseType": "Crestmead 370",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "VOID_TRIM",
+        "RISER",
+        "NEWEL",
+        "STRINGER",
+        "BALUSTER",
+        "HANDRAIL",
+        "FLOOR AND WELL",
+        "TREAD",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Crestmead 370|RH|16|CoastalHamptons|Type 31": {
+      "uid": "c1059842fbb84e80b08feeafb5f59750",
+      "houseType": "Crestmead 370",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "BOTTOM_RAIL",
+        "VOID_TRIM",
+        "WALL_RAIL_BRACKET",
+        "BALUSTER",
+        "STRINGER",
+        "HANDRAIL",
+        "RISER",
+        "NEWEL",
+        "Upper_Rim",
+        "TREAD",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Crestmead 370|RH|16|Mode|Type 1": {
+      "uid": "be9a22f5d6904b14ba084793cf42b6a9",
+      "houseType": "Crestmead 370",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "CAPPING",
+        "TREAD",
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "RISER",
+        "WALL_RAIL_BRACKET",
+        "STRINGER",
+        "HANDRAIL"
+      ]
+    },
+    "Crestmead 370|RH|16|Mode|Type 21": {
+      "uid": "da84d0f4e6d048a9bcc223c5aa229dff",
+      "houseType": "Crestmead 370",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "Upper_Rim",
+        "RISER",
+        "CAPPING",
+        "WALL_RAIL_BRACKET",
+        "HANDRAIL",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "TREAD"
+      ]
+    },
+    "Crestmead 370|RH|16|Mode|Type 10": {
+      "uid": "3f5d54b14b8747f49045f5ee6d2bee99",
+      "houseType": "Crestmead 370",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 10",
+      "components": [
+        "STRINGER",
+        "TREAD",
+        "CAPPING",
+        "HANDRAIL",
+        "RISER",
+        "WALL_RAIL_BRACKET",
+        "FLOOR AND WELL",
+        "Upper_Rim"
+      ]
+    },
+    "Crestmead 370|RH|16|Nouveau|Type 30": {
+      "uid": "e81930e3122c4ead913e70b7af064275",
+      "houseType": "Crestmead 370",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "RISER",
+        "GLASS_CLAMP",
+        "HANDRAIL",
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "VOID_TRIM",
+        "TREAD",
+        "WALL_RAIL_BRACKET",
+        "GLASS_PANEL",
+        "NEWEL",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Barcelona 280|RH|16|Classic|Type 1": {
+      "uid": "89481e8fbd6a432e9d70ad816d527ba5",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "VOID_TRIM",
+        "STRINGER",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "HANDRAIL",
+        "FLOOR AND WELL",
+        "Upper_Rim",
+        "NEWEL",
+        "RISER"
+      ]
+    },
+    "Barcelona 280|RH|16|Classic|Type 10": {
+      "uid": "445556e2e2e242b9b1ac5769b26e485e",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 10",
+      "components": [
+        "Upper_Rim",
+        "RISER",
+        "TREAD",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "FLOOR AND WELL",
+        "VOID_TRIM",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "HANDRAIL"
+      ]
+    },
+    "Barcelona 280|RH|16|Classic|Type 20": {
+      "uid": "ede3a8ecb9f446c49d266ad42efa9711",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 20",
+      "components": [
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "FLOOR AND WELL",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "Upper_Rim",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "VOID_TRIM",
+        "RISER",
+        "NEWEL"
+      ]
+    },
+    "Barcelona 280|RH|16|Classic|Type 21": {
+      "uid": "aa8b4d87443e4993b361b37961390599",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 21",
+      "components": [
+        "NEWEL",
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "TREAD",
+        "HANDRAIL",
+        "STRINGER",
+        "FLOOR AND WELL",
+        "BALUSTER",
+        "RISER",
+        "Upper_Rim"
+      ]
+    },
+    "Barcelona 280|RH|16|Classic|Type 30": {
+      "uid": "1b80f5859794439688b53e1e8fe3070c",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 30",
+      "components": [
+        "STRINGER",
+        "TREAD",
+        "RISER",
+        "BALUSTER",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "FLOOR AND WELL",
+        "HANDRAIL",
+        "Upper_Rim",
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Barcelona 280|RH|16|Hamptons|Type 31": {
+      "uid": "b2393f6b4ee34522b405ce49ab35fb4a",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "HANDRAIL",
+        "NEWEL",
+        "Upper_Rim",
+        "VOID_TRIM",
+        "FLOOR AND WELL",
+        "BALUSTER",
+        "STRINGER",
+        "RISER",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Barcelona 280|RH|16|Mode|Type 10": {
+      "uid": "43236a6e15164397954056b88ff292cb",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 10",
+      "components": [
+        "RISER",
+        "WALL_RAIL_BRACKET",
+        "STRINGER",
+        "CAPPING",
+        "Upper_Rim",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Barcelona 280|RH|16|Modern|Type 20": {
+      "uid": "0ff6b50e97374e10a006e6f6b0f6826b",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Modern",
+      "designOption": "Type 20",
+      "components": [
+        "Upper_Rim",
+        "TREAD",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "GLASS_PANEL",
+        "NEWEL",
+        "VOID_TRIM",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "RISER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Barcelona 280|RH|16|Mode|Type 1": {
+      "uid": "3996b4a62e7648188de0c4836a272128",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "RISER",
+        "CAPPING",
+        "FLOOR AND WELL",
+        "HANDRAIL",
+        "STRINGER",
+        "Upper_Rim",
+        "TREAD",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Barcelona 280|RH|16|Mode|Type 21": {
+      "uid": "50de8ee7f2e24c939e0611755c7bf476",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "TREAD",
+        "WALL_RAIL_BRACKET",
+        "HANDRAIL",
+        "RISER",
+        "CAPPING",
+        "FLOOR AND WELL",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "Upper_Rim"
+      ]
+    },
+    "Barcelona 280|RH|16|CoastalHamptons|Type 31": {
+      "uid": "2799ca09aca04c80825dd7db51584091",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "TREAD",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "HANDRAIL",
+        "FLOOR AND WELL",
+        "BULLNOSE_TREAD",
+        "NEWEL",
+        "BALUSTER",
+        "VOID_TRIM",
+        "RISER"
+      ]
+    },
+    "Barcelona 280|RH|16|Mode|Type 20": {
+      "uid": "b2f6d7f8d76342c296b564f55ce6d46d",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20",
+      "components": [
+        "FLOOR AND WELL",
+        "TREAD",
+        "WALL_RAIL_BRACKET",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "STRINGER",
+        "CAPPING",
+        "HANDRAIL",
+        "RISER",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Barcelona 280|RH|16|Nouveau|Type 30": {
+      "uid": "b616929cde3e4ad88be39523d6a628f9",
+      "houseType": "Barcelona 280",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "GLASS_PANEL",
+        "GLASS_CLAMP",
+        "VOID_TRIM",
+        "STRINGER",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "NEWEL",
+        "RISER",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Boston 330|LH|16|Classic|Type 1": {
+      "uid": "55ee2626cab94a19bfc947fda85fe0dd",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "TREAD",
+        "VOID_TRIM",
+        "Upper_Rim",
+        "STRINGER",
+        "BALUSTER",
+        "FLOOR AND WELL",
+        "NEWEL",
+        "HANDRAIL",
+        "RISER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Boston 330|LH|16|Classic|Type 10": {
+      "uid": "b3764c7ce9e14a3987826e53f8acd091",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 10",
+      "components": [
+        "RISER",
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "BALUSTER",
+        "FLOOR AND WELL",
+        "TREAD",
+        "NEWEL",
+        "STRINGER",
+        "Upper_Rim"
+      ]
+    },
+    "Boston 330|LH|16|Classic|Type 20": {
+      "uid": "4ac3cd54d434469fb21128c7fea6c9be",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 20",
+      "components": [
+        "RISER",
+        "HANDRAIL",
+        "Upper_Rim",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "VOID_TRIM",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "BALUSTER",
+        "NEWEL"
+      ]
+    },
+    "Boston 330|LH|16|Classic|Type 21": {
+      "uid": "5eac0631e0294d2e90ba3d686121bf17",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 21",
+      "components": [
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "FLOOR AND WELL",
+        "VOID_TRIM",
+        "RISER",
+        "BALUSTER",
+        "NEWEL",
+        "Upper_Rim",
+        "TREAD"
+      ]
+    },
+    "Boston 330|LH|16|Classic|Type 30": {
+      "uid": "53258ff4ddd4490492de8fed24541268",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 30",
+      "components": [
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "STRINGER",
+        "VOID_TRIM",
+        "HANDRAIL",
+        "RISER",
+        "TREAD",
+        "Upper_Rim",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Boston 330|LH|16|CoastalHamptons|Type 31": {
+      "uid": "c88e292712fc4ac98045fca9f6688034",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "RISER",
+        "HANDRAIL",
+        "NEWEL",
+        "TREAD",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "VOID_TRIM",
+        "BALUSTER",
+        "STRINGER",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Boston 330|LH|16|Hamptons|Type 31": {
+      "uid": "efa9dbe8748e4af1bc10c8167ad77f59",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "BOTTOM_RAIL",
+        "FLOOR AND WELL",
+        "HANDRAIL",
+        "VOID_TRIM",
+        "STRINGER",
+        "BALUSTER",
+        "RISER",
+        "NEWEL",
+        "Upper_Rim",
+        "TREAD"
+      ]
+    },
+    "Boston 330|LH|16|Nouveau|Type 30": {
+      "uid": "6ad1a7cc17b84cdd9c8c2c24f8753e48",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "TREAD",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "RISER",
+        "GLASS_PANEL",
+        "FLOOR AND WELL",
+        "VOID_TRIM",
+        "Upper_Rim",
+        "GLASS_CLAMP",
+        "STRINGER"
+      ]
+    },
+    "Boston 330|LH|16|Modern|Type 20": {
+      "uid": "124901fe8eeb4c3881f0527fbcc6c7bf",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Modern",
+      "designOption": "Type 20",
+      "components": [
+        "GLASS_PANEL",
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "VOID_TRIM",
+        "HANDRAIL",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "TREAD",
+        "RISER"
+      ]
+    },
+    "Boston 330|LH|16|Mode|Type 21": {
+      "uid": "6c29bbac98d5478ca628ea7dcc1498c4",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "WALL_RAIL_BRACKET",
+        "CAPPING",
+        "TREAD",
+        "STRINGER",
+        "RISER",
+        "FLOOR AND WELL",
+        "Upper_Rim",
+        "HANDRAIL"
+      ]
+    },
+    "Boston 330|LH|16|Mode|Type 20": {
+      "uid": "59e4492b2de84396aa05af4dd66a2782",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20",
+      "components": [
+        "STRINGER",
+        "CAPPING",
+        "WALL_RAIL_BRACKET",
+        "FLOOR AND WELL",
+        "HANDRAIL",
+        "Upper_Rim",
+        "TREAD",
+        "RISER"
+      ]
+    },
+    "Boston 330|LH|16|Mode|Type 1": {
+      "uid": "ac79f7623e5c45ac8754f868934a3163",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "TREAD",
+        "CAPPING",
+        "RISER",
+        "FLOOR AND WELL",
+        "HANDRAIL",
+        "WALL_RAIL_BRACKET",
+        "Upper_Rim",
+        "STRINGER"
+      ]
+    },
+    "Boston 330|LH|16|Mode|Type 10": {
+      "uid": "454f9c8c5ab7401dafb1a46d5cd77411",
+      "houseType": "Boston 330",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 10",
+      "components": [
+        "CAPPING",
+        "FLOOR AND WELL",
+        "TREAD",
+        "HANDRAIL",
+        "WALL_RAIL_BRACKET",
+        "STRINGER",
+        "RISER",
+        "Upper_Rim"
+      ]
+    },
+    "Antigua 270|LH|16|CoastalHamptons|Type 31": {
+      "uid": "c1442c64f845415dae9e802dff32d8cd",
+      "houseType": "Antigua 270",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "BOTTOM_RAIL",
+        "VOID_TRIM",
+        "STRINGER",
+        "TREAD",
+        "FLOOR AND WELL",
+        "BALUSTER",
+        "Upper_Rim",
+        "RISER",
+        "NEWEL",
+        "WALL_RAIL_BRACKET",
+        "HANDRAIL"
+      ]
+    },
+    "Antigua 270|LH|16|Mode|Type 20": {
+      "uid": "e8a72e9a8dff42c397274a3f32f0f62d",
+      "houseType": "Antigua 270",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20",
+      "components": [
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET",
+        "RISER",
+        "HANDRAIL",
+        "TREAD",
+        "CAPPING",
+        "FLOOR AND WELL",
+        "NEWEL",
+        "STRINGER"
+      ]
+    },
+    "Antigua 270|LH|16|Mode|Type 1": {
+      "uid": "780de7f32e5545199652b0e014b3c543",
+      "houseType": "Antigua 270",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "WALL_RAIL_BRACKET",
+        "CAPPING",
+        "RISER",
+        "NEWEL",
+        "FLOOR AND WELL",
+        "TREAD",
+        "HANDRAIL",
+        "Upper_Rim",
+        "STRINGER"
+      ]
+    },
+    "Antigua 270|LH|16|Hamptons|Type 31": {
+      "uid": "2b100a47d13242e4a2275005e527a16d",
+      "houseType": "Antigua 270",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "RISER",
+        "HANDRAIL",
+        "VOID_TRIM",
+        "BALUSTER",
+        "STRINGER",
+        "TREAD",
+        "FLOOR AND WELL",
+        "BOTTOM_RAIL",
+        "WALL_RAIL_BRACKET",
+        "Upper_Rim",
+        "NEWEL"
+      ]
+    },
+    "Antigua 270|LH|16|Mode|Type 10": {
+      "uid": "7ab9ee1c0ba94d7e88102cbf5b933d08",
+      "houseType": "Antigua 270",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 10",
+      "components": [
+        "CAPPING",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET",
+        "RISER",
+        "STRINGER",
+        "NEWEL",
+        "HANDRAIL",
+        "TREAD",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Antigua 270|LH|16|Mode|Type 21": {
+      "uid": "6c6622962fc24fb48bb0dc7ad0047a35",
+      "houseType": "Antigua 270",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "CAPPING",
+        "STRINGER",
+        "FLOOR AND WELL",
+        "HANDRAIL",
+        "NEWEL",
+        "TREAD",
+        "WALL_RAIL_BRACKET",
+        "Upper_Rim",
+        "RISER"
+      ]
+    },
+    "Boston 340|LH|16|CoastalHamptons|Type 31": {
+      "uid": "21b14d495293406aa23d0d28f3945e53",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "FLOOR AND WELL",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "STRINGER",
+        "NEWEL",
+        "RISER",
+        "BALUSTER",
+        "VOID_TRIM",
+        "Upper_Rim",
+        "HANDRAIL"
+      ]
+    },
+    "Boston 340|LH|16|Hamptons|Type 31": {
+      "uid": "b78c4105481048ab81c96ec222d4bb2f",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "Upper_Rim",
+        "NEWEL",
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "BALUSTER",
+        "RISER",
+        "STRINGER",
+        "FLOOR AND WELL",
+        "TREAD"
+      ]
+    },
+    "Boston 340|LH|16|Mode|Type 21": {
+      "uid": "15225366e4134810a88005653b029fc3",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "FLOOR AND WELL",
+        "TREAD",
+        "CAPPING",
+        "WALL_RAIL_BRACKET",
+        "Upper_Rim",
+        "HANDRAIL",
+        "RISER",
+        "STRINGER"
+      ]
+    },
+    "Boston 340|LH|16|Classic|Type 30": {
+      "uid": "7e23892216184e64935e234eb07b370f",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 30",
+      "components": [
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "STRINGER",
+        "FLOOR AND WELL",
+        "BALUSTER",
+        "RISER",
+        "VOID_TRIM",
+        "HANDRAIL",
+        "TREAD"
+      ]
+    },
+    "Boston 340|LH|16|Classic|Type 21": {
+      "uid": "16a3687fd10d4a36b9157bdd49e947c0",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 21",
+      "components": [
+        "BALUSTER",
+        "RISER",
+        "TREAD",
+        "NEWEL",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "HANDRAIL",
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "Upper_Rim"
+      ]
+    },
+    "Boston 340|LH|16|Mode|Type 1": {
+      "uid": "c9c46829ec3543bdaf8c94a62334e86c",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "TREAD",
+        "RISER",
+        "STRINGER",
+        "Upper_Rim",
+        "HANDRAIL",
+        "WALL_RAIL_BRACKET",
+        "CAPPING",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Boston 340|LH|16|Mode|Type 20": {
+      "uid": "d9582784c9d54c63a833086b7ed699e2",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20",
+      "components": [
+        "TREAD",
+        "Upper_Rim",
+        "CAPPING",
+        "RISER",
+        "STRINGER",
+        "WALL_RAIL_BRACKET",
+        "FLOOR AND WELL",
+        "HANDRAIL"
+      ]
+    },
+    "Boston 340|LH|16|Classic|Type 1": {
+      "uid": "2fa03a2f552442daa42d09781d9dd7ef",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "HANDRAIL",
+        "RISER",
+        "BALUSTER",
+        "TREAD",
+        "VOID_TRIM",
+        "Upper_Rim",
+        "FLOOR AND WELL",
+        "STRINGER",
+        "NEWEL",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Boston 340|LH|16|Classic|Type 20": {
+      "uid": "2bcd80d90f5f4d479004f678df48147a",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 20",
+      "components": [
+        "BOTTOM_RAIL",
+        "TREAD",
+        "BALUSTER",
+        "NEWEL",
+        "RISER",
+        "VOID_TRIM",
+        "HANDRAIL",
+        "Upper_Rim",
+        "STRINGER",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Boston 340|LH|16|Modern|Type 20": {
+      "uid": "0dbc78ba4e094f659c78af6667fe81d4",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Modern",
+      "designOption": "Type 20",
+      "components": [
+        "HANDRAIL",
+        "FLOOR AND WELL",
+        "TREAD",
+        "NEWEL",
+        "RISER",
+        "VOID_TRIM",
+        "Upper_Rim",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "GLASS_PANEL"
+      ]
+    },
+    "Boston 340|LH|16|Nouveau|Type 30": {
+      "uid": "0483276dcc9745c2b5f0956878bd4f2d",
+      "houseType": "Boston 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "VOID_TRIM",
+        "STRINGER",
+        "GLASS_CLAMP",
+        "Upper_Rim",
+        "TREAD",
+        "GLASS_PANEL",
+        "RISER",
+        "HANDRAIL",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Boston 400|LH|16|Classic|Type 20": {
+      "uid": "ca499f0f984c454090fa086041edbc1e",
+      "houseType": "Boston 400",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 20",
+      "components": [
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "VOID_TRIM",
+        "FLOOR AND WELL",
+        "HANDRAIL",
+        "NEWEL",
+        "STRINGER",
+        "TREAD",
+        "Upper_Rim",
+        "RISER"
+      ]
+    },
+    "Boston 400|LH|16|CoastalHamptons|Type 31": {
+      "uid": "9eae4d9c968648039987f06af1158053",
+      "houseType": "Boston 400",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "FLOOR AND WELL",
+        "STRINGER",
+        "VOID_TRIM",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "NEWEL",
+        "RISER",
+        "TREAD",
+        "HANDRAIL",
+        "BALUSTER"
+      ]
+    },
+    "Boston 400|LH|16|Classic|Type 30": {
+      "uid": "2f4888f397cc4405a87a849a5c18efe1",
+      "houseType": "Boston 400",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 30",
+      "components": [
+        "FLOOR AND WELL",
+        "BALUSTER",
+        "STRINGER",
+        "VOID_TRIM",
+        "TREAD",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "RISER",
+        "NEWEL"
+      ]
+    },
+    "Boston 400|LH|16|Classic|Type 21": {
+      "uid": "6de6287e92fe42c8bfa32eddf3e891cd",
+      "houseType": "Boston 400",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 21",
+      "components": [
+        "Upper_Rim",
+        "NEWEL",
+        "FLOOR AND WELL",
+        "BALUSTER",
+        "TREAD",
+        "RISER",
+        "STRINGER",
+        "VOID_TRIM",
+        "HANDRAIL",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Boston 400|LH|16|Hamptons|Type 31": {
+      "uid": "94fad57c457947cb9022e7ae9ab71a58",
+      "houseType": "Boston 400",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "Upper_Rim",
+        "STRINGER",
+        "NEWEL",
+        "RISER",
+        "VOID_TRIM",
+        "BALUSTER",
+        "TREAD",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Boston 400|LH|16|Mode|Type 1": {
+      "uid": "91a6cb1efeb348fd9ca3d006905e3c6d",
+      "houseType": "Boston 400",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "HANDRAIL",
+        "CAPPING",
+        "FLOOR AND WELL",
+        "WALL_RAIL_BRACKET",
+        "Upper_Rim"
+      ]
+    },
+    "Boston 400|LH|16|Classic|Type 1": {
+      "uid": "1a5606d0167d4f9d9f26797cd958f209",
+      "houseType": "Boston 400",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "TREAD",
+        "BALUSTER",
+        "STRINGER",
+        "FLOOR AND WELL",
+        "Upper_Rim",
+        "RISER",
+        "HANDRAIL",
+        "VOID_TRIM"
+      ]
+    },
+    "Boston 370|LH|16|CoastalHamptons|Type 31": {
+      "uid": "834ab650ced84330a804c521b3a65f09",
+      "houseType": "Boston 370",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "CoastalHamptons",
+      "designOption": "Type 31",
+      "components": [
+        "TREAD",
+        "HANDRAIL",
+        "NEWEL",
+        "STRINGER",
+        "Upper_Rim",
+        "RISER",
+        "BOTTOM_RAIL",
+        "BALUSTER",
+        "FLOOR AND WELL",
+        "VOID_TRIM"
+      ]
+    },
+    "Boston 370|LH|16|Classic|Type 21": {
+      "uid": "e12b5d9fa48b4fa79bcc9e730f912794",
+      "houseType": "Boston 370",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 21",
+      "components": [
+        "HANDRAIL",
+        "Upper_Rim",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "VOID_TRIM",
+        "NEWEL",
+        "RISER",
+        "BALUSTER",
+        "FLOOR AND WELL"
+      ]
+    },
+    "Boston 370|LH|16|Classic|Type 1": {
+      "uid": "002170eff4ad4769898e881c52a193e1",
+      "houseType": "Boston 370",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "Upper_Rim",
+        "RISER",
+        "VOID_TRIM",
+        "NEWEL",
+        "BALUSTER",
+        "HANDRAIL",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "FLOOR AND WELL",
+        "STRINGER"
+      ]
+    }
+  },
+  "ranges": {
+    "Mode": {
+      "display": "Mode",
+      "description": "Contemporary minimalist"
+    },
+    "Classic": {
+      "display": "Classic",
+      "description": "Traditional style"
+    },
+    "Nouveau": {
+      "display": "Nouveau",
+      "description": "Art nouveau inspired"
+    },
+    "Modern": {
+      "display": "Modern",
+      "description": "Clean lines"
+    },
+    "Hamptons": {
+      "display": "Hamptons",
+      "description": "Coastal elegant"
+    },
+    "CoastalHamptons": {
+      "display": "Coastal Hamptons",
+      "description": "Beach house style"
+    }
+  },
+  "designOptions": {
+    "Type 1": {
+      "display": "Type 1",
+      "description": "Carpet grade treads/risers, closed paint stringers"
+    },
+    "Type 10": {
+      "display": "Type 10",
+      "description": "1st tread/riser Durian, rest carpet, closed paint stringers"
+    },
+    "Type 20": {
+      "display": "Type 20",
+      "description": "Durian treads/risers, closed paint stringers"
+    },
+    "Type 21": {
+      "display": "Type 21",
+      "description": "Durian treads, paint risers, closed paint stringers"
+    },
+    "Type 30": {
+      "display": "Type 30",
+      "description": "Full Durian + sawtooth stringer"
+    },
+    "Type 31": {
+      "display": "Type 31",
+      "description": "Durian treads, paint risers + sawtooth stringer"
+    }
+  },
+  "componentFinishOptions": {
+    "Mode|Type 1": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline 10x10mm (shadowline is painted)",
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Mode|Type 10": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline 10x10mm (shadowline is painted)",
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Mode|Type 20": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline 10x10mm (shadowline is painted)",
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Mode|Type 21": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Paint Grade MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline 10x10mm (shadowline is painted)",
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 1": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 10": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_SatinBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 20": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 21": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Paint Grade MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 30": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Sawtooth Mitred Rise",
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Nouveau|Type 30": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Sawtooth Mitred Rise",
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Stainless Steel",
+        "materialCode": "SS_Satin",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Glass Clamps",
+        "componentKey": "GLASS_CLAMP",
+        "material": "Stainless Steel",
+        "materialCode": "SS_Satin",
+        "style": "D shape",
+        "profileCode": "D shape",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline",
+        "profileCode": "Shadowline",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Glass clear toughened 10mm",
+        "materialCode": "GLASS_Clear",
+        "style": "",
+        "profileCode": "",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Modern|Type 20": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Glass clear toughened 10mm",
+        "materialCode": "GLASS_Clear",
+        "style": "Glass clear toughened 10mm",
+        "profileCode": "Glass clear toughened 10mm",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Hamptons|Type 31": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Sawtooth Mitred Rise",
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Paint Grade MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Clarendon Hamptons Design",
+        "profileCode": "Clarendon Hamptons Design",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Hamptons Newel Cap",
+        "profileCode": "Hamptons Newel Cap",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Ladies Waist",
+        "profileCode": "Ladies Waist",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Ladies Waist",
+        "profileCode": "Ladies Waist",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline",
+        "profileCode": "Shadowline",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Tapered",
+        "profileCode": "Tapered",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "CoastalHamptons|Type 31": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Sawtooth Mitred Rise",
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Paint Grade MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Hamptons Newel Cap",
+        "profileCode": "Hamptons Newel Cap",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline",
+        "profileCode": "Shadowline",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [],
+        "profileAlts": []
+      }
+    ]
+  },
+  "sketchfabMaterials": {
+    "_x0023_BEGIN_WALLDURIAN_DARK.jpg1110.3": {
+      "componentKey": "CAPPING",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BALUSTERGRB_PC_SatChrome.jpg1111": {
+      "componentKey": "WALL_RAIL_BRACKET",
+      "smMaterial": "SatinChrome"
+    },
+    "_x0023_TREADDURIAN_DARK.jpg1111": {
+      "componentKey": "TREAD",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_STRINGPINE_PG_WHITE.jpg1111": {
+      "componentKey": "STRINGER",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_OBJECT3D0.90.90.91": {
+      "componentKey": "Upper_Rim",
+      "smMaterial": "PaintedGrey"
+    },
+    "_x0023_RISERDURIAN_DARK.jpg1111": {
+      "componentKey": "RISER",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_HANDRAILDURIAN_DARK.jpg1111": {
+      "componentKey": "HANDRAIL",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BEGIN_WALLDURIAN_DARK.jpg1111": {
+      "componentKey": "CAPPING",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_OBJECT3DW_Wall_x0020_Grey.jpg1111": {
+      "componentKey": "FLOOR AND WELL",
+      "smMaterial": "PaintedGrey"
+    },
+    "_x0023_RISERMDF_PG_WHITE.jpg1111": {
+      "componentKey": "RISER",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_BOTTOMRAILDURIAN_DARK.jpg1111": {
+      "componentKey": "BOTTOM_RAIL",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BALUSTERPINE_PG_WHITE.jpg1111": {
+      "componentKey": "BALUSTER",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_POSTPINE_PG_WHITE.jpg1111": {
+      "componentKey": "NEWEL",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_BEGIN_OPENINGPINE_PG_WHITE.jpg1111": {
+      "componentKey": "VOID_TRIM",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_BOTTOMRAIL1110.3": {
+      "componentKey": "GLASS_PANEL",
+      "smMaterial": "GlassClear"
+    },
+    "_x0023_POSTDURIAN_DARK.jpg1111": {
+      "componentKey": "NEWEL",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BOTTOMRAILCLAMP_SS_Satin.jpg1111": {
+      "componentKey": "GLASS_CLAMP",
+      "smMaterial": "SSSatin"
+    },
+    "_x0023_POSTPOST_SS_Satin.jpg1111": {
+      "componentKey": "NEWEL",
+      "smMaterial": "SSSatin"
+    },
+    "_x0023_STRINGDURIAN_DARK.jpg1111": {
+      "componentKey": "STRINGER",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BEGIN_OPENINGDURIAN_DARK.jpg1111": {
+      "componentKey": "VOID_TRIM",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BALUSTERBAL_PC_TextBlack.jpg1111": {
+      "componentKey": "BALUSTER",
+      "smMaterial": "TextBlack"
+    },
+    "_x0023_BALUSTERGRB_PC_SatBlack.jpg1111": {
+      "componentKey": "WALL_RAIL_BRACKET",
+      "smMaterial": "SatinBlack"
+    },
+    "_x0023_RISERBNR_DurianS.jpg1111": {
+      "componentKey": "BULLNOSE_RISER",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_TREADBNT_DurianS.jpg1111": {
+      "componentKey": "BULLNOSE_TREAD",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_TREADcon_CarpetGrey.jpg1111": {
+      "componentKey": "TREAD",
+      "smMaterial": "Carpeted"
+    },
+    "_x0023_RISERcon_CarpetGrey.jpg1111": {
+      "componentKey": "RISER",
+      "smMaterial": "Carpeted"
+    },
+    "_x0023_BEGIN_OPENINGTIM_Durian.jpg1111": {
+      "componentKey": "VOID_TRIM",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_RISERPINE_PG_WHITE.jpg1111": {
+      "componentKey": "RISER",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_BEGIN_WALLCAP_DURIAN_DARK.jpg1110.3": {
+      "componentKey": "CAPPING",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BEGIN_WALLCAP_DURIAN_DARK.jpg1111": {
+      "componentKey": "CAPPING",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BOTTOMRAILTIM_Durian.jpg1111": {
+      "componentKey": "BOTTOM_RAIL",
+      "smMaterial": "DurianDark"
+    }
+  },
+  "stairmasterMaterials": {
+    "DurianDark": {
+      "display": "Durian Dark",
+      "family": "Timber",
+      "pbrPresetId": "TIM_DurianDark"
+    },
+    "DurianLight": {
+      "display": "Durian Light",
+      "family": "Timber",
+      "pbrPresetId": "TIM_DurianLight"
+    },
+    "Blackbutt": {
+      "display": "Blackbutt",
+      "family": "Timber",
+      "pbrPresetId": "TIM_Blackbutt"
+    },
+    "SpottedGum": {
+      "display": "Spotted Gum",
+      "family": "Timber",
+      "pbrPresetId": "TIM_SpottedGum"
+    },
+    "PineWhite": {
+      "display": "Paint Grade White",
+      "family": "Paint",
+      "pbrPresetId": "PaintedWhite"
+    },
+    "SatinBlack": {
+      "display": "Satin Black",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinBlack"
+    },
+    "SatinWhite": {
+      "display": "Satin White",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinWhite"
+    },
+    "SatinChrome": {
+      "display": "Satin Chrome",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinChrome"
+    },
+    "Chrome": {
+      "display": "Chrome",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinChrome"
+    },
+    "TextBlack": {
+      "display": "Textured Black",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_TexturedBlack"
+    },
+    "TextWhite": {
+      "display": "Textured White",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinWhite"
+    },
+    "SSPolish": {
+      "display": "SS Polished",
+      "family": "StainlessSteel",
+      "pbrPresetId": "SS_Polished"
+    },
+    "SSSatin": {
+      "display": "SS Satin",
+      "family": "StainlessSteel",
+      "pbrPresetId": "SS_Satin"
+    },
+    "GlassClear": {
+      "display": "Toughened Glass Clear",
+      "family": "Glass",
+      "pbrPresetId": "GLASS_Clear"
+    },
+    "PaintedGrey": {
+      "display": "Painted Grey",
+      "family": "Paint",
+      "pbrPresetId": "PaintedDullGrey"
+    },
+    "Carpeted": {
+      "display": "Carpet Grade Grey",
+      "family": "Carpet",
+      "pbrPresetId": "CarpetGrey"
+    }
+  },
+  "pbrPresets": {
+    "TIM_NoFinish": {
+      "category": "Timber",
+      "displayName": "No Finish (Default)",
+      "workflow": "PBR",
+      "albedoR": 0.5,
+      "albedoG": 0.4,
+      "albedoB": 0.3,
+      "albedoTexture": "timber_neutral.jpg",
+      "normalTexture": "timber_neutral_n.jpg",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.5,
+      "specularF0": 0.04,
+      "normalEnabled": true,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": true
+    },
+    "TIM_DurianDark": {
+      "category": "Timber",
+      "displayName": "Durian Dark",
+      "workflow": "metalness",
+      "albedoR": 0.5019607843137255,
+      "albedoG": 0.5019607843137255,
+      "albedoB": 0.5019607843137255,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.29,
+      "clearCoatTintR": 0.42,
+      "clearCoatTintG": 0.33,
+      "clearCoatTintB": 0.18,
+      "clearCoatThickness": 6,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "TIM_DurianLight": {
+      "category": "Timber",
+      "displayName": "Durian Light",
+      "workflow": "PBR",
+      "albedoR": 0.55,
+      "albedoG": 0.4,
+      "albedoB": 0.25,
+      "albedoTexture": "durian_light.jpg",
+      "normalTexture": "durian_light_n.jpg",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.5,
+      "specularF0": 0.04,
+      "normalEnabled": true,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "TIM_Blackbutt": {
+      "category": "Timber",
+      "displayName": "Blackbutt",
+      "workflow": "PBR",
+      "albedoR": 0.45,
+      "albedoG": 0.32,
+      "albedoB": 0.18,
+      "albedoTexture": "blackbutt.jpg",
+      "normalTexture": "blackbutt_n.jpg",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.52,
+      "specularF0": 0.04,
+      "normalEnabled": true,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "TIM_SpottedGum": {
+      "category": "Timber",
+      "displayName": "Spotted Gum",
+      "workflow": "PBR",
+      "albedoR": 0.5,
+      "albedoG": 0.35,
+      "albedoB": 0.2,
+      "albedoTexture": "spotted_gum.jpg",
+      "normalTexture": "spotted_gum_n.jpg",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.48,
+      "specularF0": 0.04,
+      "normalEnabled": true,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "MTL_NoFinish": {
+      "category": "Metal",
+      "displayName": "No Finish (Default)",
+      "workflow": "PBR",
+      "albedoR": 0.4,
+      "albedoG": 0.4,
+      "albedoB": 0.42,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.3,
+      "roughness": 0.5,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": true
+    },
+    "PC_SatinBlack": {
+      "category": "Powdercoat",
+      "displayName": "Satin Black",
+      "workflow": "PBR",
+      "albedoR": 0.02,
+      "albedoG": 0.02,
+      "albedoB": 0.02,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.35,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PC_SatinWhite": {
+      "category": "Powdercoat",
+      "displayName": "Satin White",
+      "workflow": "PBR",
+      "albedoR": 0.95,
+      "albedoG": 0.95,
+      "albedoB": 0.95,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.35,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PC_SatinChrome": {
+      "category": "Powdercoat",
+      "displayName": "Satin Chrome",
+      "workflow": "PBR",
+      "albedoR": 0.75,
+      "albedoG": 0.75,
+      "albedoB": 0.78,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.7,
+      "roughness": 0.4,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PC_TexturedBlack": {
+      "category": "Powdercoat",
+      "displayName": "Textured Black",
+      "workflow": "PBR",
+      "albedoR": 0.03,
+      "albedoG": 0.03,
+      "albedoB": 0.03,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.7,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "SS_Polished": {
+      "category": "StainlessSteel",
+      "displayName": "Polished Stainless",
+      "workflow": "PBR",
+      "albedoR": 0.95,
+      "albedoG": 0.93,
+      "albedoB": 0.88,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 1,
+      "roughness": 0.12,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 0.3,
+      "clearCoatRoughness": 0.15,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "SS_Satin": {
+      "category": "StainlessSteel",
+      "displayName": "Satin Stainless",
+      "workflow": "metalness",
+      "albedoR": 0.6352941176470588,
+      "albedoG": 0.6274509803921569,
+      "albedoB": 0.6274509803921569,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.92,
+      "roughness": 0.4,
+      "specularF0": 0.31,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "GLASS_Clear": {
+      "category": "Glass",
+      "displayName": "Clear Glass",
+      "workflow": "metalness",
+      "albedoR": 1,
+      "albedoG": 1,
+      "albedoB": 1,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.91,
+      "roughness": 0.04,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 0.07,
+      "isNoFinish": false
+    },
+    "GLASS_Frosted": {
+      "category": "Glass",
+      "displayName": "Frosted Glass",
+      "workflow": "PBR",
+      "albedoR": 0.95,
+      "albedoG": 0.95,
+      "albedoB": 0.95,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.45,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 0.4,
+      "isNoFinish": false
+    },
+    "PaintedDullGrey": {
+      "category": "Paint",
+      "displayName": "Painted Dull Grey",
+      "workflow": "metalness",
+      "albedoR": 0.12156862745098039,
+      "albedoG": 0.12156862745098039,
+      "albedoB": 0.12156862745098039,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "CarpetGrey": {
+      "category": "Carpet",
+      "displayName": "CarpetGrey",
+      "workflow": "metalness",
+      "albedoR": 0.5019607843137255,
+      "albedoG": 0.5019607843137255,
+      "albedoB": 0.5019607843137255,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PaintedWhite": {
+      "category": "Paint",
+      "displayName": "PaintedWhite",
+      "workflow": "metalness",
+      "albedoR": 1,
+      "albedoG": 1,
+      "albedoB": 1,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Clear": {
+      "category": "Stain",
+      "displayName": "Stain: Clear",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": null,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Light": {
+      "category": "Stain",
+      "displayName": "Stain: Light",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.75,
+      "clearCoatTintG": 0.6,
+      "clearCoatTintB": 0.4,
+      "clearCoatThickness": 4,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Med": {
+      "category": "Stain",
+      "displayName": "Stain: Medium",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.55,
+      "clearCoatTintG": 0.38,
+      "clearCoatTintB": 0.2,
+      "clearCoatThickness": 6,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Dark": {
+      "category": "Stain",
+      "displayName": "Stain: Dark",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.45,
+      "clearCoatTintG": 0.25,
+      "clearCoatTintB": 0.12,
+      "clearCoatThickness": 7,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_VDark": {
+      "category": "Stain",
+      "displayName": "Stain: V.Dark",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.25,
+      "clearCoatTintG": 0.12,
+      "clearCoatTintB": 0.06,
+      "clearCoatThickness": 6,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    }
+  },
+  "cameras": {
+    "Grande 530|RH": {
+      "camera": {
+        "position": [
+          -7.395654844294836,
+          -8.116641498791692,
+          3.387344414571969
+        ],
+        "target": [
+          -4.3168177813842785,
+          -1.9464332975306828,
+          2.4828764400204766
+        ]
+      },
+      "relative": {
+        "dirZ": 0.13005009555766636,
+        "distFactor": 0.3035474670089054,
+        "dirY": -0.8871913531074477,
+        "targetXOffset": -0.02517576277862855,
+        "targetZOffset": -0.00836349053286806,
+        "dirX": -0.4426945624432472,
+        "targetYOffset": -0.012283424169540072
+      }
+    },
+    "Crestmead 370|RH": {
+      "camera": {
+        "target": [
+          1.2555345706666272,
+          -1.254959477658786,
+          1.6207187325267338
+        ],
+        "position": [
+          7.28859873113254,
+          -5.592276697381648,
+          3.6824675224274612
+        ]
+      },
+      "relative": {
+        "dirX": 0.7823874386323827,
+        "targetXOffset": -0.0021501281620645513,
+        "targetZOffset": -0.00005131039502743115,
+        "dirY": -0.5624774442665685,
+        "distFactor": 0.07266138606044067,
+        "targetYOffset": -0.003041623544708309,
+        "dirZ": 0.2673743079684523
+      }
+    },
+    "Barcelona 260|RH": {
+      "camera": {
+        "target": [
+          -3.373516508275156,
+          -0.5349752196766604,
+          1.2930963658528616
+        ],
+        "position": [
+          -8.616729495608821,
+          -3.033770904304223,
+          1.2904426595297172
+        ]
+      },
+      "relative": {
+        "dirX": -0.9027248728972134,
+        "targetYOffset": 0.034587996830317956,
+        "distFactor": 0.2900899816239537,
+        "dirY": -0.43021807854283395,
+        "targetZOffset": -0.06899379400527833,
+        "targetXOffset": -0.03798376160483343,
+        "dirZ": -0.00045688906955605274
+      }
+    },
+    "Hawthorne 310|RH": {
+      "camera": {
+        "target": [
+          -2.7460882765941745,
+          -0.726070545036998,
+          1.604770091492839
+        ],
+        "position": [
+          -8.368810950075236,
+          -3.1821993207898043,
+          1.6823959086444011
+        ]
+      },
+      "relative": {
+        "dirX": -0.9163120223728742,
+        "distFactor": 0.30634284344490964,
+        "targetXOffset": -0.0065193928777651355,
+        "targetZOffset": -0.05340447180893448,
+        "dirY": -0.40026521961199946,
+        "dirZ": 0.012650360622971694,
+        "targetYOffset": 0.02515775350605031
+      }
+    },
+    "Barcelona 280|RH": {
+      "camera": {
+        "target": [
+          -3.373516508275156,
+          -0.5349752196766604,
+          1.2930963658528616
+        ],
+        "position": [
+          -8.616729495608821,
+          -3.0337709043042222,
+          1.2904426595297172
+        ]
+      },
+      "relative": {
+        "targetYOffset": 0.034730205818052425,
+        "targetZOffset": -0.0690281840738085,
+        "dirY": -0.43021807854283384,
+        "distFactor": 0.29023427580306826,
+        "targetXOffset": -0.03740305646402091,
+        "dirZ": -0.00045688906955605274,
+        "dirX": -0.9027248728972134
+      }
+    },
+    "Boston 330|LH": {
+      "camera": {
+        "target": [
+          -1.005209821330245,
+          -0.6627837892828343,
+          1.8734995815888875
+        ],
+        "position": [
+          3.818939228766556,
+          3.4718764650478193,
+          3.1312342349713784
+        ]
+      },
+      "relative": {
+        "dirY": 0.6383741100024088,
+        "distFactor": 0.36426924426994717,
+        "dirZ": 0.19418892740492302,
+        "targetZOffset": -0.04561193476740018,
+        "dirX": 0.7448282729273628,
+        "targetYOffset": 0.01559127729619093,
+        "targetXOffset": -0.003948691574271139
+      }
+    },
+    "Antigua 270|LH": {
+      "camera": {
+        "position": [
+          4.9148483545191795,
+          2.24396382809622,
+          3.5057725804452957
+        ],
+        "target": [
+          -0.13705437381227087,
+          -1.9191266120212518,
+          1.800030322324936
+        ]
+      },
+      "relative": {
+        "dirX": 0.7467919625723989,
+        "targetXOffset": 0.014672030727333455,
+        "targetYOffset": 0.020204846918735985,
+        "dirY": 0.6154042639630457,
+        "distFactor": 0.36363660089579036,
+        "dirZ": 0.25214947260180176,
+        "targetZOffset": -0.04727525364021368
+      }
+    },
+    "Boston 340|LH": {
+      "camera": {
+        "target": [
+          -0.6726244999605213,
+          -0.7188860355179187,
+          1.939072646017083
+        ],
+        "position": [
+          2.9903243114242586,
+          3.8983071686215496,
+          4.597967829044534
+        ]
+      },
+      "relative": {
+        "distFactor": 0.3636420387489255,
+        "targetXOffset": 0.014756450816445346,
+        "dirY": 0.7141047216296721,
+        "dirX": 0.5665192955219154,
+        "targetYOffset": 0.012435995217161022,
+        "targetZOffset": -0.041923998384418605,
+        "dirZ": 0.41123026925016254
+      }
+    },
+    "Boston 360|LH": {
+      "camera": {
+        "position": [
+          3.1931030265210363,
+          4.0437211841112575,
+          4.067348011049008
+        ],
+        "target": [
+          -0.4685722957663073,
+          -0.773621646848397,
+          2.0284921172989354
+        ]
+      },
+      "relative": {
+        "targetXOffset": 0.026232680483613147,
+        "dirZ": 0.31930645556720105,
+        "targetZOffset": -0.0368949007781942,
+        "targetYOffset": 0.00935757491737405,
+        "distFactor": 0.3591176683641747,
+        "dirX": 0.5734571885053408,
+        "dirY": 0.7544469765229767
+      }
+    },
+    "Boston 370|LH": {
+      "camera": {
+        "position": [
+          3.5017915759843006,
+          3.942229004068409,
+          3.568074698237715
+        ],
+        "target": [
+          -0.6726244999605213,
+          -0.7188860355179187,
+          1.939072646017083
+        ]
+      },
+      "relative": {
+        "dirZ": 0.25194485168874053,
+        "dirX": 0.6456238883844986,
+        "targetZOffset": -0.04192399808001738,
+        "distFactor": 0.36364203863953326,
+        "targetYOffset": 0.01243599521341998,
+        "targetXOffset": 0.014756450812006255,
+        "dirY": 0.7208977642182136
+      }
+    },
+    "Boston 400|LH": {
+      "camera": {
+        "position": [
+          2.990324311424258,
+          3.8983071686215496,
+          4.597967829044534
+        ],
+        "target": [
+          -0.6726244999605213,
+          -0.7188860355179187,
+          1.939072646017083
+        ]
+      },
+      "relative": {
+        "targetZOffset": -0.04192399808001738,
+        "distFactor": 0.36364203863953326,
+        "targetYOffset": 0.01243599521341998,
+        "dirY": 0.7141047216296721,
+        "dirZ": 0.41123026925016254,
+        "dirX": 0.5665192955219153,
+        "targetXOffset": 0.014756450812006255
+      }
+    },
+    "Parkhill 270|RH": {
+      "camera": {
+        "position": [
+          -8.368810950075236,
+          -3.1821993207898043,
+          1.6823959086444011
+        ],
+        "target": [
+          -2.7460882765941745,
+          -0.726070545036998,
+          1.604770091492839
+        ]
+      },
+      "relative": {
+        "targetZOffset": -0.05968469164606374,
+        "targetYOffset": 0.00910383195631889,
+        "dirZ": 0.012650360622971694,
+        "dirX": -0.9163120223728742,
+        "dirY": -0.40026521961199946,
+        "distFactor": 0.34077399751613763,
+        "targetXOffset": -0.04865317142112069
+      }
+    }
+  },
+  "designSettings": {
+    "Mode|Type 20": {
+      "environment": {
+        "rotation": 6.283185307179586,
+        "lightIntensity": 2.7,
+        "blur": 0,
+        "shadowEnabled": true,
+        "enable": true,
+        "exposure": 1.1
+      },
+      "fov": 45,
+      "background": {
+        "enable": true,
+        "type": "color",
+        "color": [
+          0.7098039215686275,
+          0.7098039215686275,
+          0.7098039215686275
+        ]
+      },
+      "postProcessing": {
+        "ssaoRadius": 0.1,
+        "toneMappingSaturation": 0.78,
+        "toneMappingBrightness": 0.32,
+        "vignetteHardness": 0.57,
+        "dofFocusDistance": 10.1,
+        "taaTransparent": true,
+        "grainFactor": 0.15,
+        "ssrEnable": true,
+        "toneMappingMethod": "linear",
+        "dofBlurNear": 0.5,
+        "bloomIntensity": 0.1,
+        "ssaoBias": 0.031,
+        "dofBlurFar": 0.5,
+        "grainAnimated": false,
+        "taaEnable": true,
+        "chromaticAberrationEnable": false,
+        "grainEnable": false,
+        "sharpenEnable": false,
+        "dofEnable": false,
+        "vignetteAmount": 0.45,
+        "bloomRadius": 0.7,
+        "ssaoIntensity": 0.25,
+        "sharpenFactor": 0.42,
+        "chromaticAberrationFactor": 0.05,
+        "vignetteEnable": true,
+        "ssaoEnable": true,
+        "toneMappingEnable": false,
+        "bloomEnable": false,
+        "ssrFactor": 0.12,
+        "bloomThreshold": 0,
+        "enable": true,
+        "toneMappingContrast": 0.05,
+        "dofAperture": 0.01,
+        "toneMappingExposure": 0.65
+      }
+    }
+  },
+  "_stats": {
+    "models": 96,
+    "cfoRows": 139,
+    "sfMaterials": 31,
+    "smMaterials": 16,
+    "pbrPresets": 22,
+    "cameras": 12,
+    "designSettings": 1
   }
 }
