@@ -1,12 +1,16 @@
 {
   "clarendon": [
     "Mode|Type 1",
+    "Mode|Type 10",
+    "Mode|Type 20",
+    "Mode|Type 21",
     "Classic|Type 1",
     "Classic|Type 10",
     "Classic|Type 20",
     "Classic|Type 21",
     "Classic|Type 30",
     "Nouveau|Type 30",
+    "Modern|Type 20",
     "Hamptons|Type 31",
     "CoastalHamptons|Type 31"
   ]
