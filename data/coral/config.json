@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-03-26T06:46:36.096Z",
+  "exportedAt": "2026-03-26T09:19:04.006Z",
   "exportedBy": "ptaylor@stairmaster.com.au",
   "builder": "Coral",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -5108,9 +5108,25 @@
       }
     },
     "HANDRAIL": {
-      "Pencil Round 3mm": "handrail-80x42-pr.png",
-      "Ladies Waist": "handrail-80x65-ladies-waist.png",
-      "Classic Oval": "handrail-80x42-classic-oval.png"
+      "Pencil Round 3mm": {
+        "Timber": "handrail-80x42-pr.png",
+        "Paint": "handrail-80x42-pr-painted.png"
+      },
+      "Classic Oval": {
+        "Timber": "handrail-80x42-classic-oval.png",
+        "Paint": "handrail-80x42-classic-oval-painted.png"
+      },
+      "Ladies Waist": "handrail-80x65-ladies-waist.png"
+    },
+    "NEWEL": {
+      "Pencil Round 3mm": {
+        "Timber": "newel-89x89-pr-durian.png",
+        "Paint": "newel-89x89-pr-painted.png"
+      },
+      "Stopped Chamfer": {
+        "Timber": "newel-89x89-chamfered-durian.png",
+        "Paint": "newel-89x89-chamfered-painted.png"
+      }
     },
     "CAPPING": {
       "Shadowline": "capping-115x32-shadowline.png",
