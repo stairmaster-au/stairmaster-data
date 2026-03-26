@@ -1,3 +1,5129 @@
 {
-  "_note": "placeholder — overwritten by Apps Script publish"
+  "exportedAt": "2026-03-26T06:46:36.096Z",
+  "exportedBy": "ptaylor@stairmaster.com.au",
+  "builder": "Coral",
+  "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
+  "textureBasePath": "https://raw.githubusercontent.com/stairmaster-au/stairmaster-data/main/textures/",
+  "auth": {
+    "codes": [
+      "CORAL",
+      "CRLQLD2025",
+      "STAIRS"
+    ]
+  },
+  "defaultSettings": {
+    "environment": {
+      "enable": true,
+      "exposure": 1.7,
+      "lightIntensity": 3,
+      "rotation": 5.8643062867009474,
+      "blur": 0,
+      "shadowEnabled": true
+    },
+    "background": {
+      "enable": true,
+      "color": [
+        0.27058823529411763,
+        0.27058823529411763,
+        0.27058823529411763
+      ],
+      "type": "color"
+    },
+    "postProcessing": {
+      "enable": true,
+      "sharpenEnable": false,
+      "sharpenFactor": 0.2,
+      "ssaoEnable": true,
+      "ssaoIntensity": 0.15,
+      "ssaoRadius": 0.1,
+      "ssaoBias": 0.014,
+      "vignetteEnable": false,
+      "vignetteAmount": 0.48,
+      "vignetteHardness": 0.73,
+      "bloomEnable": false,
+      "bloomThreshold": 0.8,
+      "bloomIntensity": 0.1,
+      "bloomRadius": 0.5,
+      "toneMappingEnable": true,
+      "toneMappingMethod": "filmic",
+      "toneMappingExposure": 1,
+      "toneMappingBrightness": 0.05,
+      "toneMappingContrast": 0,
+      "toneMappingSaturation": 0.8,
+      "chromaticAberrationEnable": false,
+      "chromaticAberrationFactor": 0.05,
+      "grainEnable": false,
+      "grainFactor": 0.15,
+      "grainAnimated": false,
+      "dofEnable": false,
+      "dofFocusDistance": 10.1,
+      "dofAperture": 0.01,
+      "dofBlurNear": 0.5,
+      "dofBlurFar": 0.5,
+      "ssrEnable": false,
+      "ssrFactor": 1,
+      "taaEnable": true,
+      "taaTransparent": true
+    },
+    "fov": 45,
+    "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e"
+  },
+  "models": {
+    "Atlanta 391Q|LH|17|BuildersStandard|Standard": {
+      "uid": "7af62f5470884da38f0b23ac605305f8",
+      "houseType": "Atlanta 391Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "NOSING",
+        "RISER",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "STRUCTURAL_RISER",
+        "LANDING",
+        "Upper_Rim",
+        "NEWEL",
+        "TREAD",
+        "BALUSTER"
+      ]
+    },
+    "Atlanta 391Q|RH|17|BuildersStandard|Standard": {
+      "uid": "a033d9b5bcc14fc38c986fa26a8202c7",
+      "houseType": "Atlanta 391Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "NOSING",
+        "Upper_Rim",
+        "BULLNOSE_TREAD",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "STRUCTURAL_RISER",
+        "HANDRAIL",
+        "LANDING",
+        "BALUSTER",
+        "RISER",
+        "VOID_TRIM",
+        "TREAD"
+      ]
+    },
+    "Atlanta 391Q|LH|17|Bullnose|(i)": {
+      "uid": "ac78606f447d42d4bbbb7265a68931af",
+      "houseType": "Atlanta 391Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "STRUCTURAL_RISER",
+        "LANDING",
+        "NOSING",
+        "STRINGER",
+        "TREAD",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "BALUSTER",
+        "NEWEL",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER"
+      ]
+    },
+    "Atlanta 391Q|RH|17|Bullnose|(i)": {
+      "uid": "a50c2f5ecbda47afb9fa0280f4b99383",
+      "houseType": "Atlanta 391Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "HANDRAIL",
+        "STRUCTURAL_RISER",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "Upper_Rim",
+        "TREAD",
+        "BALUSTER",
+        "RISER",
+        "LANDING",
+        "NEWEL",
+        "BULLNOSE_RISER"
+      ]
+    },
+    "Atlanta 391Q|LH|17|Bullnose|(ii)": {
+      "uid": "c741020ee7ab433f94cfb371d9615409",
+      "houseType": "Atlanta 391Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "Upper_Rim",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "RISER",
+        "BALUSTER",
+        "TREAD",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "HANDRAIL",
+        "LANDING",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Atlanta 391Q|RH|17|Bullnose|(ii)": {
+      "uid": "8ba8c17639a34259bf9955fc66a0bf7d",
+      "houseType": "Atlanta 391Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_RISER",
+        "LANDING",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "NEWEL",
+        "VOID_TRIM",
+        "RISER",
+        "HANDRAIL",
+        "NOSING",
+        "TREAD",
+        "STRINGER"
+      ]
+    },
+    "Atlanta 391Q|LH|17|Hamptons|(i)": {
+      "uid": "623a9c11341742ffbfa57a6640d37af6",
+      "houseType": "Atlanta 391Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "NEWEL",
+        "RISER",
+        "Upper_Rim",
+        "TREAD",
+        "NOSING",
+        "HANDRAIL",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "STRUCTURAL_RISER"
+      ]
+    },
+    "Atlanta 391Q|RH|17|Hamptons|(i)": {
+      "uid": "1af7b066e78f4e53b5d579ce79b52c42",
+      "houseType": "Atlanta 391Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "LANDING",
+        "STRUCTURAL_RISER",
+        "NOSING",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "HANDRAIL",
+        "NEWEL",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "RISER",
+        "Upper_Rim",
+        "BALUSTER"
+      ]
+    },
+    "Atlanta 391Q|LH|17|Hamptons|(ii)": {
+      "uid": "dd5f8910e69b40a39b072994cb0e33ef",
+      "houseType": "Atlanta 391Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "STRINGER",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "TREAD",
+        "NOSING",
+        "NEWEL",
+        "RISER",
+        "LANDING",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Atlanta 391Q|RH|17|Hamptons|(ii)": {
+      "uid": "57270724703347b1bc04853a1de28fb7",
+      "houseType": "Atlanta 391Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "BALUSTER",
+        "LANDING",
+        "NOSING",
+        "VOID_TRIM",
+        "HANDRAIL",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "TREAD",
+        "RISER",
+        "BULLNOSE_RISER",
+        "NEWEL"
+      ]
+    },
+    "Atlanta 391Q|LH|17|Sawtooth|(i)": {
+      "uid": "89bdb2d74a3e44dab3e2d081f40dfa7c",
+      "houseType": "Atlanta 391Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "STRINGER",
+        "LANDING",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "NOSING",
+        "Upper_Rim",
+        "STRUCTURAL_RISER",
+        "NEWEL",
+        "RISER"
+      ]
+    },
+    "Atlanta 391Q|RH|17|Sawtooth|(i)": {
+      "uid": "2c3a5a5066944f41821b888e4bd79df2",
+      "houseType": "Atlanta 391Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "NEWEL",
+        "LANDING",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "BALUSTER",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "STRUCTURAL_RISER",
+        "NOSING",
+        "STRINGER"
+      ]
+    },
+    "Atlanta 391Q|LH|17|Statement|(i)": {
+      "uid": "a097746631604aec8fb325cb8154407b",
+      "houseType": "Atlanta 391Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "NOSING",
+        "HANDRAIL",
+        "STRUCTURAL_RISER",
+        "STRINGER",
+        "GLASS_PANEL",
+        "RISER",
+        "BULLNOSE_RISER",
+        "LANDING",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "TREAD",
+        "Upper_Rim",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Atlanta 391Q|RH|17|Statement|(i)": {
+      "uid": "4b198117d6964edb9dda8d00a1fa41e7",
+      "houseType": "Atlanta 391Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "VOID_TRIM",
+        "HANDRAIL",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "BULLNOSE_TREAD",
+        "NEWEL",
+        "NOSING",
+        "TREAD",
+        "GLASS_PANEL",
+        "STRINGER",
+        "BULLNOSE_RISER",
+        "STRUCTURAL_RISER",
+        "RISER"
+      ]
+    },
+    "Atlanta 391Q|LH|17|Statement|(ii)": {
+      "uid": "036f5cd710c44a12a675065eeaca60ac",
+      "houseType": "Atlanta 391Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "STRINGER",
+        "Upper_Rim",
+        "GLASS_PANEL",
+        "NOSING",
+        "TREAD",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "RISER"
+      ]
+    },
+    "Atlanta 391Q|RH|17|Statement|(ii)": {
+      "uid": "7bde062b70894fde9821fa53162ada69",
+      "houseType": "Atlanta 391Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "Upper_Rim",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "GLASS_PANEL",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "LANDING",
+        "HANDRAIL",
+        "NEWEL",
+        "RISER",
+        "NOSING"
+      ]
+    },
+    "Baltimore 239Q|LH|17|BuildersStandard|Standard": {
+      "uid": "6066dfe6e3b845899019bac08e89e6b1",
+      "houseType": "Baltimore 239Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "NOSING",
+        "TREAD",
+        "NEWEL",
+        "HANDRAIL",
+        "BALUSTER",
+        "RISER",
+        "STRINGER"
+      ]
+    },
+    "Baltimore 239Q|RH|17|BuildersStandard|Standard": {
+      "uid": "b85d5fa03a8744d7b6be0bc7cb56972a",
+      "houseType": "Baltimore 239Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "STRINGER",
+        "NEWEL",
+        "LANDING",
+        "NOSING",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "RISER",
+        "TREAD",
+        "HANDRAIL"
+      ]
+    },
+    "Baltimore 239Q|LH|17|Bullnose|(i)": {
+      "uid": "5c0077609bff48be827bd2cbebfbac22",
+      "houseType": "Baltimore 239Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "RISER",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "NOSING",
+        "NEWEL",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BALUSTER",
+        "LANDING",
+        "STRINGER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Baltimore 239Q|RH|17|Bullnose|(i)": {
+      "uid": "ea59c36c6b544742a0a9e97b6d015ede",
+      "houseType": "Baltimore 239Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "RISER",
+        "NEWEL",
+        "BALUSTER",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "STRINGER",
+        "NOSING",
+        "HANDRAIL"
+      ]
+    },
+    "Baltimore 239Q|LH|17|Bullnose|(ii)": {
+      "uid": "422bc1b1b99343a795ec787afe16e92b",
+      "houseType": "Baltimore 239Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "NEWEL",
+        "STRINGER",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "TREAD",
+        "LANDING"
+      ]
+    },
+    "Baltimore 239Q|RH|17|Bullnose|(ii)": {
+      "uid": "43822efd8d86447f801157ca4e96ed40",
+      "houseType": "Baltimore 239Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "RISER",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "BALUSTER",
+        "NEWEL",
+        "Upper_Rim",
+        "LANDING",
+        "HANDRAIL"
+      ]
+    },
+    "Baltimore 239Q|LH|17|Hamptons|(i)": {
+      "uid": "b14c3ad4d3f146029d03c6f709b9a2be",
+      "houseType": "Baltimore 239Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "Upper_Rim",
+        "TREAD",
+        "BULLNOSE_RISER",
+        "LANDING",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "STRINGER",
+        "NEWEL",
+        "NOSING"
+      ]
+    },
+    "Baltimore 239Q|RH|17|Hamptons|(i)": {
+      "uid": "d9a669907ce54063a79249dec22eccf4",
+      "houseType": "Baltimore 239Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "BALUSTER",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "TREAD",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "NOSING",
+        "LANDING",
+        "BOTTOM_RAIL",
+        "RISER",
+        "NEWEL"
+      ]
+    },
+    "Baltimore 239Q|LH|17|Hamptons|(ii)": {
+      "uid": "0b283a7cb8954c99b6b6f61ef6e0341c",
+      "houseType": "Baltimore 239Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "NEWEL",
+        "STRINGER",
+        "LANDING",
+        "TREAD",
+        "HANDRAIL",
+        "BALUSTER",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "NOSING"
+      ]
+    },
+    "Baltimore 239Q|RH|17|Hamptons|(ii)": {
+      "uid": "10d14e14c885476e9d1e5d489ffb2a0b",
+      "houseType": "Baltimore 239Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "TREAD",
+        "STRINGER",
+        "LANDING",
+        "NEWEL",
+        "HANDRAIL",
+        "RISER",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "NOSING",
+        "Upper_Rim"
+      ]
+    },
+    "Baltimore 239Q|LH|17|Sawtooth|(i)": {
+      "uid": "792cf005243e4839b0b6c52eeef75121",
+      "houseType": "Baltimore 239Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "NOSING",
+        "Upper_Rim",
+        "BALUSTER",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "RISER",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "LANDING",
+        "NEWEL"
+      ]
+    },
+    "Baltimore 239Q|RH|17|Sawtooth|(i)": {
+      "uid": "a20427dfc08d4eb491534eb62613a5a2",
+      "houseType": "Baltimore 239Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "RISER",
+        "STRINGER",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "TREAD",
+        "LANDING",
+        "Upper_Rim"
+      ]
+    },
+    "Baltimore 239Q|LH|17|Statement|(i)": {
+      "uid": "3378b775b85a4ce888f4d74f8e6c5f2b",
+      "houseType": "Baltimore 239Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "BOTTOM_RAIL",
+        "GLASS_PANEL",
+        "Upper_Rim",
+        "TREAD",
+        "NEWEL",
+        "NOSING",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "BULLNOSE_RISER",
+        "LANDING",
+        "STRINGER"
+      ]
+    },
+    "Baltimore 239Q|RH|17|Statement|(i)": {
+      "uid": "6a1b983b8c054c44aaab7eb70336df1f",
+      "houseType": "Baltimore 239Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "Upper_Rim",
+        "NEWEL",
+        "TREAD",
+        "GLASS_PANEL",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "LANDING",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "NOSING"
+      ]
+    },
+    "Baltimore 239Q|LH|17|Statement|(ii)": {
+      "uid": "3e7976a17ac54cf19b36a7992fe1e8ba",
+      "houseType": "Baltimore 239Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "NOSING",
+        "LANDING",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "TREAD",
+        "Upper_Rim",
+        "GLASS_PANEL",
+        "NEWEL",
+        "HANDRAIL"
+      ]
+    },
+    "Baltimore 239Q|RH|17|Statement|(ii)": {
+      "uid": "a4fe951b774c4288828103117b9a3702",
+      "houseType": "Baltimore 239Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "Upper_Rim",
+        "LANDING",
+        "RISER",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "GLASS_PANEL",
+        "STRINGER",
+        "NOSING",
+        "TREAD"
+      ]
+    },
+    "Baltimore 302Q|LH|17|BuildersStandard|Standard": {
+      "uid": "0d350f3cab5844f4be66896a42d21aaf",
+      "houseType": "Baltimore 302Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "Upper_Rim",
+        "NEWEL",
+        "BALUSTER",
+        "HANDRAIL",
+        "RISER",
+        "NOSING",
+        "TREAD",
+        "LANDING",
+        "STRINGER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Baltimore 302Q|RH|17|BuildersStandard|Standard": {
+      "uid": "869b5caf54cb4c278920eacd08bda8a9",
+      "houseType": "Baltimore 302Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "BALUSTER",
+        "LANDING",
+        "HANDRAIL",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "NOSING",
+        "TREAD",
+        "RISER",
+        "STRINGER"
+      ]
+    },
+    "Baltimore 302Q|LH|17|Bullnose|(i)": {
+      "uid": "932fde4729ae4e77a66ea373d76dee73",
+      "houseType": "Baltimore 302Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "LANDING",
+        "RISER",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "Upper_Rim",
+        "TREAD",
+        "BALUSTER",
+        "NEWEL",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER"
+      ]
+    },
+    "Baltimore 302Q|RH|17|Bullnose|(i)": {
+      "uid": "ef7cce57f5e24bf081490cb26ef1736b",
+      "houseType": "Baltimore 302Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "BALUSTER",
+        "TREAD",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "NOSING",
+        "STRINGER",
+        "Upper_Rim",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "RISER"
+      ]
+    },
+    "Baltimore 302Q|LH|17|Bullnose|(ii)": {
+      "uid": "3c1eaa7bd789459d9ea9aa640dabb30b",
+      "houseType": "Baltimore 302Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "NOSING",
+        "BALUSTER",
+        "HANDRAIL",
+        "Upper_Rim",
+        "STRINGER",
+        "NEWEL",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "LANDING",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "RISER"
+      ]
+    },
+    "Baltimore 302Q|RH|17|Bullnose|(ii)": {
+      "uid": "88defe2ee0df4974bcce88b55975505f",
+      "houseType": "Baltimore 302Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "NOSING",
+        "TREAD",
+        "LANDING",
+        "HANDRAIL",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "Upper_Rim",
+        "RISER",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Baltimore 302Q|LH|17|Hamptons|(i)": {
+      "uid": "34982a1671ae4b7babccfd3d4265fc8d",
+      "houseType": "Baltimore 302Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "RISER",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "BALUSTER",
+        "NOSING",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "STRINGER",
+        "HANDRAIL"
+      ]
+    },
+    "Baltimore 302Q|RH|17|Hamptons|(i)": {
+      "uid": "d2093d1fdb6f4e2fb08c359d992e2d34",
+      "houseType": "Baltimore 302Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "LANDING",
+        "Upper_Rim",
+        "NEWEL",
+        "TREAD",
+        "BALUSTER",
+        "NOSING",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "HANDRAIL",
+        "BULLNOSE_RISER"
+      ]
+    },
+    "Baltimore 302Q|LH|17|Hamptons|(ii)": {
+      "uid": "0c1350fa224243f795b26f63a35109ae",
+      "houseType": "Baltimore 302Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_RISER",
+        "NEWEL",
+        "BALUSTER",
+        "HANDRAIL",
+        "RISER",
+        "LANDING",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "TREAD",
+        "Upper_Rim"
+      ]
+    },
+    "Baltimore 302Q|RH|17|Hamptons|(ii)": {
+      "uid": "aa0acd6598954e6ea42dd587df9be7f7",
+      "houseType": "Baltimore 302Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "NEWEL",
+        "LANDING",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "TREAD",
+        "HANDRAIL",
+        "RISER",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "BALUSTER"
+      ]
+    },
+    "Baltimore 302Q|LH|17|Sawtooth|(i)": {
+      "uid": "0b5e3e5e27694228b2e89c82113dccae",
+      "houseType": "Baltimore 302Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "RISER",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "BALUSTER",
+        "Upper_Rim",
+        "STRINGER",
+        "BULLNOSE_RISER",
+        "NEWEL",
+        "HANDRAIL",
+        "TREAD"
+      ]
+    },
+    "Baltimore 302Q|RH|17|Sawtooth|(i)": {
+      "uid": "b836c9a1c0d54eb283a7b4fe1441c130",
+      "houseType": "Baltimore 302Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "RISER",
+        "Upper_Rim",
+        "STRINGER",
+        "NOSING",
+        "NEWEL",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "BALUSTER",
+        "TREAD",
+        "LANDING",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER"
+      ]
+    },
+    "Baltimore 302Q|LH|17|Statement|(i)": {
+      "uid": "f41977ab46d748eabacc73d97100bc16",
+      "houseType": "Baltimore 302Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "NEWEL",
+        "Upper_Rim",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "RISER",
+        "TREAD",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "GLASS_PANEL",
+        "LANDING"
+      ]
+    },
+    "Baltimore 302Q|RH|17|Statement|(i)": {
+      "uid": "8a93b1e6993c48b299225ff958e8e500",
+      "houseType": "Baltimore 302Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "HANDRAIL",
+        "RISER",
+        "BULLNOSE_RISER",
+        "NEWEL",
+        "GLASS_PANEL",
+        "Upper_Rim",
+        "STRINGER",
+        "TREAD",
+        "LANDING",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Baltimore 302Q|LH|17|Statement|(ii)": {
+      "uid": "de58f3c3c457495e97c938ef6d9dcd3a",
+      "houseType": "Baltimore 302Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "STRINGER",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "BULLNOSE_RISER",
+        "HANDRAIL",
+        "TREAD",
+        "GLASS_PANEL",
+        "LANDING",
+        "RISER",
+        "NEWEL",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Baltimore 302Q|RH|17|Statement|(ii)": {
+      "uid": "f7f6ed38fd584643bdd9efb42ceba60a",
+      "houseType": "Baltimore 302Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "Upper_Rim",
+        "TREAD",
+        "HANDRAIL",
+        "STRINGER",
+        "RISER",
+        "NEWEL",
+        "GLASS_PANEL",
+        "BULLNOSE_RISER",
+        "NOSING",
+        "LANDING",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Boston 374Q|LH|17|BuildersStandard|Standard": {
+      "uid": "bbf9283b7e75459caa6d3fbea3d0fa1b",
+      "houseType": "Boston 374Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "HANDRAIL",
+        "RISER",
+        "Upper_Rim",
+        "TREAD",
+        "NOSING",
+        "BALUSTER",
+        "STRINGER",
+        "NEWEL",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Boston 374Q|RH|17|BuildersStandard|Standard": {
+      "uid": "a262895ae8ff4e4390797cbe41691b94",
+      "houseType": "Boston 374Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "RISER",
+        "HANDRAIL",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "STRINGER",
+        "TREAD",
+        "BALUSTER",
+        "NOSING"
+      ]
+    },
+    "Boston 374Q|LH|17|Bullnose|(i)": {
+      "uid": "e802440d2e61453e897ca58c7d8214d2",
+      "houseType": "Boston 374Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "TREAD",
+        "NOSING",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "BALUSTER",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "NEWEL"
+      ]
+    },
+    "Boston 374Q|RH|17|Bullnose|(i)": {
+      "uid": "6ada785c7e844ef9b5cef10a8377a2c9",
+      "houseType": "Boston 374Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "NEWEL",
+        "HANDRAIL",
+        "Upper_Rim",
+        "BALUSTER",
+        "TREAD",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "RISER"
+      ]
+    },
+    "Boston 374Q|LH|17|Bullnose|(ii)": {
+      "uid": "66ab2cbaa4174fd1b7245898978192cc",
+      "houseType": "Boston 374Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "HANDRAIL",
+        "STRINGER",
+        "BALUSTER",
+        "NEWEL",
+        "TREAD",
+        "Upper_Rim",
+        "RISER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "NOSING"
+      ]
+    },
+    "Boston 374Q|RH|17|Bullnose|(ii)": {
+      "uid": "c2d8433f797b4fb6ae514548c594eca3",
+      "houseType": "Boston 374Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "TREAD",
+        "BULLNOSE_RISER",
+        "BOTTOM_RAIL",
+        "BALUSTER",
+        "STRINGER",
+        "HANDRAIL",
+        "RISER",
+        "NEWEL",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "Upper_Rim"
+      ]
+    },
+    "Boston 374Q|LH|17|Hamptons|(i)": {
+      "uid": "eb8c12420f7647248e1b72a2727da73e",
+      "houseType": "Boston 374Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "BALUSTER",
+        "BULLNOSE_RISER",
+        "HANDRAIL",
+        "NEWEL",
+        "Upper_Rim",
+        "TREAD",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "RISER"
+      ]
+    },
+    "Boston 374Q|RH|17|Hamptons|(i)": {
+      "uid": "09d6e61f124f44c08dc49e98521f3b57",
+      "houseType": "Boston 374Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "Upper_Rim",
+        "HANDRAIL",
+        "VOID_TRIM",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "BALUSTER",
+        "RISER",
+        "BULLNOSE_RISER",
+        "NOSING",
+        "BULLNOSE_TREAD",
+        "STRINGER"
+      ]
+    },
+    "Boston 374Q|LH|17|Hamptons|(ii)": {
+      "uid": "bddc731a1710497aa672a6264fd88f62",
+      "houseType": "Boston 374Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "Upper_Rim",
+        "BULLNOSE_RISER",
+        "NOSING",
+        "BALUSTER",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "NEWEL",
+        "STRINGER",
+        "TREAD"
+      ]
+    },
+    "Boston 374Q|RH|17|Hamptons|(ii)": {
+      "uid": "3e82a2f909934e8f9f9a35630f23bcc7",
+      "houseType": "Boston 374Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "TREAD",
+        "NOSING",
+        "BULLNOSE_RISER",
+        "RISER",
+        "BALUSTER",
+        "Upper_Rim",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "STRINGER",
+        "NEWEL"
+      ]
+    },
+    "Boston 374Q|LH|17|Sawtooth|(i)": {
+      "uid": "5b6417d7ec5648eba8537a1ad6c0796a",
+      "houseType": "Boston 374Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "HANDRAIL",
+        "TREAD",
+        "STRINGER",
+        "NOSING",
+        "Upper_Rim",
+        "BULLNOSE_TREAD",
+        "BALUSTER",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "RISER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Boston 374Q|RH|17|Sawtooth|(i)": {
+      "uid": "b7bddf73a8de471290607b1050341586",
+      "houseType": "Boston 374Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "Upper_Rim",
+        "RISER",
+        "STRINGER",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "BALUSTER",
+        "NOSING",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Boston 374Q|LH|17|Statement|(i)": {
+      "uid": "bf6dfa2ab3f54a1887de62671577e93c",
+      "houseType": "Boston 374Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "GLASS_PANEL",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "RISER",
+        "HANDRAIL",
+        "STRINGER",
+        "NOSING",
+        "TREAD"
+      ]
+    },
+    "Boston 374Q|RH|17|Statement|(i)": {
+      "uid": "516c1e4530144da39a92a7762defb662",
+      "houseType": "Boston 374Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "RISER",
+        "TREAD",
+        "GLASS_PANEL",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "NEWEL"
+      ]
+    },
+    "Boston 374Q|LH|17|Statement|(ii)": {
+      "uid": "8b57ae203c944768936179a0d3e13482",
+      "houseType": "Boston 374Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "RISER",
+        "NEWEL",
+        "BULLNOSE_TREAD",
+        "GLASS_PANEL",
+        "HANDRAIL",
+        "NOSING",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "TREAD"
+      ]
+    },
+    "Boston 374Q|RH|17|Statement|(ii)": {
+      "uid": "fda156b910a14018a980aa11c2b41ff6",
+      "houseType": "Boston 374Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "TREAD",
+        "HANDRAIL",
+        "STRINGER",
+        "Upper_Rim",
+        "BULLNOSE_TREAD",
+        "GLASS_PANEL",
+        "NEWEL",
+        "NOSING",
+        "RISER",
+        "BULLNOSE_RISER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Elmwood 259Q|LH|17|BuildersStandard|Standard": {
+      "uid": "67207a4485fa46aab89d6f90efdb8fb3",
+      "houseType": "Elmwood 259Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "HANDRAIL",
+        "BALUSTER",
+        "TREAD",
+        "Upper_Rim",
+        "STRINGER",
+        "LANDING",
+        "NOSING",
+        "NEWEL",
+        "RISER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Elmwood 259Q|RH|17|BuildersStandard|Standard": {
+      "uid": "8d9ff10bfe6e4741bee990dadc491ddd",
+      "houseType": "Elmwood 259Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "HANDRAIL",
+        "TREAD",
+        "BALUSTER",
+        "RISER",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "LANDING",
+        "STRINGER",
+        "NOSING",
+        "NEWEL"
+      ]
+    },
+    "Elmwood 259Q|LH|17|Bullnose|(i)": {
+      "uid": "554e436723c24135a6ab8e20cc431e32",
+      "houseType": "Elmwood 259Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "Upper_Rim",
+        "LANDING",
+        "TREAD",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "NOSING",
+        "HANDRAIL",
+        "RISER",
+        "NEWEL"
+      ]
+    },
+    "Elmwood 259Q|RH|17|Bullnose|(i)": {
+      "uid": "40c592d9ae9647d7bebda298793f09e7",
+      "houseType": "Elmwood 259Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "STRINGER",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "BALUSTER",
+        "LANDING",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "RISER",
+        "HANDRAIL",
+        "NOSING"
+      ]
+    },
+    "Elmwood 259Q|LH|17|Bullnose|(ii)": {
+      "uid": "1bb5b5b11aa24bfc866365c5cac0831e",
+      "houseType": "Elmwood 259Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "LANDING",
+        "Upper_Rim",
+        "RISER",
+        "HANDRAIL",
+        "NOSING",
+        "BALUSTER",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER"
+      ]
+    },
+    "Elmwood 259Q|RH|17|Bullnose|(ii)": {
+      "uid": "0e0a843a285d4231bb856b908326fd12",
+      "houseType": "Elmwood 259Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_RISER",
+        "LANDING",
+        "TREAD",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "RISER",
+        "NOSING",
+        "NEWEL",
+        "BALUSTER",
+        "HANDRAIL",
+        "Upper_Rim",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Elmwood 259Q|LH|17|Hamptons|(i)": {
+      "uid": "e907e3d5c0fe4ce6940f0fa15757236f",
+      "houseType": "Elmwood 259Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "LANDING",
+        "TREAD",
+        "STRINGER",
+        "RISER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "NEWEL",
+        "Upper_Rim",
+        "BALUSTER",
+        "NOSING"
+      ]
+    },
+    "Elmwood 259Q|RH|17|Hamptons|(i)": {
+      "uid": "5b1e5584f37e49d38d8c95dfd7028539",
+      "houseType": "Elmwood 259Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "NOSING",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "TREAD",
+        "Upper_Rim",
+        "RISER",
+        "BULLNOSE_RISER",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "BALUSTER",
+        "LANDING",
+        "NEWEL"
+      ]
+    },
+    "Elmwood 259Q|LH|17|Hamptons|(ii)": {
+      "uid": "43b79bb956e243d28bb17f91bdfb28b9",
+      "houseType": "Elmwood 259Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "HANDRAIL",
+        "NEWEL",
+        "LANDING",
+        "RISER",
+        "NOSING",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "BALUSTER"
+      ]
+    },
+    "Elmwood 259Q|RH|17|Hamptons|(ii)": {
+      "uid": "ea444e5ecb6145feb1000a8486a4bbcf",
+      "houseType": "Elmwood 259Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "RISER",
+        "NOSING",
+        "LANDING",
+        "TREAD",
+        "NEWEL",
+        "STRINGER",
+        "HANDRAIL"
+      ]
+    },
+    "Elmwood 259Q|LH|17|Sawtooth|(i)": {
+      "uid": "2372a6b0639541159e208ca1ace258ec",
+      "houseType": "Elmwood 259Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "BOTTOM_RAIL",
+        "LANDING",
+        "BALUSTER",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "TREAD",
+        "RISER",
+        "HANDRAIL",
+        "NOSING",
+        "BULLNOSE_TREAD",
+        "Upper_Rim"
+      ]
+    },
+    "Elmwood 259Q|RH|17|Sawtooth|(i)": {
+      "uid": "31ea8e7957e241c0acb7c4abfcb03557",
+      "houseType": "Elmwood 259Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "LANDING",
+        "NEWEL",
+        "STRINGER",
+        "BULLNOSE_RISER",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "Upper_Rim",
+        "TREAD",
+        "BALUSTER",
+        "RISER"
+      ]
+    },
+    "Elmwood 259Q|LH|17|Statement|(i)": {
+      "uid": "ab2bb9e2b9e7408db7bd8c96700c3152",
+      "houseType": "Elmwood 259Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "TREAD",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "RISER",
+        "BOTTOM_RAIL",
+        "GLASS_PANEL",
+        "HANDRAIL",
+        "NOSING",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "Upper_Rim",
+        "LANDING"
+      ]
+    },
+    "Elmwood 259Q|RH|17|Statement|(i)": {
+      "uid": "c5c257461e054229af60c4deb248faca",
+      "houseType": "Elmwood 259Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "STRINGER",
+        "HANDRAIL",
+        "TREAD",
+        "GLASS_PANEL",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "RISER",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "LANDING",
+        "NOSING",
+        "Upper_Rim"
+      ]
+    },
+    "Elmwood 259Q|LH|17|Statement|(ii)": {
+      "uid": "ccaffcfb3d404372a7d9610b9636daab",
+      "houseType": "Elmwood 259Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "GLASS_PANEL",
+        "NOSING",
+        "NEWEL",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "HANDRAIL",
+        "RISER",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "Upper_Rim"
+      ]
+    },
+    "Elmwood 259Q|RH|17|Statement|(ii)": {
+      "uid": "0d3747d6dcd647888da11b78a0dbf4e4",
+      "houseType": "Elmwood 259Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "NOSING",
+        "STRINGER",
+        "TREAD",
+        "GLASS_PANEL",
+        "NEWEL",
+        "HANDRAIL",
+        "Upper_Rim",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "BULLNOSE_RISER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Monash 273Q|LH|17|BuildersStandard|Standard": {
+      "uid": "b0b99fc8791943d490c3402d17a12c03",
+      "houseType": "Monash 273Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "LANDING",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "NOSING",
+        "TREAD",
+        "STRINGER",
+        "BALUSTER",
+        "RISER",
+        "NEWEL"
+      ]
+    },
+    "Monash 273Q|RH|17|BuildersStandard|Standard": {
+      "uid": "701e0109ed82435ebb9f3577992a8c91",
+      "houseType": "Monash 273Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "LANDING",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "STRINGER",
+        "BALUSTER",
+        "NEWEL",
+        "RISER",
+        "HANDRAIL",
+        "NOSING",
+        "TREAD"
+      ]
+    },
+    "Monash 273Q|LH|17|Bullnose|(i)": {
+      "uid": "674d110166cf4686bc8e1bc70fb6cb75",
+      "houseType": "Monash 273Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "LANDING",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "STRINGER",
+        "BALUSTER",
+        "NEWEL",
+        "BULLNOSE_TREAD",
+        "TREAD",
+        "BULLNOSE_RISER",
+        "HANDRAIL",
+        "RISER"
+      ]
+    },
+    "Monash 273Q|RH|17|Bullnose|(i)": {
+      "uid": "8352bf89e5884c438e3cbc229b541b1a",
+      "houseType": "Monash 273Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "RISER",
+        "LANDING",
+        "NEWEL",
+        "HANDRAIL",
+        "NOSING",
+        "STRINGER",
+        "TREAD",
+        "BALUSTER",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Monash 273Q|LH|17|Bullnose|(ii)": {
+      "uid": "1697c3a811a04640a2558512d8963035",
+      "houseType": "Monash 273Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "STRINGER",
+        "LANDING",
+        "TREAD",
+        "NEWEL",
+        "BALUSTER",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "BULLNOSE_RISER",
+        "HANDRAIL"
+      ]
+    },
+    "Monash 273Q|RH|17|Bullnose|(ii)": {
+      "uid": "6b96ba72da424142ae00c62981c92d71",
+      "houseType": "Monash 273Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "NOSING",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "RISER",
+        "STRINGER",
+        "Upper_Rim",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "NEWEL",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "LANDING"
+      ]
+    },
+    "Monash 273Q|LH|17|Hamptons|(i)": {
+      "uid": "004dac7eb0c64b0eb0aea9b131750e30",
+      "houseType": "Monash 273Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "TREAD",
+        "BALUSTER",
+        "STRINGER",
+        "NOSING",
+        "HANDRAIL",
+        "RISER",
+        "Upper_Rim",
+        "BULLNOSE_RISER",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "LANDING",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Monash 273Q|RH|17|Hamptons|(i)": {
+      "uid": "25d5aa39c2844549bb2e4d3bf69e2449",
+      "houseType": "Monash 273Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "LANDING",
+        "NEWEL",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "Upper_Rim",
+        "RISER"
+      ]
+    },
+    "Monash 273Q|LH|17|Hamptons|(ii)": {
+      "uid": "92d9c598e87b4a72817ab9e72ea6d3da",
+      "houseType": "Monash 273Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "BALUSTER",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "RISER",
+        "Upper_Rim",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "NEWEL",
+        "NOSING",
+        "TREAD",
+        "LANDING"
+      ]
+    },
+    "Monash 273Q|RH|17|Hamptons|(ii)": {
+      "uid": "20e5e74a650c492d9a26cb7b91d7c6cf",
+      "houseType": "Monash 273Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "TREAD",
+        "BULLNOSE_RISER",
+        "NEWEL",
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "BALUSTER",
+        "RISER",
+        "NOSING",
+        "STRINGER",
+        "HANDRAIL",
+        "LANDING"
+      ]
+    },
+    "Monash 273Q|LH|17|Sawtooth|(i)": {
+      "uid": "f089f6ee26ed486a867be29e0f997e58",
+      "houseType": "Monash 273Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "BALUSTER",
+        "BULLNOSE_TREAD",
+        "NEWEL",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "RISER",
+        "LANDING",
+        "STRINGER",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "NOSING",
+        "HANDRAIL"
+      ]
+    },
+    "Monash 273Q|RH|17|Sawtooth|(i)": {
+      "uid": "94dc6d07521e4b4a95a37571adea3f2f",
+      "houseType": "Monash 273Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_RISER",
+        "HANDRAIL",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "NEWEL",
+        "RISER",
+        "Upper_Rim",
+        "LANDING",
+        "TREAD",
+        "STRINGER"
+      ]
+    },
+    "Monash 273Q|LH|17|Statement|(i)": {
+      "uid": "9b263d5956c54503a5eb9c6145149251",
+      "houseType": "Monash 273Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "RISER",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "GLASS_PANEL",
+        "Upper_Rim",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "TREAD",
+        "HANDRAIL"
+      ]
+    },
+    "Monash 273Q|RH|17|Statement|(i)": {
+      "uid": "6471358cab1e431ab777c89b24c1a4a1",
+      "houseType": "Monash 273Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "Upper_Rim",
+        "STRINGER",
+        "GLASS_PANEL",
+        "NEWEL",
+        "BULLNOSE_TREAD",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "BULLNOSE_RISER",
+        "RISER",
+        "LANDING",
+        "NOSING",
+        "HANDRAIL"
+      ]
+    },
+    "Monash 273Q|LH|17|Statement|(ii)": {
+      "uid": "56513be1eace41b68cfc5bd103802ccc",
+      "houseType": "Monash 273Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "TREAD",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "RISER",
+        "STRINGER",
+        "GLASS_PANEL",
+        "Upper_Rim",
+        "NOSING"
+      ]
+    },
+    "Monash 273Q|RH|17|Statement|(ii)": {
+      "uid": "224f9089f3034dad911299d17e9c39d6",
+      "houseType": "Monash 273Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "BOTTOM_RAIL",
+        "LANDING",
+        "GLASS_PANEL",
+        "STRINGER",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "NOSING",
+        "Upper_Rim",
+        "NEWEL",
+        "TREAD",
+        "HANDRAIL"
+      ]
+    },
+    "Monash 315Q|LH|17|BuildersStandard|Standard": {
+      "uid": "f9aad71a3a1a47468e851a8070c70ed7",
+      "houseType": "Monash 315Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "Upper_Rim",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "LANDING",
+        "HANDRAIL",
+        "RISER",
+        "STRINGER",
+        "BALUSTER",
+        "TREAD"
+      ]
+    },
+    "Monash 315Q|RH|17|BuildersStandard|Standard": {
+      "uid": "5a51427c7bd34425b43839e92c86b6c6",
+      "houseType": "Monash 315Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "TREAD",
+        "LANDING",
+        "NEWEL",
+        "Upper_Rim",
+        "RISER",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "HANDRAIL",
+        "NOSING"
+      ]
+    },
+    "Monash 315Q|LH|17|Bullnose|(i)": {
+      "uid": "d88ce369e0be43c18df3379de7f56f7a",
+      "houseType": "Monash 315Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "RISER",
+        "Upper_Rim",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "BULLNOSE_TREAD",
+        "TREAD",
+        "HANDRAIL",
+        "NEWEL",
+        "LANDING",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "STRINGER"
+      ]
+    },
+    "Monash 315Q|RH|17|Bullnose|(i)": {
+      "uid": "9bb7d37516364faeb2aaf2fe85498260",
+      "houseType": "Monash 315Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "Upper_Rim",
+        "NOSING",
+        "RISER",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "STRINGER",
+        "BALUSTER",
+        "HANDRAIL",
+        "NEWEL"
+      ]
+    },
+    "Monash 315Q|LH|17|Bullnose|(ii)": {
+      "uid": "8e116d99575f43d7bb53fe24dfae05bc",
+      "houseType": "Monash 315Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "RISER",
+        "STRINGER",
+        "NOSING",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "LANDING",
+        "TREAD",
+        "HANDRAIL"
+      ]
+    },
+    "Monash 315Q|RH|17|Bullnose|(ii)": {
+      "uid": "64e14fb8aa5e4667a88f2e85cc91ab0a",
+      "houseType": "Monash 315Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "LANDING",
+        "NEWEL",
+        "STRINGER",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "TREAD",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "BALUSTER",
+        "BULLNOSE_RISER",
+        "Upper_Rim"
+      ]
+    },
+    "Monash 315Q|LH|17|Hamptons|(i)": {
+      "uid": "72117a056b4c47bb9311fb63668794bd",
+      "houseType": "Monash 315Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "NOSING",
+        "STRINGER",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "RISER",
+        "LANDING",
+        "BALUSTER",
+        "TREAD",
+        "NEWEL",
+        "BULLNOSE_RISER"
+      ]
+    },
+    "Monash 315Q|RH|17|Hamptons|(i)": {
+      "uid": "da3fa25b3f074885b74f219730a478d4",
+      "houseType": "Monash 315Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "NOSING",
+        "STRINGER",
+        "LANDING",
+        "BULLNOSE_RISER",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "NEWEL",
+        "RISER",
+        "TREAD",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "BALUSTER"
+      ]
+    },
+    "Monash 315Q|LH|17|Hamptons|(ii)": {
+      "uid": "13f4fcac46ae41f1b6ce4e3f6ea1156c",
+      "houseType": "Monash 315Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "NOSING",
+        "RISER",
+        "HANDRAIL",
+        "VOID_TRIM",
+        "TREAD",
+        "Upper_Rim",
+        "BULLNOSE_RISER",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "BALUSTER",
+        "STRINGER"
+      ]
+    },
+    "Monash 315Q|RH|17|Hamptons|(ii)": {
+      "uid": "12842330566644b1a9dcee273f9f3049",
+      "houseType": "Monash 315Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_RISER",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "RISER",
+        "BALUSTER",
+        "NEWEL",
+        "NOSING",
+        "LANDING",
+        "STRINGER",
+        "Upper_Rim",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "VOID_TRIM"
+      ]
+    },
+    "Monash 315Q|LH|17|Sawtooth|(i)": {
+      "uid": "8166f9f27e9a4e359c8887039c77edd2",
+      "houseType": "Monash 315Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_RISER",
+        "NOSING",
+        "NEWEL",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "BALUSTER",
+        "HANDRAIL",
+        "RISER",
+        "Upper_Rim"
+      ]
+    },
+    "Monash 315Q|RH|17|Sawtooth|(i)": {
+      "uid": "a30f1e03ca314ef7ab643930ceee3092",
+      "houseType": "Monash 315Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "BULLNOSE_RISER",
+        "NEWEL",
+        "RISER",
+        "LANDING",
+        "NOSING",
+        "BALUSTER",
+        "BULLNOSE_TREAD",
+        "TREAD",
+        "Upper_Rim"
+      ]
+    },
+    "Monash 315Q|LH|17|Statement|(i)": {
+      "uid": "5f99b3b1f6df4a6782a77799a7d4d27f",
+      "houseType": "Monash 315Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "TREAD",
+        "NOSING",
+        "NEWEL",
+        "RISER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "GLASS_PANEL",
+        "Upper_Rim",
+        "LANDING"
+      ]
+    },
+    "Monash 315Q|RH|17|Statement|(i)": {
+      "uid": "b489f32bff83439f8d3fd04364d09ba8",
+      "houseType": "Monash 315Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "NOSING",
+        "BULLNOSE_RISER",
+        "LANDING",
+        "BOTTOM_RAIL",
+        "RISER",
+        "TREAD",
+        "Upper_Rim",
+        "GLASS_PANEL",
+        "NEWEL"
+      ]
+    },
+    "Monash 315Q|LH|17|Statement|(ii)": {
+      "uid": "4f551a391ead46d6926422c097231276",
+      "houseType": "Monash 315Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_RISER",
+        "RISER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "NEWEL",
+        "LANDING",
+        "STRINGER",
+        "NOSING",
+        "TREAD",
+        "GLASS_PANEL",
+        "HANDRAIL",
+        "Upper_Rim"
+      ]
+    },
+    "Monash 315Q|RH|17|Statement|(ii)": {
+      "uid": "7ea464c4d1eb475a80e55f117f692374",
+      "houseType": "Monash 315Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "LANDING",
+        "NOSING",
+        "TREAD",
+        "HANDRAIL",
+        "GLASS_PANEL",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "RISER",
+        "NEWEL"
+      ]
+    },
+    "Rochester 265Q|LH|17|BuildersStandard|Standard": {
+      "uid": "f634d071d257442f95b5befcafa124ad",
+      "houseType": "Rochester 265Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "LANDING",
+        "NEWEL",
+        "RISER",
+        "HANDRAIL",
+        "STRINGER",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "BALUSTER",
+        "NOSING",
+        "TREAD"
+      ]
+    },
+    "Rochester 265Q|RH|17|BuildersStandard|Standard": {
+      "uid": "92e7470ebacd4b3299fff4262aa53e9c",
+      "houseType": "Rochester 265Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "STRINGER",
+        "BALUSTER",
+        "RISER",
+        "TREAD",
+        "NEWEL",
+        "HANDRAIL",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "Upper_Rim"
+      ]
+    },
+    "Rochester 265Q|LH|17|Bullnose|(i)": {
+      "uid": "db91b32feb504db49ec34e678d16202f",
+      "houseType": "Rochester 265Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "TREAD",
+        "NOSING",
+        "LANDING",
+        "HANDRAIL",
+        "STRINGER",
+        "BALUSTER",
+        "RISER",
+        "BULLNOSE_RISER",
+        "NEWEL",
+        "BULLNOSE_TREAD",
+        "BOTTOM_RAIL",
+        "Upper_Rim"
+      ]
+    },
+    "Rochester 265Q|RH|17|Bullnose|(i)": {
+      "uid": "6b8c447cf8ab4f8dadd51f00d85c0524",
+      "houseType": "Rochester 265Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "RISER",
+        "VOID_TRIM",
+        "NEWEL",
+        "LANDING",
+        "Upper_Rim",
+        "TREAD"
+      ]
+    },
+    "Rochester 265Q|LH|17|Bullnose|(ii)": {
+      "uid": "9f584465fb0145e9aec78cd7b7e7dbb6",
+      "houseType": "Rochester 265Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "STRINGER",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "RISER",
+        "TREAD",
+        "BALUSTER",
+        "NEWEL",
+        "Upper_Rim"
+      ]
+    },
+    "Rochester 265Q|RH|17|Bullnose|(ii)": {
+      "uid": "16f25c2d55f4420483754f6581ff4bb7",
+      "houseType": "Rochester 265Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "BALUSTER",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "STRINGER",
+        "LANDING",
+        "NOSING",
+        "RISER"
+      ]
+    },
+    "Rochester 265Q|LH|17|Hamptons|(i)": {
+      "uid": "be456ad87dd24c8880f13af7654aae97",
+      "houseType": "Rochester 265Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "HANDRAIL",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "BALUSTER",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "NEWEL",
+        "Upper_Rim",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "TREAD"
+      ]
+    },
+    "Rochester 265Q|RH|17|Hamptons|(i)": {
+      "uid": "0d348d2abf3640e5841c5c34fe4f2e3a",
+      "houseType": "Rochester 265Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "BALUSTER",
+        "HANDRAIL",
+        "STRINGER",
+        "TREAD",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "BULLNOSE_RISER",
+        "NOSING",
+        "Upper_Rim",
+        "NEWEL",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Rochester 265Q|LH|17|Hamptons|(ii)": {
+      "uid": "d433a8a03e1a4bf3998dd2206da00a29",
+      "houseType": "Rochester 265Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "NOSING",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "BALUSTER",
+        "NEWEL",
+        "TREAD",
+        "RISER",
+        "HANDRAIL",
+        "STRINGER",
+        "Upper_Rim"
+      ]
+    },
+    "Rochester 265Q|RH|17|Hamptons|(ii)": {
+      "uid": "598a4de61d7744429b28fa70a51dadf3",
+      "houseType": "Rochester 265Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "HANDRAIL",
+        "STRINGER",
+        "TREAD",
+        "BULLNOSE_RISER",
+        "NOSING",
+        "BALUSTER",
+        "NEWEL",
+        "BULLNOSE_TREAD",
+        "LANDING",
+        "Upper_Rim",
+        "RISER"
+      ]
+    },
+    "Rochester 265Q|LH|17|Sawtooth|(i)": {
+      "uid": "c6dc885c34534b5aa1c6f5bee4b6d29b",
+      "houseType": "Rochester 265Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "STRINGER",
+        "TREAD",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "LANDING",
+        "BALUSTER",
+        "NEWEL",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD",
+        "RISER"
+      ]
+    },
+    "Rochester 265Q|RH|17|Sawtooth|(i)": {
+      "uid": "362071eb1f2d4a80932f1841a5b398ac",
+      "houseType": "Rochester 265Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "HANDRAIL",
+        "NOSING",
+        "BALUSTER",
+        "RISER",
+        "LANDING",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "TREAD",
+        "NEWEL",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Rochester 265Q|LH|17|Statement|(i)": {
+      "uid": "1ea1967e55ee456bbb017bd3f5ff36dc",
+      "houseType": "Rochester 265Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "TREAD",
+        "RISER",
+        "LANDING",
+        "BULLNOSE_TREAD",
+        "GLASS_PANEL",
+        "NOSING",
+        "NEWEL",
+        "STRINGER",
+        "BULLNOSE_RISER",
+        "BOTTOM_RAIL",
+        "Upper_Rim",
+        "HANDRAIL"
+      ]
+    },
+    "Rochester 265Q|RH|17|Statement|(i)": {
+      "uid": "b10a964107b34dd9be9a5e389aad1f4a",
+      "houseType": "Rochester 265Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "NOSING",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "GLASS_PANEL",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "Upper_Rim",
+        "STRINGER",
+        "LANDING",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "RISER"
+      ]
+    },
+    "Rochester 265Q|LH|17|Statement|(ii)": {
+      "uid": "e0fd866c4cea40e99ba528fa5b141600",
+      "houseType": "Rochester 265Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "NEWEL",
+        "LANDING",
+        "BULLNOSE_RISER",
+        "STRINGER",
+        "Upper_Rim",
+        "TREAD",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "GLASS_PANEL",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "HANDRAIL"
+      ]
+    },
+    "Rochester 265Q|RH|17|Statement|(ii)": {
+      "uid": "0055217835b44fb2837ecb5557d30bd7",
+      "houseType": "Rochester 265Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "Upper_Rim",
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "TREAD",
+        "NEWEL",
+        "STRINGER",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "LANDING",
+        "GLASS_PANEL",
+        "BULLNOSE_RISER",
+        "RISER"
+      ]
+    },
+    "Sacramento 215Q|LH|17|BuildersStandard|Standard": {
+      "uid": "dcaba91e4ea74933bf6821bda91d4639",
+      "houseType": "Sacramento 215Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "BALUSTER",
+        "RISER",
+        "STRINGER",
+        "HANDRAIL",
+        "NOSING",
+        "TREAD",
+        "Upper_Rim",
+        "NEWEL",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Sacramento 215Q|RH|17|BuildersStandard|Standard": {
+      "uid": "91d0d010a5474482883b2756cf9cb7bc",
+      "houseType": "Sacramento 215Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "BuildersStandard",
+      "designOption": "Standard",
+      "components": [
+        "Upper_Rim",
+        "BALUSTER",
+        "RISER",
+        "STRINGER",
+        "NEWEL",
+        "BOTTOM_RAIL",
+        "HANDRAIL",
+        "TREAD",
+        "NOSING"
+      ]
+    },
+    "Sacramento 215Q|LH|17|Bullnose|(i)": {
+      "uid": "3682f9cf3df14b7893766a9a8af7ed4b",
+      "houseType": "Sacramento 215Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "RISER",
+        "NEWEL",
+        "Upper_Rim",
+        "NOSING",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "HANDRAIL",
+        "TREAD",
+        "BALUSTER"
+      ]
+    },
+    "Sacramento 215Q|RH|17|Bullnose|(i)": {
+      "uid": "b2455da8e7d24df3994dc0c04a6ffcec",
+      "houseType": "Sacramento 215Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(i)",
+      "components": [
+        "Upper_Rim",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "NEWEL",
+        "HANDRAIL",
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "TREAD",
+        "NOSING",
+        "STRINGER",
+        "RISER"
+      ]
+    },
+    "Sacramento 215Q|LH|17|Bullnose|(ii)": {
+      "uid": "dae68ce17b7e4aa597ef26334e28feab",
+      "houseType": "Sacramento 215Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "HANDRAIL",
+        "STRINGER",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "BOTTOM_RAIL",
+        "NEWEL",
+        "TREAD",
+        "RISER",
+        "BALUSTER",
+        "NOSING",
+        "Upper_Rim"
+      ]
+    },
+    "Sacramento 215Q|RH|17|Bullnose|(ii)": {
+      "uid": "0c84fa811f284baa9c1eb086402e9a31",
+      "houseType": "Sacramento 215Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Bullnose",
+      "designOption": "(ii)",
+      "components": [
+        "NOSING",
+        "STRINGER",
+        "NEWEL",
+        "Upper_Rim",
+        "BOTTOM_RAIL",
+        "RISER",
+        "HANDRAIL",
+        "BALUSTER",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Sacramento 215Q|LH|17|Hamptons|(i)": {
+      "uid": "4c47f1c9d359465fa597c1e4358e5139",
+      "houseType": "Sacramento 215Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "BULLNOSE_TREAD",
+        "HANDRAIL",
+        "NEWEL",
+        "STRINGER",
+        "Upper_Rim",
+        "BALUSTER",
+        "TREAD",
+        "NOSING",
+        "BULLNOSE_RISER",
+        "RISER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Sacramento 215Q|RH|17|Hamptons|(i)": {
+      "uid": "aa0afa5f39d9413db67be5a9c2bb4d3f",
+      "houseType": "Sacramento 215Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(i)",
+      "components": [
+        "STRINGER",
+        "RISER",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "Upper_Rim",
+        "NEWEL",
+        "TREAD",
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Sacramento 215Q|LH|17|Hamptons|(ii)": {
+      "uid": "532db881587b4bb48abb32d4b165f5a8",
+      "houseType": "Sacramento 215Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "BULLNOSE_RISER",
+        "BALUSTER",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "NEWEL",
+        "NOSING",
+        "HANDRAIL",
+        "TREAD",
+        "RISER"
+      ]
+    },
+    "Sacramento 215Q|RH|17|Hamptons|(ii)": {
+      "uid": "812e7275fa5844fb866a0d4802f94050",
+      "houseType": "Sacramento 215Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Hamptons",
+      "designOption": "(ii)",
+      "components": [
+        "BALUSTER",
+        "BULLNOSE_TREAD",
+        "BULLNOSE_RISER",
+        "RISER",
+        "NOSING",
+        "TREAD",
+        "STRINGER",
+        "Upper_Rim",
+        "HANDRAIL",
+        "NEWEL"
+      ]
+    },
+    "Sacramento 215Q|LH|17|Sawtooth|(i)": {
+      "uid": "c1130e212a4e45c6ae7142cf05051f22",
+      "houseType": "Sacramento 215Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "TREAD",
+        "NEWEL",
+        "NOSING",
+        "BALUSTER",
+        "STRINGER",
+        "RISER",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "Upper_Rim",
+        "BULLNOSE_RISER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Sacramento 215Q|RH|17|Sawtooth|(i)": {
+      "uid": "5d78db2dd5b345568d933e617062d096",
+      "houseType": "Sacramento 215Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Sawtooth",
+      "designOption": "(i)",
+      "components": [
+        "TREAD",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BULLNOSE_RISER",
+        "NOSING",
+        "BALUSTER",
+        "STRINGER",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "BOTTOM_RAIL",
+        "NEWEL"
+      ]
+    },
+    "Sacramento 215Q|LH|17|Statement|(i)": {
+      "uid": "21a00f88938549ac8cada713cd01225c",
+      "houseType": "Sacramento 215Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "Upper_Rim",
+        "NEWEL",
+        "GLASS_PANEL",
+        "BULLNOSE_RISER",
+        "NOSING",
+        "HANDRAIL",
+        "TREAD",
+        "RISER",
+        "BULLNOSE_TREAD",
+        "STRINGER",
+        "BOTTOM_RAIL"
+      ]
+    },
+    "Sacramento 215Q|RH|17|Statement|(i)": {
+      "uid": "2ec6d69dcf98497bac2313256a6f7799",
+      "houseType": "Sacramento 215Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(i)",
+      "components": [
+        "TREAD",
+        "GLASS_PANEL",
+        "BOTTOM_RAIL",
+        "STRINGER",
+        "RISER",
+        "BULLNOSE_RISER",
+        "Upper_Rim",
+        "HANDRAIL",
+        "BULLNOSE_TREAD",
+        "NOSING",
+        "NEWEL"
+      ]
+    },
+    "Sacramento 215Q|LH|17|Statement|(ii)": {
+      "uid": "1f3cb6e3439d44dd92d15cfcd923827c",
+      "houseType": "Sacramento 215Q",
+      "hand": "LH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "HANDRAIL",
+        "NEWEL",
+        "BULLNOSE_RISER",
+        "TREAD",
+        "RISER",
+        "BOTTOM_RAIL",
+        "NOSING",
+        "GLASS_PANEL",
+        "Upper_Rim",
+        "STRINGER",
+        "BULLNOSE_TREAD"
+      ]
+    },
+    "Sacramento 215Q|RH|17|Statement|(ii)": {
+      "uid": "470ee0a8ebfa473c9d2b7d4585207476",
+      "houseType": "Sacramento 215Q",
+      "hand": "RH",
+      "riserCount": 17,
+      "range": "Statement",
+      "designOption": "(ii)",
+      "components": [
+        "NOSING",
+        "STRINGER",
+        "TREAD",
+        "BOTTOM_RAIL",
+        "GLASS_PANEL",
+        "NEWEL",
+        "Upper_Rim",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "RISER",
+        "HANDRAIL"
+      ]
+    }
+  },
+  "ranges": {
+    "BuildersStandard": {
+      "display": "Builders Standard",
+      "description": "Builder inclusions specification"
+    },
+    "Bullnose": {
+      "display": "Bullnose",
+      "description": "Bullnose feature stair"
+    },
+    "Statement": {
+      "display": "Statement",
+      "description": "Statement feature stair"
+    },
+    "Hamptons": {
+      "display": "Hamptons",
+      "description": "Hamptons style stair"
+    },
+    "Sawtooth": {
+      "display": "Sawtooth",
+      "description": "Sawtooth stringer stair"
+    }
+  },
+  "designOptions": {
+    "Standard": {
+      "display": "Standard",
+      "description": "Single finish tier — Builders Standard and Sawtooth ranges"
+    },
+    "(i)": {
+      "display": "Finish (i)",
+      "description": "Finish tier (i) — Bullnose, Statement, Hamptons ranges"
+    },
+    "(ii)": {
+      "display": "Finish (ii)",
+      "description": "Finish tier (ii) — Bullnose, Statement, Hamptons ranges"
+    }
+  },
+  "componentFinishOptions": {
+    "BuildersStandard|Standard": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Stopped Chamfer",
+            "code": "Stopped Chamfer",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Bullnose|(i)": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Stopped Chamfer",
+            "code": "Stopped Chamfer",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Bullnose|(ii)": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Stopped Chamfer",
+            "code": "Stopped Chamfer",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Statement|(i)": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Glass clear toughened 10mm",
+        "materialCode": "GLASS_Clear",
+        "style": "",
+        "profileCode": "",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Statement|(ii)": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Glass clear toughened 10mm",
+        "materialCode": "GLASS_Clear",
+        "style": "",
+        "profileCode": "",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Hamptons|(i)": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Hamptons|(ii)": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Sawtooth",
+        "profileCode": "Sawtooth",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Paint Grade Pine/MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Sawtooth",
+        "profileCode": "Sawtooth",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Paint Grade Pine/MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Sawtooth|(i)": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Sawtooth",
+        "profileCode": "Sawtooth",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Rectangle",
+        "profileCode": "Rectangle",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      }
+    ]
+  },
+  "sketchfabMaterials": {
+    "HANDRAIL_PineWhite": {
+      "componentKey": "HANDRAIL",
+      "smMaterial": "PineWhite"
+    },
+    "BALUSTER_PC_TextBlack": {
+      "componentKey": "BALUSTER",
+      "smMaterial": "PC_TextBlack"
+    },
+    "VOID_TRIM_PineWhite": {
+      "componentKey": "VOID_TRIM",
+      "smMaterial": "PineWhite"
+    },
+    "BOTTOM_RAIL_PineWhite": {
+      "componentKey": "BOTTOM_RAIL",
+      "smMaterial": "PineWhite"
+    },
+    "NEWEL_POST_PineWhite": {
+      "componentKey": "NEWEL",
+      "smMaterial": "PineWhite"
+    },
+    "STRINGER_PineWhite": {
+      "componentKey": "STRINGER",
+      "smMaterial": "PineWhite"
+    },
+    "NOSING_Carpeted": {
+      "componentKey": "NOSING",
+      "smMaterial": "Carpeted"
+    },
+    "BULLNOSE_TREAD_Durian": {
+      "componentKey": "BULLNOSE_TREAD",
+      "smMaterial": "Durian"
+    },
+    "BULLNOSE_RISER_Durian": {
+      "componentKey": "BULLNOSE_RISER",
+      "smMaterial": "Durian"
+    },
+    "Upper_Rim_WallGrey": {
+      "componentKey": "Upper_Rim",
+      "smMaterial": "WallGrey"
+    },
+    "STRINGER_Carpeted": {
+      "componentKey": "STRUCTURAL_RISER",
+      "smMaterial": "Carpeted"
+    },
+    "TREAD_Carpeted": {
+      "componentKey": "TREAD",
+      "smMaterial": "Carpeted"
+    },
+    "RISER_Carpeted": {
+      "componentKey": "RISER",
+      "smMaterial": "Carpeted"
+    },
+    "LANDING_Carpeted": {
+      "componentKey": "LANDING",
+      "smMaterial": "Carpeted"
+    },
+    "HANDRAIL_Durian": {
+      "componentKey": "HANDRAIL",
+      "smMaterial": "Durian"
+    },
+    "RISER_Durian": {
+      "componentKey": "RISER",
+      "smMaterial": "Durian"
+    },
+    "LANDING_Durian": {
+      "componentKey": "LANDING",
+      "smMaterial": "Durian"
+    },
+    "TREAD_Durian": {
+      "componentKey": "TREAD",
+      "smMaterial": "Durian"
+    },
+    "NOSING_Durian": {
+      "componentKey": "NOSING",
+      "smMaterial": "Durian"
+    },
+    "NEWEL_POST_Durian": {
+      "componentKey": "NEWEL",
+      "smMaterial": "Durian"
+    },
+    "STRINGER_Durian": {
+      "componentKey": "STRINGER",
+      "smMaterial": "Durian"
+    },
+    "BOTTOM_RAIL_Durian": {
+      "componentKey": "BOTTOM_RAIL",
+      "smMaterial": "Durian"
+    },
+    "BULLNOSE_TREAD_Carpeted": {
+      "componentKey": "BULLNOSE_TREAD",
+      "smMaterial": "Carpeted"
+    },
+    "BULLNOSE_RISER_Carpeted": {
+      "componentKey": "BULLNOSE_RISER",
+      "smMaterial": "Carpeted"
+    },
+    "GLASS_PANEL_GlassClear": {
+      "componentKey": "GLASS_PANEL",
+      "smMaterial": "GlassClear"
+    },
+    "BALUSTER_PineWhite": {
+      "componentKey": "BALUSTER",
+      "smMaterial": "PineWhite"
+    },
+    "RISER_PineWhite": {
+      "componentKey": "RISER",
+      "smMaterial": "PineWhite"
+    },
+    "BULLNOSE_RISER_PineWhite": {
+      "componentKey": "BULLNOSE_RISER",
+      "smMaterial": "PineWhite"
+    }
+  },
+  "stairmasterMaterials": {
+    "Durian": {
+      "display": "Durian",
+      "family": "Timber",
+      "pbrPresetId": "TIM_DurianDark"
+    },
+    "Carpeted": {
+      "display": "Carpet Grey",
+      "family": "Carpet",
+      "pbrPresetId": "CarpetGrey"
+    },
+    "SS_Satin": {
+      "display": "SS Satin",
+      "family": "StainlessSteel",
+      "pbrPresetId": "SS_Satin"
+    },
+    "PC_SatinChrome": {
+      "display": "Satin Chrome",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinChrome"
+    },
+    "PC_TextBlack": {
+      "display": "Textured Black",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_TexturedBlack"
+    },
+    "WallGrey": {
+      "display": "Wall Grey",
+      "family": "Paint",
+      "pbrPresetId": "PaintedDullGrey"
+    },
+    "PineWhite": {
+      "display": "Paint Grade White",
+      "family": "Paint",
+      "pbrPresetId": "PaintedWhite"
+    },
+    "PC_SatinBlack": {
+      "display": "Satin Black",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinBlack"
+    },
+    "PC_SatinWhite": {
+      "display": "Satin White",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinWhite"
+    },
+    "PC_TextWhite": {
+      "display": "Textured White",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinWhite"
+    },
+    "SS_Polished": {
+      "display": "SS Polished",
+      "family": "StainlessSteel",
+      "pbrPresetId": "SS_Polished"
+    },
+    "GlassClear": {
+      "display": "Toughened Glass",
+      "family": "Glass",
+      "pbrPresetId": "GLASS_Clear"
+    }
+  },
+  "pbrPresets": {
+    "TIM_NoFinish": {
+      "category": "Timber",
+      "displayName": "No Finish (Default)",
+      "workflow": "PBR",
+      "albedoR": 0.5,
+      "albedoG": 0.4,
+      "albedoB": 0.3,
+      "albedoTexture": "timber_neutral.jpg",
+      "normalTexture": "timber_neutral_n.jpg",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.5,
+      "specularF0": 0.04,
+      "normalEnabled": true,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": true
+    },
+    "TIM_DurianDark": {
+      "category": "Timber",
+      "displayName": "Durian Dark",
+      "workflow": "metalness",
+      "albedoR": 0.5019607843137255,
+      "albedoG": 0.5019607843137255,
+      "albedoB": 0.5019607843137255,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.29,
+      "clearCoatTintR": 0.42,
+      "clearCoatTintG": 0.33,
+      "clearCoatTintB": 0.18,
+      "clearCoatThickness": 6,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "MTL_NoFinish": {
+      "category": "Metal",
+      "displayName": "No Finish (Default)",
+      "workflow": "PBR",
+      "albedoR": 0.4,
+      "albedoG": 0.4,
+      "albedoB": 0.42,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.3,
+      "roughness": 0.5,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": true
+    },
+    "PC_SatinBlack": {
+      "category": "Powdercoat",
+      "displayName": "Satin Black",
+      "workflow": "PBR",
+      "albedoR": 0.02,
+      "albedoG": 0.02,
+      "albedoB": 0.02,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.35,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PC_SatinWhite": {
+      "category": "Powdercoat",
+      "displayName": "Satin White",
+      "workflow": "PBR",
+      "albedoR": 0.95,
+      "albedoG": 0.95,
+      "albedoB": 0.95,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.35,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PC_SatinChrome": {
+      "category": "Powdercoat",
+      "displayName": "Satin Chrome",
+      "workflow": "PBR",
+      "albedoR": 0.75,
+      "albedoG": 0.75,
+      "albedoB": 0.78,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.7,
+      "roughness": 0.4,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PC_TexturedBlack": {
+      "category": "Powdercoat",
+      "displayName": "Textured Black",
+      "workflow": "PBR",
+      "albedoR": 0.03,
+      "albedoG": 0.03,
+      "albedoB": 0.03,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.7,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "SS_Polished": {
+      "category": "StainlessSteel",
+      "displayName": "Polished Stainless",
+      "workflow": "PBR",
+      "albedoR": 0.95,
+      "albedoG": 0.93,
+      "albedoB": 0.88,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 1,
+      "roughness": 0.12,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 0.3,
+      "clearCoatRoughness": 0.15,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "SS_Satin": {
+      "category": "StainlessSteel",
+      "displayName": "Satin Stainless",
+      "workflow": "metalness",
+      "albedoR": 0.6352941176470588,
+      "albedoG": 0.6274509803921569,
+      "albedoB": 0.6274509803921569,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.92,
+      "roughness": 0.4,
+      "specularF0": 0.31,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "GLASS_Clear": {
+      "category": "Glass",
+      "displayName": "Clear Glass",
+      "workflow": "metalness",
+      "albedoR": 1,
+      "albedoG": 1,
+      "albedoB": 1,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.91,
+      "roughness": 0.04,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 0.07,
+      "isNoFinish": false
+    },
+    "GLASS_Frosted": {
+      "category": "Glass",
+      "displayName": "Frosted Glass",
+      "workflow": "PBR",
+      "albedoR": 0.95,
+      "albedoG": 0.95,
+      "albedoB": 0.95,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.45,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 0.4,
+      "isNoFinish": false
+    },
+    "PaintedDullGrey": {
+      "category": "Paint",
+      "displayName": "Painted Dull Grey",
+      "workflow": "metalness",
+      "albedoR": 0.12156862745098039,
+      "albedoG": 0.12156862745098039,
+      "albedoB": 0.12156862745098039,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "CarpetGrey": {
+      "category": "Carpet",
+      "displayName": "CarpetGrey",
+      "workflow": "metalness",
+      "albedoR": 0.5019607843137255,
+      "albedoG": 0.5019607843137255,
+      "albedoB": 0.5019607843137255,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PaintedWhite": {
+      "category": "Paint",
+      "displayName": "PaintedWhite",
+      "workflow": "metalness",
+      "albedoR": 1,
+      "albedoG": 1,
+      "albedoB": 1,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Clear": {
+      "category": "Stain",
+      "displayName": "Stain: Clear",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": null,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Light": {
+      "category": "Stain",
+      "displayName": "Stain: Light",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.75,
+      "clearCoatTintG": 0.6,
+      "clearCoatTintB": 0.4,
+      "clearCoatThickness": 4,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Med": {
+      "category": "Stain",
+      "displayName": "Stain: Medium",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.55,
+      "clearCoatTintG": 0.38,
+      "clearCoatTintB": 0.2,
+      "clearCoatThickness": 6,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Dark": {
+      "category": "Stain",
+      "displayName": "Stain: Dark",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.45,
+      "clearCoatTintG": 0.25,
+      "clearCoatTintB": 0.12,
+      "clearCoatThickness": 7,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_VDark": {
+      "category": "Stain",
+      "displayName": "Stain: V.Dark",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.25,
+      "clearCoatTintG": 0.12,
+      "clearCoatTintB": 0.06,
+      "clearCoatThickness": 6,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    }
+  },
+  "cameras": {
+    "Rochester 265Q|LH": {
+      "camera": {
+        "position": [
+          -3.201912623726016,
+          3.7733526717179697,
+          3.586777310189139
+        ],
+        "target": [
+          0.2234131473586927,
+          -0.7385302426665085,
+          1.9992262532593323
+        ]
+      },
+      "relative": {
+        "dirY": 0.7669293791185977,
+        "dirX": -0.5822365111740286,
+        "targetXOffset": -0.07954886655254616,
+        "targetZOffset": -0.056975917855338405,
+        "targetYOffset": -0.01152746548992132,
+        "dirZ": 0.2698517602326455,
+        "distFactor": 0.40129863378890923
+      }
+    },
+    "Rochester 265Q|RH": {
+      "camera": {
+        "position": [
+          3.791859561536699,
+          3.942454966460091,
+          3.873031766665883
+        ],
+        "target": [
+          -0.7877011574406086,
+          -0.38724501934372396,
+          1.8186277032353098
+        ]
+      },
+      "relative": {
+        "dirX": 0.6908718222164352,
+        "targetZOffset": -0.069295033305533,
+        "dirZ": 0.30992707946627884,
+        "dirY": 0.6531778706300799,
+        "targetYOffset": 0.012434647939348425,
+        "distFactor": 0.4521594190271457,
+        "targetXOffset": 0.0410573724480179
+      }
+    },
+    "Elmwood 259Q|RH": {
+      "camera": {
+        "position": [
+          4.423523685075112,
+          4.139449121982093,
+          3.65864174197593
+        ],
+        "target": [
+          -0.5999240036885407,
+          -0.8290777414872523,
+          2.119289958283838
+        ]
+      },
+      "relative": {
+        "distFactor": 0.5002151293275984,
+        "targetYOffset": 0.007134575503323409,
+        "targetXOffset": 0.008675068655828021,
+        "dirX": 0.6946865143406727,
+        "dirY": 0.6870915797355499,
+        "targetZOffset": -0.04947390033180398,
+        "dirZ": 0.2128750991772235
+      }
+    },
+    "Boston 374Q|RH": {
+      "camera": {
+        "position": [
+          4.6130777782524035,
+          -9.305406023245721,
+          2.6230579246969254
+        ],
+        "target": [
+          0.5087714576800112,
+          -1.7852293086555735,
+          1.6514204181865886
+        ]
+      },
+      "relative": {
+        "targetYOffset": -0.01647751871642848,
+        "dirX": 0.4760157036093377,
+        "targetXOffset": 0.006574553026412231,
+        "dirZ": 0.11269010526734699,
+        "targetZOffset": -0.07681932130098595,
+        "distFactor": 0.559855249968229,
+        "dirY": -0.8721869008946083
+      }
+    },
+    "Boston 374Q|LH": {
+      "camera": {
+        "position": [
+          -6.455759188810456,
+          -6.647036816139811,
+          3.134865149235576
+        ],
+        "target": [
+          0.5087714576800112,
+          -1.7852293086555735,
+          1.6514204181865886
+        ]
+      },
+      "relative": {
+        "distFactor": 0.5609782402674728,
+        "dirY": -0.5638703694916989,
+        "dirX": -0.8077433059469132,
+        "targetXOffset": 0.05961559737025329,
+        "targetZOffset": -0.07697340997411971,
+        "targetYOffset": -0.017234722917379125,
+        "dirZ": 0.1720492897609477
+      }
+    },
+    "Atlanta 391Q|LH": {
+      "camera": {
+        "position": [
+          -2.648620768425677,
+          4.918579427687806,
+          3.2997556666025503
+        ],
+        "target": [
+          1.7528171185244563,
+          -0.2709248307845615,
+          2.019212814486071
+        ]
+      },
+      "relative": {
+        "dirY": 0.7494824334834818,
+        "dirX": -0.6356677274042447,
+        "targetZOffset": -0.04807586965324087,
+        "targetXOffset": -0.027918221047407113,
+        "targetYOffset": 0.010559874700156454,
+        "distFactor": 0.408304337051455,
+        "dirZ": 0.18493950966843542
+      }
+    },
+    "Atlanta 391Q|RH": {
+      "camera": {
+        "target": [
+          -1.9455006396857841,
+          -0.35865675017819515,
+          2.211964040254997
+        ],
+        "position": [
+          1.7901739025781647,
+          5.302290512143628,
+          3.399674370209838
+        ]
+      },
+      "relative": {
+        "targetZOffset": -0.03670963109548335,
+        "targetYOffset": 0.00538646083891697,
+        "distFactor": 0.40603626277727495,
+        "dirZ": 0.17249053858449506,
+        "dirX": 0.5425300239629942,
+        "targetXOffset": 0.01655564775311252,
+        "dirY": 0.8221363555989626
+      }
+    },
+    "Atlanta 443Q|LH": {
+      "camera": {
+        "position": [
+          -2.0591858014395483,
+          5.258174810426856,
+          3.7047663773345456
+        ],
+        "target": [
+          1.7528171185244563,
+          -0.2709248307845615,
+          2.019212814486071
+        ]
+      },
+      "relative": {
+        "dirZ": 0.24343226696229794,
+        "dirX": -0.5505399133715679,
+        "targetYOffset": 0.01963155934246,
+        "distFactor": 0.3977569174135438,
+        "targetXOffset": -0.021467741326717135,
+        "targetZOffset": -0.037642661552460356,
+        "dirY": 0.7985277297542165
+      }
+    },
+    "Atlanta 443Q|RH": {
+      "camera": {
+        "position": [
+          2.5860269946936416,
+          5.744770465525748,
+          3.9008999104542745
+        ],
+        "target": [
+          -1.5135857348990305,
+          -0.4909240937449059,
+          1.2347326395113185
+        ]
+      },
+      "relative": {
+        "dirY": 0.7868789362981661,
+        "targetXOffset": 0.03521035738962743,
+        "dirZ": 0.3364422112422967,
+        "targetZOffset": -0.0827071744677312,
+        "targetYOffset": 0.006993664590177408,
+        "distFactor": 0.45522899171642917,
+        "dirX": 0.5173279212498205
+      }
+    },
+    "Baltimore 302Q|LH": {
+      "camera": {
+        "target": [
+          0.5597073538200422,
+          -1.2003047118935735,
+          2.055734286060872
+        ],
+        "position": [
+          -1.724660189795665,
+          5.445932213186382,
+          3.0725621113134687
+        ]
+      },
+      "relative": {
+        "dirZ": 0.14319425420674148,
+        "targetYOffset": -0.029871192756352773,
+        "dirY": 0.9359528881221485,
+        "targetXOffset": -0.0384972524652783,
+        "targetZOffset": -0.03959870577237687,
+        "distFactor": 0.45444231932299106,
+        "dirX": -0.3216948814917394
+      }
+    },
+    "Baltimore 302Q|RH": {
+      "camera": {
+        "position": [
+          5.784438987216953,
+          3.6199847348604823,
+          3.1093947454151554
+        ],
+        "target": [
+          -0.5746343870066348,
+          -0.6154040687621701,
+          1.2102203319129328
+        ]
+      },
+      "relative": {
+        "dirX": 0.8077125919603391,
+        "dirZ": 0.24122808432005702,
+        "distFactor": 0.503841362330147,
+        "dirY": 0.5379678244318948,
+        "targetXOffset": 0.03754219181905083,
+        "targetYOffset": 0.007560461058667203,
+        "targetZOffset": -0.09370849535164748
+      }
+    },
+    "Monash 273Q|RH": {
+      "camera": {
+        "position": [
+          8.971843056548302,
+          3.8658106221649304,
+          2.316362197206747
+        ],
+        "target": [
+          1.7767361889105027,
+          -2.8849999904632573,
+          1.8216157731256961
+        ]
+      },
+      "relative": {
+        "dirZ": 0.05008237813355259,
+        "targetYOffset": -0.1356414240192775,
+        "dirX": 0.7283489992386967,
+        "distFactor": 0.6653503006485969,
+        "targetZOffset": -0.05744329139023647,
+        "targetXOffset": 0.05416547926740165,
+        "dirY": 0.6833736099005266
+      }
+    },
+    "Monash 273Q|LH": {
+      "camera": {
+        "position": [
+          -4.801402773379166,
+          4.448324041077459,
+          3.2043547068747977
+        ],
+        "target": [
+          -0.8126869351615051,
+          -0.6715589938701885,
+          1.6477039997695362
+        ]
+      },
+      "relative": {
+        "targetYOffset": 0.013438988322462177,
+        "targetXOffset": 0.010765479946988196,
+        "dirX": -0.5976235181160766,
+        "dirY": 0.7671046611972914,
+        "distFactor": 0.4495293438844377,
+        "dirZ": 0.23323072131250666,
+        "targetZOffset": -0.0691566458728818
+      }
+    },
+    "Elmwood 259Q|LH": {
+      "camera": {
+        "target": [
+          0.7688943625143344,
+          -0.8093967803565131,
+          1.8685314843730658
+        ],
+        "position": [
+          -5.479213697760356,
+          4.405587301057027,
+          2.8041757222930093
+        ]
+      },
+      "relative": {
+        "targetYOffset": 0.00849598918500708,
+        "dirY": 0.6365877196216692,
+        "targetXOffset": 0.003013288185207791,
+        "dirZ": 0.11421312558123214,
+        "distFactor": 0.5666808515347708,
+        "targetZOffset": -0.06681990365513964,
+        "dirX": -0.7627000964808177
+      }
+    },
+    "Sacramento 215Q|LH": {
+      "camera": {
+        "target": [
+          -2.3112990036845806,
+          -0.39737018318343276,
+          2.0738471168093504
+        ],
+        "position": [
+          -7.914468459245265,
+          5.142845071672442,
+          2.6659410606657854
+        ]
+      },
+      "relative": {
+        "dirZ": 0.07493055242098419,
+        "dirY": 0.7011241947074723,
+        "targetZOffset": -0.048379691633529884,
+        "targetYOffset": 0.0028749296122579904,
+        "distFactor": 0.5025849161160784,
+        "dirX": -0.7090911619176229,
+        "targetXOffset": -0.024321158249230496
+      }
+    }
+  },
+  "designSettings": {},
+  "profileImages": {
+    "baseUrl": "https://raw.githubusercontent.com/stairmaster-au/stairmaster-data/main/assets/profiles/",
+    "TREAD": {
+      "Pencil Round 3mm": {
+        "closed": "tread-3mm-pr-closed.png",
+        "sawtooth": "tread-3mm-pr-sawtooth.png"
+      },
+      "Bullnose Nosing": {
+        "closed": "tread-bullnose-closed.png",
+        "sawtooth": "tread-bullnose-sawtooth.png"
+      }
+    },
+    "BULLNOSE_TREAD": {
+      "Pencil Round 3mm": {
+        "closed": "tread-3mm-pr-closed.png",
+        "sawtooth": "tread-3mm-pr-sawtooth.png"
+      },
+      "Bullnose Nosing": {
+        "closed": "tread-bullnose-closed.png",
+        "sawtooth": "tread-bullnose-sawtooth.png"
+      }
+    },
+    "HANDRAIL": {
+      "Pencil Round 3mm": "handrail-80x42-pr.png",
+      "Ladies Waist": "handrail-80x65-ladies-waist.png",
+      "Classic Oval": "handrail-80x42-classic-oval.png"
+    },
+    "CAPPING": {
+      "Shadowline": "capping-115x32-shadowline.png",
+      "Shadowline 10x10mm (shadowline is painted)": "capping-115x32-shadowline.png"
+    }
+  },
+  "_stats": {
+    "models": 304,
+    "cfoRows": 78,
+    "sfMaterials": 28,
+    "smMaterials": 12,
+    "pbrPresets": 19,
+    "cameras": 29,
+    "designSettings": 0
+  }
 }
