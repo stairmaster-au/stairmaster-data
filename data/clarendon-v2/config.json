@@ -1,1 +1,2830 @@
-
+{
+  "exportedAt": "2026-09-03T00:00:00.000Z",
+  "exportedBy": "bootstrap (clarendon-v2)",
+  "builder": "Clarendon",
+  "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
+  "textureBasePath": "https://raw.githubusercontent.com/stairmaster-au/stairmaster-data/main/textures/",
+  "auth": {
+    "codes": [
+      "CLARENDON",
+      "CLQLD2025",
+      "STAIRS"
+    ]
+  },
+  "defaultSettings": {
+    "environment": {
+      "enable": true,
+      "exposure": 1.7,
+      "lightIntensity": 3,
+      "rotation": 5.8643062867009474,
+      "blur": 0,
+      "shadowEnabled": true
+    },
+    "background": {
+      "enable": true,
+      "color": [
+        0.27058823529411763,
+        0.27058823529411763,
+        0.27058823529411763
+      ],
+      "type": "color"
+    },
+    "postProcessing": {
+      "enable": true,
+      "sharpenEnable": false,
+      "sharpenFactor": 0.2,
+      "ssaoEnable": true,
+      "ssaoIntensity": 0.15,
+      "ssaoRadius": 0.1,
+      "ssaoBias": 0.014,
+      "vignetteEnable": false,
+      "vignetteAmount": 0.48,
+      "vignetteHardness": 0.73,
+      "bloomEnable": false,
+      "bloomThreshold": 0.8,
+      "bloomIntensity": 0.1,
+      "bloomRadius": 0.5,
+      "toneMappingEnable": true,
+      "toneMappingMethod": "filmic",
+      "toneMappingExposure": 1,
+      "toneMappingBrightness": 0.05,
+      "toneMappingContrast": 0,
+      "toneMappingSaturation": 0.8,
+      "chromaticAberrationEnable": false,
+      "chromaticAberrationFactor": 0.05,
+      "grainEnable": false,
+      "grainFactor": 0.15,
+      "grainAnimated": false,
+      "dofEnable": false,
+      "dofFocusDistance": 10.1,
+      "dofAperture": 0.01,
+      "dofBlurNear": 0.5,
+      "dofBlurFar": 0.5,
+      "ssrEnable": false,
+      "ssrFactor": 1,
+      "taaEnable": true,
+      "taaTransparent": true
+    },
+    "fov": 45,
+    "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e"
+  },
+  "models": {},
+  "ranges": {
+    "Mode": {
+      "display": "Mode",
+      "description": "Contemporary minimalist"
+    },
+    "Classic": {
+      "display": "Classic",
+      "description": "Traditional style"
+    },
+    "Nouveau": {
+      "display": "Nouveau",
+      "description": "Art nouveau inspired"
+    },
+    "Neo Modern": {
+      "display": "Neo Modern",
+      "description": "Clean lines"
+    },
+    "Hamptons": {
+      "display": "Hamptons",
+      "description": "Coastal elegant"
+    },
+    "Coastal Hamptons": {
+      "display": "Coastal Hamptons",
+      "description": "Beach house style"
+    }
+  },
+  "designOptions": {
+    "Type 1": {
+      "display": "Type 1",
+      "description": "Carpet grade treads/risers, closed paint stringers"
+    },
+    "Type 10": {
+      "display": "Type 10",
+      "description": "1st tread/riser Durian, rest carpet, closed paint stringers"
+    },
+    "Type 20": {
+      "display": "Type 20",
+      "description": "Durian treads/risers, closed paint stringers"
+    },
+    "Type 21": {
+      "display": "Type 21",
+      "description": "Durian treads, paint risers, closed paint stringers"
+    },
+    "Type 30": {
+      "display": "Type 30",
+      "description": "Full Durian + sawtooth stringer"
+    },
+    "Type 31": {
+      "display": "Type 31",
+      "description": "Durian treads, paint risers + sawtooth stringer"
+    }
+  },
+  "componentFinishOptions": {
+    "Mode|Type 1": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline 10x10mm (shadowline is painted)",
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Mode|Type 10": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline 10x10mm (shadowline is painted)",
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Mode|Type 20": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline 10x10mm (shadowline is painted)",
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Mode|Type 21": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Paint Grade MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline 10x10mm (shadowline is painted)",
+        "profileCode": "Shadowline 10x10mm (shadowline is painted)",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 1": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 10": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Bullnose Nosing",
+        "profileCode": "Bullnose Nosing",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Carpet Grade MDF / Pine",
+        "materialCode": "CarpetGrey",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "1st Base Tread Only",
+        "componentKey": "BULLNOSE_TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "1st Base Riser Only",
+        "componentKey": "BULLNOSE_RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_SatinBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 20": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 21": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Paint Grade MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Classic|Type 30": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Sawtooth Mitred Rise",
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      }
+    ],
+    "Nouveau|Type 30": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Sawtooth Mitred Rise",
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Stainless Steel",
+        "materialCode": "SS_Satin",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Glass Clamps",
+        "componentKey": "GLASS_CLAMP",
+        "material": "Stainless Steel",
+        "materialCode": "SS_Satin",
+        "style": "D shape",
+        "profileCode": "D shape",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline",
+        "profileCode": "Shadowline",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Glass clear toughened 10mm",
+        "materialCode": "GLASS_Clear",
+        "style": "",
+        "profileCode": "",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Neo Modern|Type 20": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Black",
+        "materialCode": "PC_TexturedBlack",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          },
+          {
+            "material": "Silver",
+            "code": "PC_SatinChrome",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Raking Bottomrails",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Glass clear toughened 10mm",
+        "materialCode": "GLASS_Clear",
+        "style": "Glass clear toughened 10mm",
+        "profileCode": "Glass clear toughened 10mm",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Hamptons|Type 31": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Sawtooth Mitred Rise",
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Paint Grade MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Clarendon Hamptons Design",
+        "profileCode": "Clarendon Hamptons Design",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Hamptons Newel Cap",
+        "profileCode": "Hamptons Newel Cap",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Ladies Waist",
+        "profileCode": "Ladies Waist",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Ladies Waist",
+        "profileCode": "Ladies Waist",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline",
+        "profileCode": "Shadowline",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Tapered",
+        "profileCode": "Tapered",
+        "alts": [],
+        "profileAlts": []
+      }
+    ],
+    "Coastal Hamptons|Type 31": [
+      {
+        "component": "Stringers - Wall Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Closed Housed",
+        "profileCode": "Closed Housed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Stringers - Open Side",
+        "componentKey": "STRINGER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Sawtooth Mitred Rise",
+        "profileCode": "Sawtooth Mitred Rise",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Treads",
+        "componentKey": "TREAD",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Bullnose Nosing",
+            "code": "Bullnose Nosing",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Risers",
+        "componentKey": "RISER",
+        "material": "Paint Grade MDF",
+        "materialCode": "PaintedWhite",
+        "style": "Square Dressed",
+        "profileCode": "Square Dressed",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Posts",
+        "componentKey": "NEWEL",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Newel Post Top",
+        "componentKey": "NEWEL_CAP",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Hamptons Newel Cap",
+        "profileCode": "Hamptons Newel Cap",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Handrails",
+        "componentKey": "HANDRAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rails",
+        "componentKey": "WALL_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": [
+          {
+            "profile": "Classic Oval",
+            "code": "Classic Oval",
+            "type": "inc"
+          }
+        ]
+      },
+      {
+        "component": "Wall Rail Brackets",
+        "componentKey": "WALL_RAIL_BRACKET",
+        "material": "Satin Chrome",
+        "materialCode": "PC_SatinChrome",
+        "style": "Standard",
+        "profileCode": "Standard",
+        "alts": [
+          {
+            "material": "Black",
+            "code": "PC_SatinBlack",
+            "type": "inc"
+          },
+          {
+            "material": "White",
+            "code": "PC_SatinWhite",
+            "type": "inc"
+          }
+        ],
+        "profileAlts": []
+      },
+      {
+        "component": "Capping",
+        "componentKey": "CAPPING",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Shadowline",
+        "profileCode": "Shadowline",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Level Bottom Rail",
+        "componentKey": "BOTTOM_RAIL",
+        "material": "Durian Stain Grade",
+        "materialCode": "TIM_DurianDark",
+        "style": "Pencil Round 3mm",
+        "profileCode": "Pencil Round 3mm",
+        "alts": [],
+        "profileAlts": []
+      },
+      {
+        "component": "Balusters / Panels",
+        "componentKey": "BALUSTER",
+        "material": "Paint Grade Pine",
+        "materialCode": "PaintedWhite",
+        "style": "Square",
+        "profileCode": "Square",
+        "alts": [],
+        "profileAlts": []
+      }
+    ]
+  },
+  "sketchfabMaterials": {
+    "_x0023_BEGIN_WALLDURIAN_DARK.jpg1110.3": {
+      "componentKey": "CAPPING",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BALUSTERGRB_PC_SatChrome.jpg1111": {
+      "componentKey": "WALL_RAIL_BRACKET",
+      "smMaterial": "SatinChrome"
+    },
+    "_x0023_TREADDURIAN_DARK.jpg1111": {
+      "componentKey": "TREAD",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_STRINGPINE_PG_WHITE.jpg1111": {
+      "componentKey": "STRINGER",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_OBJECT3D0.90.90.91": {
+      "componentKey": "Upper_Rim",
+      "smMaterial": "PaintedGrey"
+    },
+    "_x0023_RISERDURIAN_DARK.jpg1111": {
+      "componentKey": "RISER",
+      "smMaterial": "Carpeted"
+    },
+    "_x0023_HANDRAILDURIAN_DARK.jpg1111": {
+      "componentKey": "HANDRAIL",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BEGIN_WALLDURIAN_DARK.jpg1111": {
+      "componentKey": "CAPPING",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_OBJECT3DW_Wall_x0020_Grey.jpg1111": {
+      "componentKey": "FLOOR AND WELL",
+      "smMaterial": "PaintedGrey"
+    },
+    "_x0023_RISERMDF_PG_WHITE.jpg1111": {
+      "componentKey": "RISER",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_BOTTOMRAILDURIAN_DARK.jpg1111": {
+      "componentKey": "BOTTOM_RAIL",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BALUSTERPINE_PG_WHITE.jpg1111": {
+      "componentKey": "BALUSTER",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_POSTPINE_PG_WHITE.jpg1111": {
+      "componentKey": "NEWEL",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_BEGIN_OPENINGPINE_PG_WHITE.jpg1111": {
+      "componentKey": "VOID_TRIM",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_BOTTOMRAIL1110.3": {
+      "componentKey": "GLASS_PANEL",
+      "smMaterial": "GlassClear"
+    },
+    "_x0023_POSTDURIAN_DARK.jpg1111": {
+      "componentKey": "NEWEL",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BOTTOMRAILCLAMP_SS_Satin.jpg1111": {
+      "componentKey": "GLASS_CLAMP",
+      "smMaterial": "SSSatin"
+    },
+    "_x0023_POSTPOST_SS_Satin.jpg1111": {
+      "componentKey": "NEWEL",
+      "smMaterial": "SSSatin"
+    },
+    "_x0023_STRINGDURIAN_DARK.jpg1111": {
+      "componentKey": "STRINGER",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BEGIN_OPENINGDURIAN_DARK.jpg1111": {
+      "componentKey": "VOID_TRIM",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BALUSTERBAL_PC_TextBlack.jpg1111": {
+      "componentKey": "BALUSTER",
+      "smMaterial": "TextBlack"
+    },
+    "_x0023_BALUSTERGRB_PC_SatBlack.jpg1111": {
+      "componentKey": "WALL_RAIL_BRACKET",
+      "smMaterial": "TextBlack"
+    },
+    "_x0023_RISERBNR_DurianS.jpg1111": {
+      "componentKey": "BULLNOSE_RISER",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_TREADBNT_DurianS.jpg1111": {
+      "componentKey": "BULLNOSE_TREAD",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_TREADcon_CarpetGrey.jpg1111": {
+      "componentKey": "TREAD",
+      "smMaterial": "Carpeted"
+    },
+    "_x0023_RISERcon_CarpetGrey.jpg1111": {
+      "componentKey": "RISER",
+      "smMaterial": "Carpeted"
+    },
+    "_x0023_BEGIN_OPENINGTIM_Durian.jpg1111": {
+      "componentKey": "VOID_TRIM",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_RISERPINE_PG_WHITE.jpg1111": {
+      "componentKey": "RISER",
+      "smMaterial": "PineWhite"
+    },
+    "_x0023_BEGIN_WALLCAP_DURIAN_DARK.jpg1110.3": {
+      "componentKey": "CAPPING",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BEGIN_WALLCAP_DURIAN_DARK.jpg1111": {
+      "componentKey": "CAPPING",
+      "smMaterial": "DurianDark"
+    },
+    "_x0023_BOTTOMRAILTIM_Durian.jpg1111": {
+      "componentKey": "BOTTOM_RAIL",
+      "smMaterial": "DurianDark"
+    }
+  },
+  "stairmasterMaterials": {
+    "DurianDark": {
+      "display": "Durian Dark",
+      "family": "Timber",
+      "pbrPresetId": "TIM_DurianDark"
+    },
+    "DurianLight": {
+      "display": "Durian Light",
+      "family": "Timber",
+      "pbrPresetId": "TIM_DurianLight"
+    },
+    "Blackbutt": {
+      "display": "Blackbutt",
+      "family": "Timber",
+      "pbrPresetId": "TIM_Blackbutt"
+    },
+    "SpottedGum": {
+      "display": "Spotted Gum",
+      "family": "Timber",
+      "pbrPresetId": "TIM_SpottedGum"
+    },
+    "PineWhite": {
+      "display": "Paint Grade White",
+      "family": "Paint",
+      "pbrPresetId": "PaintedWhite"
+    },
+    "SatinBlack": {
+      "display": "Satin Black",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinBlack"
+    },
+    "SatinWhite": {
+      "display": "Satin White",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinWhite"
+    },
+    "SatinChrome": {
+      "display": "Satin Chrome",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinChrome"
+    },
+    "Chrome": {
+      "display": "Chrome",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinChrome"
+    },
+    "TextBlack": {
+      "display": "Textured Black",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_TexturedBlack"
+    },
+    "TextWhite": {
+      "display": "Textured White",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinWhite"
+    },
+    "SSPolish": {
+      "display": "SS Polished",
+      "family": "StainlessSteel",
+      "pbrPresetId": "SS_Polished"
+    },
+    "SSSatin": {
+      "display": "SS Satin",
+      "family": "StainlessSteel",
+      "pbrPresetId": "SS_Satin"
+    },
+    "GlassClear": {
+      "display": "Toughened Glass Clear",
+      "family": "Glass",
+      "pbrPresetId": "GLASS_Clear"
+    },
+    "PaintedGrey": {
+      "display": "Painted Grey",
+      "family": "Paint",
+      "pbrPresetId": "PaintedDullGrey"
+    },
+    "Carpeted": {
+      "display": "Carpet Grade Grey",
+      "family": "Carpet",
+      "pbrPresetId": "CarpetGrey"
+    }
+  },
+  "pbrPresets": {
+    "TIM_NoFinish": {
+      "category": "Timber",
+      "displayName": "No Finish (Default)",
+      "workflow": "PBR",
+      "albedoR": 0.5,
+      "albedoG": 0.4,
+      "albedoB": 0.3,
+      "albedoTexture": "timber_neutral.jpg",
+      "normalTexture": "timber_neutral_n.jpg",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.5,
+      "specularF0": 0.04,
+      "normalEnabled": true,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": true
+    },
+    "TIM_DurianDark": {
+      "category": "Timber",
+      "displayName": "Durian Dark",
+      "workflow": "metalness",
+      "albedoR": 0.5019607843137255,
+      "albedoG": 0.5019607843137255,
+      "albedoB": 0.5019607843137255,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.29,
+      "clearCoatTintR": 0.42,
+      "clearCoatTintG": 0.33,
+      "clearCoatTintB": 0.18,
+      "clearCoatThickness": 6,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "TIM_DurianLight": {
+      "category": "Timber",
+      "displayName": "Durian Light",
+      "workflow": "PBR",
+      "albedoR": 0.55,
+      "albedoG": 0.4,
+      "albedoB": 0.25,
+      "albedoTexture": "durian_light.jpg",
+      "normalTexture": "durian_light_n.jpg",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.5,
+      "specularF0": 0.04,
+      "normalEnabled": true,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "TIM_Blackbutt": {
+      "category": "Timber",
+      "displayName": "Blackbutt",
+      "workflow": "PBR",
+      "albedoR": 0.45,
+      "albedoG": 0.32,
+      "albedoB": 0.18,
+      "albedoTexture": "blackbutt.jpg",
+      "normalTexture": "blackbutt_n.jpg",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.52,
+      "specularF0": 0.04,
+      "normalEnabled": true,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "TIM_SpottedGum": {
+      "category": "Timber",
+      "displayName": "Spotted Gum",
+      "workflow": "PBR",
+      "albedoR": 0.5,
+      "albedoG": 0.35,
+      "albedoB": 0.2,
+      "albedoTexture": "spotted_gum.jpg",
+      "normalTexture": "spotted_gum_n.jpg",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.48,
+      "specularF0": 0.04,
+      "normalEnabled": true,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "MTL_NoFinish": {
+      "category": "Metal",
+      "displayName": "No Finish (Default)",
+      "workflow": "PBR",
+      "albedoR": 0.4,
+      "albedoG": 0.4,
+      "albedoB": 0.42,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.3,
+      "roughness": 0.5,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": true
+    },
+    "PC_SatinBlack": {
+      "category": "Powdercoat",
+      "displayName": "Satin Black",
+      "workflow": "PBR",
+      "albedoR": 0.02,
+      "albedoG": 0.02,
+      "albedoB": 0.02,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.35,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PC_SatinWhite": {
+      "category": "Powdercoat",
+      "displayName": "Satin White",
+      "workflow": "PBR",
+      "albedoR": 0.95,
+      "albedoG": 0.95,
+      "albedoB": 0.95,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.35,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PC_SatinChrome": {
+      "category": "Powdercoat",
+      "displayName": "Satin Chrome",
+      "workflow": "PBR",
+      "albedoR": 0.75,
+      "albedoG": 0.75,
+      "albedoB": 0.78,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.7,
+      "roughness": 0.4,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PC_TexturedBlack": {
+      "category": "Powdercoat",
+      "displayName": "Textured Black",
+      "workflow": "PBR",
+      "albedoR": 0.03,
+      "albedoG": 0.03,
+      "albedoB": 0.03,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.7,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "SS_Polished": {
+      "category": "StainlessSteel",
+      "displayName": "Polished Stainless",
+      "workflow": "PBR",
+      "albedoR": 0.95,
+      "albedoG": 0.93,
+      "albedoB": 0.88,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 1,
+      "roughness": 0.12,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 0.3,
+      "clearCoatRoughness": 0.15,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "SS_Satin": {
+      "category": "StainlessSteel",
+      "displayName": "Satin Stainless",
+      "workflow": "metalness",
+      "albedoR": 0.6352941176470588,
+      "albedoG": 0.6274509803921569,
+      "albedoB": 0.6274509803921569,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.92,
+      "roughness": 0.4,
+      "specularF0": 0.31,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "GLASS_Clear": {
+      "category": "Glass",
+      "displayName": "Clear Glass",
+      "workflow": "metalness",
+      "albedoR": 1,
+      "albedoG": 1,
+      "albedoB": 1,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0.91,
+      "roughness": 0.04,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 0.07,
+      "isNoFinish": false
+    },
+    "GLASS_Frosted": {
+      "category": "Glass",
+      "displayName": "Frosted Glass",
+      "workflow": "PBR",
+      "albedoR": 0.95,
+      "albedoG": 0.95,
+      "albedoB": 0.95,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.45,
+      "specularF0": 0.04,
+      "normalEnabled": false,
+      "normalFactor": 0,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 0.4,
+      "isNoFinish": false
+    },
+    "PaintedDullGrey": {
+      "category": "Paint",
+      "displayName": "Painted Dull Grey",
+      "workflow": "metalness",
+      "albedoR": 0.12156862745098039,
+      "albedoG": 0.12156862745098039,
+      "albedoB": 0.12156862745098039,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "CarpetGrey": {
+      "category": "Carpet",
+      "displayName": "CarpetGrey",
+      "workflow": "metalness",
+      "albedoR": 0.5019607843137255,
+      "albedoG": 0.5019607843137255,
+      "albedoB": 0.5019607843137255,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "PaintedWhite": {
+      "category": "Paint",
+      "displayName": "PaintedWhite",
+      "workflow": "metalness",
+      "albedoR": 1,
+      "albedoG": 1,
+      "albedoB": 1,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": 0,
+      "roughness": 0.6,
+      "specularF0": 0.5,
+      "normalEnabled": false,
+      "normalFactor": 1,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Clear": {
+      "category": "Stain",
+      "displayName": "Stain: Clear",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": false,
+      "clearCoatFactor": 0,
+      "clearCoatRoughness": null,
+      "clearCoatTintR": null,
+      "clearCoatTintG": null,
+      "clearCoatTintB": null,
+      "clearCoatThickness": null,
+      "clearCoatReflectivity": null,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Light": {
+      "category": "Stain",
+      "displayName": "Stain: Light",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.75,
+      "clearCoatTintG": 0.6,
+      "clearCoatTintB": 0.4,
+      "clearCoatThickness": 4,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Med": {
+      "category": "Stain",
+      "displayName": "Stain: Medium",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.55,
+      "clearCoatTintG": 0.38,
+      "clearCoatTintB": 0.2,
+      "clearCoatThickness": 6,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_Dark": {
+      "category": "Stain",
+      "displayName": "Stain: Dark",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.45,
+      "clearCoatTintG": 0.25,
+      "clearCoatTintB": 0.12,
+      "clearCoatThickness": 7,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    },
+    "STAIN_VDark": {
+      "category": "Stain",
+      "displayName": "Stain: V.Dark",
+      "workflow": "metalness",
+      "albedoR": null,
+      "albedoG": null,
+      "albedoB": null,
+      "albedoTexture": "",
+      "normalTexture": "",
+      "roughnessTexture": "",
+      "metalness": null,
+      "roughness": null,
+      "specularF0": null,
+      "normalEnabled": false,
+      "normalFactor": null,
+      "clearCoatEnabled": true,
+      "clearCoatFactor": 1,
+      "clearCoatRoughness": 0.04,
+      "clearCoatTintR": 0.25,
+      "clearCoatTintG": 0.12,
+      "clearCoatTintB": 0.06,
+      "clearCoatThickness": 6,
+      "clearCoatReflectivity": 0,
+      "opacity": 1,
+      "isNoFinish": false
+    }
+  },
+  "cameras": {},
+  "designSettings": {
+    "Mode|Type 20": {
+      "environment": {
+        "rotation": 6.283185307179586,
+        "lightIntensity": 2.7,
+        "blur": 0,
+        "shadowEnabled": true,
+        "enable": true,
+        "exposure": 1.1
+      },
+      "fov": 45,
+      "background": {
+        "enable": true,
+        "type": "color",
+        "color": [
+          0.7098039215686275,
+          0.7098039215686275,
+          0.7098039215686275
+        ]
+      },
+      "postProcessing": {
+        "ssaoRadius": 0.1,
+        "toneMappingSaturation": 0.78,
+        "toneMappingBrightness": 0.32,
+        "vignetteHardness": 0.57,
+        "dofFocusDistance": 10.1,
+        "taaTransparent": true,
+        "grainFactor": 0.15,
+        "ssrEnable": true,
+        "toneMappingMethod": "linear",
+        "dofBlurNear": 0.5,
+        "bloomIntensity": 0.1,
+        "ssaoBias": 0.031,
+        "dofBlurFar": 0.5,
+        "grainAnimated": false,
+        "taaEnable": true,
+        "chromaticAberrationEnable": false,
+        "grainEnable": false,
+        "sharpenEnable": false,
+        "dofEnable": false,
+        "vignetteAmount": 0.45,
+        "bloomRadius": 0.7,
+        "ssaoIntensity": 0.25,
+        "sharpenFactor": 0.42,
+        "chromaticAberrationFactor": 0.05,
+        "vignetteEnable": true,
+        "ssaoEnable": true,
+        "toneMappingEnable": false,
+        "bloomEnable": false,
+        "ssrFactor": 0.12,
+        "bloomThreshold": 0,
+        "enable": true,
+        "toneMappingContrast": 0.05,
+        "dofAperture": 0.01,
+        "toneMappingExposure": 0.65
+      }
+    }
+  },
+  "profileImages": {
+    "baseUrl": "https://raw.githubusercontent.com/stairmaster-au/stairmaster-data/main/assets/profiles/",
+    "TREAD": {
+      "Pencil Round 3mm": {
+        "closed": "tread-3mm-pr-closed.png",
+        "sawtooth": "tread-3mm-pr-sawtooth.png"
+      },
+      "Bullnose Nosing": {
+        "closed": "tread-bullnose-closed.png",
+        "sawtooth": "tread-bullnose-sawtooth.png"
+      }
+    },
+    "BULLNOSE_TREAD": {
+      "Pencil Round 3mm": {
+        "closed": "tread-3mm-pr-closed.png",
+        "sawtooth": "tread-3mm-pr-sawtooth.png"
+      },
+      "Bullnose Nosing": {
+        "closed": "tread-bullnose-closed.png",
+        "sawtooth": "tread-bullnose-sawtooth.png"
+      }
+    },
+    "HANDRAIL": {
+      "Pencil Round 3mm": "handrail-80x42-pr.png",
+      "Ladies Waist": "handrail-80x65-ladies-waist.png",
+      "Classic Oval": "handrail-80x42-classic-oval.png"
+    },
+    "CAPPING": {
+      "Shadowline": "capping-115x32-shadowline.png",
+      "Shadowline 10x10mm (shadowline is painted)": "capping-115x32-shadowline.png"
+    }
+  },
+  "_stats": {
+    "models": 0,
+    "cfoRows": 139,
+    "sfMaterials": 31,
+    "smMaterials": 16,
+    "pbrPresets": 22,
+    "cameras": 0,
+    "designSettings": 1
+  }
+}
