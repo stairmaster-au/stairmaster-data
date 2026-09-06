@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-06T23:54:46.621Z",
+  "exportedAt": "2026-09-06T23:55:07.964Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -122,6 +122,29 @@
       "riserCount": 16,
       "range": "Classic",
       "designOption": "Type 20",
+      "components": [
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NEWEL_POST",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "VOID_TRIM",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Hamilton 340|RH|16|Hamptons|Type 31": {
+      "uid": "62cf5a7dbbc64758ab3956aeadad8d40",
+      "houseType": "Hamilton 340",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Hamptons",
+      "designOption": "Type 31",
       "components": [
         "BALUSTER",
         "BOTTOM_RAIL",
@@ -3001,7 +3024,7 @@
     }
   },
   "_stats": {
-    "models": 3,
+    "models": 4,
     "cfoRows": 139,
     "sfMaterials": 40,
     "smMaterials": 25,
