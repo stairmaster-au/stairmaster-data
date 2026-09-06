@@ -1,6 +1,6 @@
 {
-  "exportedAt": "2026-09-03T00:00:00.000Z",
-  "exportedBy": "bootstrap (clarendon-v2)",
+  "exportedAt": "2026-09-06T23:54:25.856Z",
+  "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
   "textureBasePath": "https://raw.githubusercontent.com/stairmaster-au/stairmaster-data/main/textures/",
@@ -68,7 +68,77 @@
     "fov": 45,
     "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e"
   },
-  "models": {},
+  "models": {
+    "Hamilton 340|LH|16|Classic|Type 1": {
+      "uid": "ed86b88de5734348a512c77c1e4b2c13",
+      "houseType": "Hamilton 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NEWEL_POST",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "VOID_TRIM",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Hamilton 340|RH|16|Classic|Type 1": {
+      "uid": "af0fc2ee8dea4bc5b3db6f7060ada6ca",
+      "houseType": "Hamilton 340",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 1",
+      "components": [
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NEWEL_POST",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "VOID_TRIM",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Hamilton 340|RH|16|Classic|Type 20": {
+      "uid": "934fd89651014f6fb70e6c805b2dbe49",
+      "houseType": "Hamilton 340",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Classic",
+      "designOption": "Type 20",
+      "components": [
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NEWEL_POST",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "VOID_TRIM",
+        "WALL_RAIL_BRACKET"
+      ]
+    }
+  },
   "ranges": {
     "Mode": {
       "display": "Mode",
@@ -1946,129 +2016,165 @@
     ]
   },
   "sketchfabMaterials": {
-    "_x0023_BEGIN_WALLDURIAN_DARK.jpg1110.3": {
-      "componentKey": "CAPPING",
-      "smMaterial": "DurianDark"
+    "BALUSTER_PC_TextBlack": {
+      "componentKey": "BALUSTER",
+      "smMaterial": "PC_TextBlack"
     },
-    "_x0023_BALUSTERGRB_PC_SatChrome.jpg1111": {
-      "componentKey": "WALL_RAIL_BRACKET",
-      "smMaterial": "SatinChrome"
+    "BOTTOM_RAIL_Durian": {
+      "componentKey": "BOTTOM_RAIL",
+      "smMaterial": "Durian"
     },
-    "_x0023_TREADDURIAN_DARK.jpg1111": {
-      "componentKey": "TREAD",
-      "smMaterial": "DurianDark"
+    "GROUND_FLOOR_WallGrey": {
+      "componentKey": "GROUND_FLOOR",
+      "smMaterial": "WallGrey"
     },
-    "_x0023_STRINGPINE_PG_WHITE.jpg1111": {
-      "componentKey": "STRINGER",
-      "smMaterial": "PineWhite"
+    "HANDRAIL_Durian": {
+      "componentKey": "HANDRAIL",
+      "smMaterial": "Durian"
     },
-    "_x0023_OBJECT3D0.90.90.91": {
-      "componentKey": "Upper_Rim",
-      "smMaterial": "PaintedGrey"
+    "IGNORE_WallGrey": {
+      "componentKey": "IGNORE",
+      "smMaterial": "WallGrey"
     },
-    "_x0023_RISERDURIAN_DARK.jpg1111": {
+    "NEWEL_POST_Durian": {
+      "componentKey": "NEWEL_POST",
+      "smMaterial": "Durian"
+    },
+    "NOSING_Carpeted": {
+      "componentKey": "NOSING",
+      "smMaterial": "Carpeted"
+    },
+    "RISER_Carpeted": {
       "componentKey": "RISER",
       "smMaterial": "Carpeted"
     },
-    "_x0023_HANDRAILDURIAN_DARK.jpg1111": {
-      "componentKey": "HANDRAIL",
-      "smMaterial": "DurianDark"
-    },
-    "_x0023_BEGIN_WALLDURIAN_DARK.jpg1111": {
-      "componentKey": "CAPPING",
-      "smMaterial": "DurianDark"
-    },
-    "_x0023_OBJECT3DW_Wall_x0020_Grey.jpg1111": {
-      "componentKey": "FLOOR AND WELL",
-      "smMaterial": "PaintedGrey"
-    },
-    "_x0023_RISERMDF_PG_WHITE.jpg1111": {
-      "componentKey": "RISER",
+    "STRINGER_PineWhite": {
+      "componentKey": "STRINGER",
       "smMaterial": "PineWhite"
     },
-    "_x0023_BOTTOMRAILDURIAN_DARK.jpg1111": {
-      "componentKey": "BOTTOM_RAIL",
-      "smMaterial": "DurianDark"
+    "TREAD_Carpeted": {
+      "componentKey": "TREAD",
+      "smMaterial": "Carpeted"
     },
-    "_x0023_BALUSTERPINE_PG_WHITE.jpg1111": {
-      "componentKey": "BALUSTER",
-      "smMaterial": "PineWhite"
+    "UPPER_FLOOR_WallGrey": {
+      "componentKey": "UPPER_FLOOR",
+      "smMaterial": "WallGrey"
     },
-    "_x0023_POSTPINE_PG_WHITE.jpg1111": {
-      "componentKey": "NEWEL",
-      "smMaterial": "PineWhite"
+    "Upper_Rim_WallGrey": {
+      "componentKey": "Upper_Rim",
+      "smMaterial": "WallGrey"
     },
-    "_x0023_BEGIN_OPENINGPINE_PG_WHITE.jpg1111": {
+    "VOID_TRIM_PineWhite": {
       "componentKey": "VOID_TRIM",
       "smMaterial": "PineWhite"
     },
-    "_x0023_BOTTOMRAIL1110.3": {
+    "WALL_RAIL_BRACKET_PC_TextBlack": {
+      "componentKey": "WALL_RAIL_BRACKET",
+      "smMaterial": "PC_TextBlack"
+    },
+    "RISER_Durian": {
+      "componentKey": "RISER",
+      "smMaterial": "Durian"
+    },
+    "TREAD_Durian": {
+      "componentKey": "TREAD",
+      "smMaterial": "Durian"
+    },
+    "NOSING_Durian": {
+      "componentKey": "NOSING",
+      "smMaterial": "Durian"
+    },
+    "RISER_PineWhite": {
+      "componentKey": "RISER",
+      "smMaterial": "PineWhite"
+    },
+    "STRINGER_Durian": {
+      "componentKey": "STRINGER",
+      "smMaterial": "Durian"
+    },
+    "BALUSTER_PineWhite": {
+      "componentKey": "BALUSTER",
+      "smMaterial": "PineWhite"
+    },
+    "NEWEL_POST_PineWhite": {
+      "componentKey": "NEWEL_POST",
+      "smMaterial": "PineWhite"
+    },
+    "WALL_RAIL_BRACKET_PC_SatinChrome": {
+      "componentKey": "WALL_RAIL_BRACKET",
+      "smMaterial": "PC_SatinChrome"
+    },
+    "CAPPING_Durian": {
+      "componentKey": "CAPPING",
+      "smMaterial": "Durian"
+    },
+    "GLASS_PANEL_GlassClear": {
       "componentKey": "GLASS_PANEL",
       "smMaterial": "GlassClear"
     },
-    "_x0023_POSTDURIAN_DARK.jpg1111": {
-      "componentKey": "NEWEL",
-      "smMaterial": "DurianDark"
-    },
-    "_x0023_BOTTOMRAILCLAMP_SS_Satin.jpg1111": {
-      "componentKey": "GLASS_CLAMP",
-      "smMaterial": "SSSatin"
-    },
-    "_x0023_POSTPOST_SS_Satin.jpg1111": {
-      "componentKey": "NEWEL",
-      "smMaterial": "SSSatin"
-    },
-    "_x0023_STRINGDURIAN_DARK.jpg1111": {
-      "componentKey": "STRINGER",
-      "smMaterial": "DurianDark"
-    },
-    "_x0023_BEGIN_OPENINGDURIAN_DARK.jpg1111": {
-      "componentKey": "VOID_TRIM",
-      "smMaterial": "DurianDark"
-    },
-    "_x0023_BALUSTERBAL_PC_TextBlack.jpg1111": {
-      "componentKey": "BALUSTER",
-      "smMaterial": "TextBlack"
-    },
-    "_x0023_BALUSTERGRB_PC_SatBlack.jpg1111": {
-      "componentKey": "WALL_RAIL_BRACKET",
-      "smMaterial": "TextBlack"
-    },
-    "_x0023_RISERBNR_DurianS.jpg1111": {
+    "BULLNOSE_RISER_Carpeted": {
       "componentKey": "BULLNOSE_RISER",
-      "smMaterial": "DurianDark"
+      "smMaterial": "Carpeted"
     },
-    "_x0023_TREADBNT_DurianS.jpg1111": {
+    "BULLNOSE_TREAD_Carpeted": {
       "componentKey": "BULLNOSE_TREAD",
-      "smMaterial": "DurianDark"
-    },
-    "_x0023_TREADcon_CarpetGrey.jpg1111": {
-      "componentKey": "TREAD",
       "smMaterial": "Carpeted"
     },
-    "_x0023_RISERcon_CarpetGrey.jpg1111": {
-      "componentKey": "RISER",
-      "smMaterial": "Carpeted"
+    "WALL_RAIL_BRACKET_PC_SatinBlack": {
+      "componentKey": "WALL_RAIL_BRACKET",
+      "smMaterial": "PC_SatinBlack"
     },
-    "_x0023_BEGIN_OPENINGTIM_Durian.jpg1111": {
-      "componentKey": "VOID_TRIM",
-      "smMaterial": "DurianDark"
+    "BULLNOSE_RISER_Durian": {
+      "componentKey": "BULLNOSE_RISER",
+      "smMaterial": "Durian"
     },
-    "_x0023_RISERPINE_PG_WHITE.jpg1111": {
-      "componentKey": "RISER",
+    "BULLNOSE_TREAD_Durian": {
+      "componentKey": "BULLNOSE_TREAD",
+      "smMaterial": "Durian"
+    },
+    "BULLNOSE_RISER_PineWhite": {
+      "componentKey": "BULLNOSE_RISER",
       "smMaterial": "PineWhite"
     },
-    "_x0023_BEGIN_WALLCAP_DURIAN_DARK.jpg1110.3": {
-      "componentKey": "CAPPING",
-      "smMaterial": "DurianDark"
-    },
-    "_x0023_BEGIN_WALLCAP_DURIAN_DARK.jpg1111": {
-      "componentKey": "CAPPING",
-      "smMaterial": "DurianDark"
-    },
-    "_x0023_BOTTOMRAILTIM_Durian.jpg1111": {
+    "BOTTOM_RAIL": {
       "componentKey": "BOTTOM_RAIL",
-      "smMaterial": "DurianDark"
+      "smMaterial": ""
+    },
+    "GLASS_CLAMP_SS_Satin": {
+      "componentKey": "GLASS_CLAMP",
+      "smMaterial": "SS_Satin"
+    },
+    "NEWEL_POST_SS_Satin": {
+      "componentKey": "NEWEL_POST",
+      "smMaterial": "SS_Satin"
+    },
+    "VOID_TRIM_Durian": {
+      "componentKey": "VOID_TRIM",
+      "smMaterial": "Durian"
+    },
+    "IGNORE": {
+      "componentKey": "IGNORE",
+      "smMaterial": ""
+    },
+    "LANDING_Carpeted": {
+      "componentKey": "LANDING",
+      "smMaterial": "Carpeted"
+    },
+    "LANDING_Durian": {
+      "componentKey": "LANDING",
+      "smMaterial": "Durian"
+    },
+    "WALL_RAIL_BRACKET_PineWhite": {
+      "componentKey": "WALL_RAIL_BRACKET",
+      "smMaterial": "PineWhite"
+    },
+    "NEWEL_POST": {
+      "componentKey": "NEWEL_POST",
+      "smMaterial": ""
+    },
+    "BOTTOM_RAIL_POST_SS_Satin": {
+      "componentKey": "BOTTOM_RAIL",
+      "smMaterial": "POST_SS_Satin"
     }
   },
   "stairmasterMaterials": {
@@ -2093,7 +2199,7 @@
       "pbrPresetId": "TIM_SpottedGum"
     },
     "PineWhite": {
-      "display": "Paint Grade White",
+      "displayName": "Paint Grade White",
       "family": "Paint",
       "pbrPresetId": "PaintedWhite"
     },
@@ -2138,7 +2244,7 @@
       "pbrPresetId": "SS_Satin"
     },
     "GlassClear": {
-      "display": "Toughened Glass Clear",
+      "displayName": "Toughened Glass",
       "family": "Glass",
       "pbrPresetId": "GLASS_Clear"
     },
@@ -2148,9 +2254,54 @@
       "pbrPresetId": "PaintedDullGrey"
     },
     "Carpeted": {
-      "display": "Carpet Grade Grey",
+      "displayName": "Carpet Grey",
       "family": "Carpet",
       "pbrPresetId": "CarpetGrey"
+    },
+    "Durian": {
+      "displayName": "Durian",
+      "family": "Timber",
+      "pbrPresetId": "TIM_DurianDark"
+    },
+    "SS_Satin": {
+      "displayName": "SS Satin",
+      "family": "StainlessSteel",
+      "pbrPresetId": "SS_Satin"
+    },
+    "PC_SatinChrome": {
+      "displayName": "Satin Chrome",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinChrome"
+    },
+    "PC_TextBlack": {
+      "displayName": "Textured Black",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_TexturedBlack"
+    },
+    "WallGrey": {
+      "displayName": "Wall Grey",
+      "family": "Paint",
+      "pbrPresetId": "PaintedDullGrey"
+    },
+    "PC_SatinBlack": {
+      "displayName": "Satin Black",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinBlack"
+    },
+    "PC_SatinWhite": {
+      "displayName": "Satin White",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinWhite"
+    },
+    "PC_TextWhite": {
+      "displayName": "Textured White",
+      "family": "Powdercoat",
+      "pbrPresetId": "PC_SatinWhite"
+    },
+    "SS_Polished": {
+      "displayName": "SS Polished",
+      "family": "StainlessSteel",
+      "pbrPresetId": "SS_Polished"
     }
   },
   "pbrPresets": {
@@ -2727,7 +2878,38 @@
       "isNoFinish": false
     }
   },
-  "cameras": {},
+  "cameras": {
+    "Hamilton 340|LH": {
+      "camera": {
+        "environmentRotation": 5.864306286700948,
+        "position": [
+          7.661758849819935,
+          1.592275036381144,
+          5.115915768652387
+        ],
+        "target": [
+          -0.5555963520818947,
+          -1.2034148252019883,
+          2.6744927495442425
+        ]
+      }
+    },
+    "Hamilton 340|RH": {
+      "camera": {
+        "environmentRotation": 5.864306286700948,
+        "position": [
+          -7.661758849819935,
+          1.592275036381144,
+          5.115915768652387
+        ],
+        "target": [
+          0.5555963520818947,
+          -1.2034148252019883,
+          2.6744927495442425
+        ]
+      }
+    }
+  },
   "designSettings": {
     "Mode|Type 20": {
       "environment": {
@@ -2819,12 +3001,13 @@
     }
   },
   "_stats": {
-    "models": 0,
+    "models": 3,
     "cfoRows": 139,
-    "sfMaterials": 31,
-    "smMaterials": 16,
+    "sfMaterials": 40,
+    "smMaterials": 25,
     "pbrPresets": 22,
-    "cameras": 0,
-    "designSettings": 1
+    "cameras": 2,
+    "designSettings": 1,
+    "cameraOverrides": 0
   }
 }
