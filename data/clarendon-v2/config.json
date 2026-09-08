@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-06T23:55:07.964Z",
+  "exportedAt": "2026-09-08T02:20:19.910Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -2195,6 +2195,18 @@
       "componentKey": "NEWEL_POST",
       "smMaterial": ""
     },
+    "BOTTOM_RAIL_con_durian": {
+      "componentKey": "BOTTOM_RAIL",
+      "smMaterial": "con_durian"
+    },
+    "HANDRAIL_W_Wall_x0020_Grey": {
+      "componentKey": "HANDRAIL",
+      "smMaterial": "W_Wall_x0020_Grey"
+    },
+    "NEWEL_POST_con_durian": {
+      "componentKey": "NEWEL_POST",
+      "smMaterial": "con_durian"
+    },
     "BOTTOM_RAIL_POST_SS_Satin": {
       "componentKey": "BOTTOM_RAIL",
       "smMaterial": "POST_SS_Satin"
@@ -3026,7 +3038,7 @@
   "_stats": {
     "models": 4,
     "cfoRows": 139,
-    "sfMaterials": 40,
+    "sfMaterials": 43,
     "smMaterials": 25,
     "pbrPresets": 22,
     "cameras": 2,
