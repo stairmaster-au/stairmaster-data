@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-08T02:31:27.201Z",
+  "exportedAt": "2026-09-10T05:28:06.855Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -2654,6 +2654,10 @@
     "BOTTOM_RAIL_POST_SS_Satin": {
       "componentKey": "BOTTOM_RAIL",
       "smMaterial": "POST_SS_Satin"
+    },
+    "NEWEL_POST_POST_SS_Satin": {
+      "componentKey": "NEWEL_POST",
+      "smMaterial": "POST_SS_Satin"
     }
   },
   "stairmasterMaterials": {
@@ -3482,7 +3486,7 @@
   "_stats": {
     "models": 24,
     "cfoRows": 139,
-    "sfMaterials": 43,
+    "sfMaterials": 44,
     "smMaterials": 25,
     "pbrPresets": 22,
     "cameras": 2,
