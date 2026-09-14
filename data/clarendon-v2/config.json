@@ -3393,64 +3393,7 @@
       }
     }
   },
-  "designSettings": {
-    "Mode|Type 20": {
-      "environment": {
-        "rotation": 6.283185307179586,
-        "lightIntensity": 2.7,
-        "blur": 0,
-        "shadowEnabled": true,
-        "enable": true,
-        "exposure": 1.1
-      },
-      "fov": 45,
-      "background": {
-        "enable": true,
-        "type": "color",
-        "color": [
-          0.7098039215686275,
-          0.7098039215686275,
-          0.7098039215686275
-        ]
-      },
-      "postProcessing": {
-        "ssaoRadius": 0.1,
-        "toneMappingSaturation": 0.78,
-        "toneMappingBrightness": 0.32,
-        "vignetteHardness": 0.57,
-        "dofFocusDistance": 10.1,
-        "taaTransparent": true,
-        "grainFactor": 0.15,
-        "ssrEnable": true,
-        "toneMappingMethod": "linear",
-        "dofBlurNear": 0.5,
-        "bloomIntensity": 0.1,
-        "ssaoBias": 0.031,
-        "dofBlurFar": 0.5,
-        "grainAnimated": false,
-        "taaEnable": true,
-        "chromaticAberrationEnable": false,
-        "grainEnable": false,
-        "sharpenEnable": false,
-        "dofEnable": false,
-        "vignetteAmount": 0.45,
-        "bloomRadius": 0.7,
-        "ssaoIntensity": 0.25,
-        "sharpenFactor": 0.42,
-        "chromaticAberrationFactor": 0.05,
-        "vignetteEnable": true,
-        "ssaoEnable": true,
-        "toneMappingEnable": false,
-        "bloomEnable": false,
-        "ssrFactor": 0.12,
-        "bloomThreshold": 0,
-        "enable": true,
-        "toneMappingContrast": 0.05,
-        "dofAperture": 0.01,
-        "toneMappingExposure": 0.65
-      }
-    }
-  },
+  "designSettings": {},
   "profileImages": {
     "baseUrl": "https://raw.githubusercontent.com/stairmaster-au/stairmaster-data/main/assets/profiles/",
     "TREAD": {
