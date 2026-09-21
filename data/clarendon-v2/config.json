@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-19T03:07:44.190Z",
+  "exportedAt": "2026-09-21T20:28:14.280Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -1433,7 +1433,7 @@
       ]
     },
     "Barcelona 260|RH|16|Hamptons|Type 31": {
-      "uid": "f465601c5f134a3db3cdcd8e1ac7dce2",
+      "uid": "e221350ec8b74adc8c1807370b1a0064",
       "houseType": "Barcelona 260",
       "hand": "RH",
       "riserCount": 16,
@@ -1457,7 +1457,7 @@
       ]
     },
     "Barcelona 260|LH|16|Hamptons|Type 31": {
-      "uid": "b43a8c4c5ac24d25931f543cca9066b7",
+      "uid": "833a10f10d4c4a9cad05cb3cf5513d6c",
       "houseType": "Barcelona 260",
       "hand": "LH",
       "riserCount": 16,
@@ -2043,7 +2043,7 @@
       ]
     },
     "Barcelona 280|RH|16|Hamptons|Type 31": {
-      "uid": "e81d3ccceff348798dda23f623fa2a59",
+      "uid": "42c5ac61442749b8aca0ad5e2f8da3b4",
       "houseType": "Barcelona 280",
       "hand": "RH",
       "riserCount": 16,
@@ -2067,7 +2067,7 @@
       ]
     },
     "Barcelona 280|LH|16|Hamptons|Type 31": {
-      "uid": "4f84d640031c4680ab05576d862e1707",
+      "uid": "75a08885454b45bb99410cd8bf030804",
       "houseType": "Barcelona 280",
       "hand": "LH",
       "riserCount": 16,
@@ -2315,7 +2315,7 @@
       ]
     },
     "Barcelona 280|RH|16|Nouveau|Type 30": {
-      "uid": "47e8680f62744876b89316f5e3ebcbb7",
+      "uid": "3c51d9b03f8b459b946fad8286111829",
       "houseType": "Barcelona 280",
       "hand": "RH",
       "riserCount": 16,
@@ -2340,7 +2340,7 @@
       ]
     },
     "Barcelona 280|LH|16|Nouveau|Type 30": {
-      "uid": "875f81851a2d4a11b5b6a5ca03986a6a",
+      "uid": "e386ec4e7d02451ea57362bd37de64f5",
       "houseType": "Barcelona 280",
       "hand": "LH",
       "riserCount": 16,
@@ -7203,7 +7203,7 @@
       ]
     },
     "Crestmead 420|RH|16|Mode|Type 1": {
-      "uid": "3ef718fdc05f41a098e97a474af95062",
+      "uid": "43cda78c29304900b40df6c532eef31d",
       "houseType": "Crestmead 420",
       "hand": "RH",
       "riserCount": 16,
@@ -7213,21 +7213,19 @@
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
         "CAPPING",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "LANDING",
         "NEWEL_POST",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Crestmead 420|LH|16|Mode|Type 1": {
-      "uid": "b329e70b76544d8eb1a68494e30e678c",
+      "uid": "ad62e5af6ed545b6baa6821360f0ca89",
       "houseType": "Crestmead 420",
       "hand": "LH",
       "riserCount": 16,
@@ -7237,21 +7235,19 @@
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
         "CAPPING",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "LANDING",
         "NEWEL_POST",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Crestmead 420|RH|16|Mode|Type 10": {
-      "uid": "0b04f786e0fd4b52b28a0cd07e10624b",
+      "uid": "6105d6cda68b4468b079e0c54e84aedc",
       "houseType": "Crestmead 420",
       "hand": "RH",
       "riserCount": 16,
@@ -7261,21 +7257,19 @@
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
         "CAPPING",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "LANDING",
         "NEWEL_POST",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Crestmead 420|LH|16|Mode|Type 10": {
-      "uid": "45784ba0910748ce9e75da16890761e7",
+      "uid": "2617092a913844899c59afc6da81f299",
       "houseType": "Crestmead 420",
       "hand": "LH",
       "riserCount": 16,
@@ -7285,21 +7279,19 @@
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
         "CAPPING",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "LANDING",
         "NEWEL_POST",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Crestmead 420|RH|16|Mode|Type 20": {
-      "uid": "dbc7adc1ad0c4b0d8f04f579d0ff2142",
+      "uid": "94e5e05330b14ee290baba74a82b51f5",
       "houseType": "Crestmead 420",
       "hand": "RH",
       "riserCount": 16,
@@ -7309,21 +7301,19 @@
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
         "CAPPING",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "LANDING",
         "NEWEL_POST",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Crestmead 420|LH|16|Mode|Type 20": {
-      "uid": "3933f770b493481ba5021b7f890a9b57",
+      "uid": "63ebfb53721e4da18d24bc84f8bc2530",
       "houseType": "Crestmead 420",
       "hand": "LH",
       "riserCount": 16,
@@ -7333,21 +7323,19 @@
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
         "CAPPING",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "LANDING",
         "NEWEL_POST",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Crestmead 420|RH|16|Mode|Type 21": {
-      "uid": "f66b1cf7e91d4bc59632231dfd869f6d",
+      "uid": "efea8519408646f08410823fa6d3df7a",
       "houseType": "Crestmead 420",
       "hand": "RH",
       "riserCount": 16,
@@ -7357,21 +7345,19 @@
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
         "CAPPING",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "LANDING",
         "NEWEL_POST",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Crestmead 420|LH|16|Mode|Type 21": {
-      "uid": "8435498a220443d0a2e9a71f0e7882f0",
+      "uid": "dc9a299162354ccfa7e5a6310ad8ff04",
       "houseType": "Crestmead 420",
       "hand": "LH",
       "riserCount": 16,
@@ -7381,16 +7367,14 @@
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
         "CAPPING",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "LANDING",
         "NEWEL_POST",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
@@ -11901,7 +11885,7 @@
       ]
     },
     "Parkhill 270|RH|16|Mode|Type 1": {
-      "uid": "be9986cd54514ee28c32506136086bab",
+      "uid": "c4f01d71341d4c0bb39fd93fc2e66292",
       "houseType": "Parkhill 270",
       "hand": "RH",
       "riserCount": 16,
@@ -11910,19 +11894,17 @@
       "components": [
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Parkhill 270|LH|16|Mode|Type 1": {
-      "uid": "2d8a9d91c5044a2792ce06b24a5f44a5",
+      "uid": "997e78c2ac9e41e2ae0e6af4aae9daf1",
       "houseType": "Parkhill 270",
       "hand": "LH",
       "riserCount": 16,
@@ -11931,19 +11913,17 @@
       "components": [
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Parkhill 270|RH|16|Mode|Type 10": {
-      "uid": "a675bfd965e742c98461a66fc9848418",
+      "uid": "ecffb3659900457798b2e72d06091f3c",
       "houseType": "Parkhill 270",
       "hand": "RH",
       "riserCount": 16,
@@ -11952,19 +11932,17 @@
       "components": [
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Parkhill 270|LH|16|Mode|Type 10": {
-      "uid": "5f34bcb63bbe4ea8827a13c3b29906ef",
+      "uid": "8a52570fb52a4fe5a1b37a85a54f9b3a",
       "houseType": "Parkhill 270",
       "hand": "LH",
       "riserCount": 16,
@@ -11973,19 +11951,17 @@
       "components": [
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Parkhill 270|RH|16|Mode|Type 20": {
-      "uid": "e646a3b9780a45ddb3255245d8e2dbd2",
+      "uid": "5edeeefe91f94faebd67a5d5814a89be",
       "houseType": "Parkhill 270",
       "hand": "RH",
       "riserCount": 16,
@@ -11994,19 +11970,17 @@
       "components": [
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Parkhill 270|LH|16|Mode|Type 20": {
-      "uid": "e61176c470b544c4b4252c49240a598f",
+      "uid": "247823255d534813970854e9280c9bf2",
       "houseType": "Parkhill 270",
       "hand": "LH",
       "riserCount": 16,
@@ -12015,19 +11989,17 @@
       "components": [
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Parkhill 270|RH|16|Mode|Type 21": {
-      "uid": "26d38bf56c2f4a66b388264f4ab64fb7",
+      "uid": "6e3c050c8d6b4e57972d8d63dd5064c4",
       "houseType": "Parkhill 270",
       "hand": "RH",
       "riserCount": 16,
@@ -12036,19 +12008,17 @@
       "components": [
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
     "Parkhill 270|LH|16|Mode|Type 21": {
-      "uid": "983c769368ca466ba60b1541aaf63399",
+      "uid": "a68079fcf6dc448aa37b9eb546f594a1",
       "houseType": "Parkhill 270",
       "hand": "LH",
       "riserCount": 16,
@@ -12057,14 +12027,12 @@
       "components": [
         "BULLNOSE_RISER",
         "BULLNOSE_TREAD",
-        "GROUND_FLOOR",
         "HANDRAIL",
         "NOSING",
         "RISER",
+        "ROOM",
         "STRINGER",
         "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
         "WALL_RAIL_BRACKET"
       ]
     },
@@ -14575,7 +14543,7 @@
       ]
     },
     "Antigua 270|LH|16|Nouveau|Type 30": {
-      "uid": "d6bd38bbbbcc408e8f76771ec54c7002",
+      "uid": "a4e5e935ae07403598100b7a05edb74c",
       "houseType": "Antigua 270",
       "hand": "LH",
       "riserCount": 16,
@@ -14600,7 +14568,7 @@
       }
     },
     "Antigua 270|RH|16|Nouveau|Type 30": {
-      "uid": "591d1fa966f240d08706a7c9a0e9e2be",
+      "uid": "f83e0926cba34d6097bc3fd01c4708e7",
       "houseType": "Antigua 270",
       "hand": "RH",
       "riserCount": 16,
@@ -14960,7 +14928,7 @@
       ]
     },
     "Brooklyn 320|LH|16|Nouveau|Type 30": {
-      "uid": "ab8314575fd7479db10d740e3594fd28",
+      "uid": "eaac59d78d604eb3b23ce241c099bb82",
       "houseType": "Brooklyn 320",
       "hand": "LH",
       "riserCount": 16,
@@ -14974,7 +14942,7 @@
       ]
     },
     "Brooklyn 320|RH|16|Nouveau|Type 30": {
-      "uid": "ba49027113184320bfdd679fe3dc3fc2",
+      "uid": "b6c3962ce0ff42bfad18425ce921301c",
       "houseType": "Brooklyn 320",
       "hand": "RH",
       "riserCount": 16,
@@ -14988,7 +14956,7 @@
       ]
     },
     "Bayside 360 MKii|LH|16|Nouveau|Type 30": {
-      "uid": "900dca5171294d8cae5faf343836b829",
+      "uid": "394f614500bb479a9b730398cab48301",
       "houseType": "Bayside 360 MKii",
       "hand": "LH",
       "riserCount": 16,
@@ -15002,7 +14970,7 @@
       ]
     },
     "Bayside 360 MKii|RH|16|Nouveau|Type 30": {
-      "uid": "d876235321314d12b1fdf55cb85d0e30",
+      "uid": "b7a7980222604a3f95f4c33bbe4cf2b0",
       "houseType": "Bayside 360 MKii",
       "hand": "RH",
       "riserCount": 16,
@@ -15068,7 +15036,7 @@
       ]
     },
     "Crestmead 420|LH|16|Nouveau|Type 30": {
-      "uid": "9ba29b8b6ffb4e57aa1f36d0f3202016",
+      "uid": "0fb709b3b0c9402d90a11f43b58464c9",
       "houseType": "Crestmead 420",
       "hand": "LH",
       "riserCount": 16,
@@ -15085,7 +15053,7 @@
       ]
     },
     "Crestmead 420|RH|16|Nouveau|Type 30": {
-      "uid": "0b4d160d6f0d4827a985993126c80c2f",
+      "uid": "652a9e6781d84e8f87d983151d41ad60",
       "houseType": "Crestmead 420",
       "hand": "RH",
       "riserCount": 16,
@@ -15130,7 +15098,7 @@
       ]
     },
     "Paddington 270|LH|16|Nouveau|Type 30": {
-      "uid": "ebcbd9880a054e22b29c81612b1716c3",
+      "uid": "29f79dd11e354ae6872e168f2eed97d9",
       "houseType": "Paddington 270",
       "hand": "LH",
       "riserCount": 16,
@@ -15146,9 +15114,9 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          9.035315981211461,
-          1.7410200610579492,
-          5.998273492964278
+          -8.312690900274504,
+          6.674058630272549,
+          4.543913553491068
         ],
         "target": [
           -0.7866166605783005,
@@ -15158,7 +15126,7 @@
       }
     },
     "Paddington 270|RH|16|Nouveau|Type 30": {
-      "uid": "3febe9a761c94dc596856f4378d65397",
+      "uid": "b64c8cf634ff4d26a7fb0a56cedad47f",
       "houseType": "Paddington 270",
       "hand": "RH",
       "riserCount": 16,
@@ -15170,10 +15138,23 @@
         "ROOM",
         "STAIR",
         "WALL_RAIL_BRACKET"
-      ]
+      ],
+      "camera": {
+        "environmentRotation": 5.864306286700948,
+        "position": [
+          6.757652256360831,
+          5.172930760295817,
+          3.8171380738167886
+        ],
+        "target": [
+          -0.7550828438163123,
+          -0.8945937182319103,
+          2.035237609070492
+        ]
+      }
     },
     "Hamilton 340|LH|16|Nouveau|Type 30": {
-      "uid": "901f53a9377d40d5bb9967d0db80007c",
+      "uid": "53e8f455607843b58f866be1a4064eec",
       "houseType": "Hamilton 340",
       "hand": "LH",
       "riserCount": 16,
@@ -15202,7 +15183,7 @@
       }
     },
     "Hamilton 340|RH|16|Nouveau|Type 30": {
-      "uid": "c3086537b787472ca209ace2403e6b18",
+      "uid": "0eb4a76ca936410cb2854516335c9848",
       "houseType": "Hamilton 340",
       "hand": "RH",
       "riserCount": 16,
@@ -15266,7 +15247,7 @@
       ]
     },
     "Antigua 290|LH|16|Hamptons|Type 31": {
-      "uid": "fff0809ad62247d295ce2fcdcdf782ba",
+      "uid": "b11356a95804407797a20026e9aa594c",
       "houseType": "Antigua 290",
       "hand": "LH",
       "riserCount": 16,
@@ -15277,7 +15258,7 @@
       ]
     },
     "Antigua 290|RH|16|Hamptons|Type 31": {
-      "uid": "c9326cfaa6dd4687bd6694d2b3620a04",
+      "uid": "4f733951264c4537b5b706c2e31484e5",
       "houseType": "Antigua 290",
       "hand": "RH",
       "riserCount": 16,
@@ -15288,7 +15269,7 @@
       ]
     },
     "Antigua 290|LH|16|Nouveau|Type 30": {
-      "uid": "18118151aeb843c2977e369111814c37",
+      "uid": "cf5fb4bdbecf4835894a9108dd0aa8a4",
       "houseType": "Antigua 290",
       "hand": "LH",
       "riserCount": 16,
@@ -15318,7 +15299,7 @@
       }
     },
     "Antigua 290|RH|16|Nouveau|Type 30": {
-      "uid": "19a43147867f43f382ea4f3461d2d88e",
+      "uid": "09e5760c536e47b480a345e5d284d17f",
       "houseType": "Antigua 290",
       "hand": "RH",
       "riserCount": 16,
@@ -16130,7 +16111,7 @@
       ]
     },
     "Paddington 300|LH|16|Nouveau|Type 30": {
-      "uid": "5e082585b4724ae39bafa58b2a500ad3",
+      "uid": "68a4a763a18540d6a4b603945f97a900",
       "houseType": "Paddington 300",
       "hand": "LH",
       "riserCount": 16,
@@ -16148,7 +16129,7 @@
       ]
     },
     "Paddington 300|RH|16|Nouveau|Type 30": {
-      "uid": "1271c075146c487385e58a076d5e5361",
+      "uid": "5cbe2b8667f44aea8d6b9ec4661e209d",
       "houseType": "Paddington 300",
       "hand": "RH",
       "riserCount": 16,
@@ -16242,7 +16223,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Mode|Type 20": {
-      "uid": "9273394b82484eff86b2d25da452d037",
+      "uid": "4179564edaa5494daf93e5a5422c8fdf",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -16259,7 +16240,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Mode|Type 20": {
-      "uid": "db59855675f94a6a998977644912b127",
+      "uid": "e14bf50c55ab4f1abb900a192b682509",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -18335,6 +18316,10 @@
       "componentKey": "VOID_TRIM",
       "smMaterial": "Durian"
     },
+    "NEWEL_POST_SS_Satin": {
+      "componentKey": "NEWEL_POST",
+      "smMaterial": "SS_Satin"
+    },
     "LANDING_Carpeted": {
       "componentKey": "LANDING",
       "smMaterial": "Carpeted"
@@ -18346,10 +18331,6 @@
     "BALUSTER_PINE_PG_WHITE": {
       "componentKey": "BALUSTER",
       "smMaterial": "PINE_PG_WHITE"
-    },
-    "NEWEL_POST_SS_Satin": {
-      "componentKey": "NEWEL_POST",
-      "smMaterial": "SS_Satin"
     },
     "WALL_RAIL_BRACKET_PineWhite": {
       "componentKey": "WALL_RAIL_BRACKET",
@@ -18369,6 +18350,10 @@
     },
     "STAIR_Durian": {
       "componentKey": "STAIR",
+      "smMaterial": "Durian"
+    },
+    "WALL_RAIL_Durian": {
+      "componentKey": "WALL_RAIL",
       "smMaterial": "Durian"
     },
     "HANDRAIL_W_Wall_x0020_Grey": {
@@ -18394,10 +18379,6 @@
     "BALUSTER_PC_SatinChrome": {
       "componentKey": "BALUSTER",
       "smMaterial": "PC_SatinChrome"
-    },
-    "WALL_RAIL_Durian": {
-      "componentKey": "WALL_RAIL",
-      "smMaterial": "Durian"
     }
   },
   "stairmasterMaterials": {
@@ -19496,14 +19477,14 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          -7.440004959508467,
-          -6.21270519476114,
-          4.04006003289458
+          -8.139198069934126,
+          -4.159948917493988,
+          5.150533058406442
         ],
         "target": [
-          -0.9824747830646356,
-          -1.1071195948154853,
-          2.254100936473615
+          -0.7960686417831729,
+          -1.4046331654182318,
+          2.077580813425961
         ]
       }
     },
@@ -19511,14 +19492,14 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          7.440004959508467,
-          -6.21270519476114,
-          4.04006003289458
+          8.139198069934126,
+          -4.159948917493988,
+          5.150533058406442
         ],
         "target": [
-          0.9824747830646356,
-          -1.1071195948154853,
-          2.254100936473615
+          0.7960686417831729,
+          -1.4046331654182318,
+          2.077580813425961
         ]
       }
     },
@@ -19856,9 +19837,9 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          11.752123995611464,
-          4.728789043880271,
-          4.9307826905011805
+          11.134925191460782,
+          -6.834989158430206,
+          5.152681756921492
         ],
         "target": [
           1.535447947561741,
@@ -19871,9 +19852,9 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          -11.752123995611464,
-          4.728789043880271,
-          4.9307826905011805
+          -11.134925191460782,
+          -6.834989158430206,
+          5.152681756921492
         ],
         "target": [
           -1.535447947561741,
@@ -20044,6 +20025,6 @@
     "pbrPresets": 22,
     "cameras": 60,
     "designSettings": 0,
-    "cameraOverrides": 9
+    "cameraOverrides": 10
   }
 }
