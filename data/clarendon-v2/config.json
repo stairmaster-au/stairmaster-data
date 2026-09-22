@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-21T20:28:14.280Z",
+  "exportedAt": "2026-09-22T04:18:16.576Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -14545,7 +14545,7 @@
       ]
     },
     "Antigua 270|LH|16|Nouveau|Type 30": {
-      "uid": "a4e5e935ae07403598100b7a05edb74c",
+      "uid": "7e7dbfcb535b4e9993c844e24d70c2e9",
       "houseType": "Antigua 270",
       "hand": "LH",
       "riserCount": 16,
@@ -14558,19 +14558,19 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          -8.747889689586023,
-          2.4489605546478,
-          5.406683203493229
+          8.781924997253594,
+          3.2035892938920023,
+          3.6221430380376303
         ],
         "target": [
-          0.6616890860618803,
-          0.34239506172581335,
-          1.8469214415348238
+          0.7509116603744171,
+          0.6182610577454632,
+          1.2453698032704954
         ]
       }
     },
     "Antigua 270|RH|16|Nouveau|Type 30": {
-      "uid": "f83e0926cba34d6097bc3fd01c4708e7",
+      "uid": "e2afcf52ba0a4af0a40d6a69ceb8438d",
       "houseType": "Antigua 270",
       "hand": "RH",
       "riserCount": 16,
@@ -14579,7 +14579,20 @@
       "components": [
         "NEWEL_POST",
         "WALL_RAIL_BRACKET"
-      ]
+      ],
+      "camera": {
+        "environmentRotation": 5.864306286700948,
+        "position": [
+          -11.736395725120008,
+          -2.093239275713965,
+          5.211291851014362
+        ],
+        "target": [
+          0.33646518862547636,
+          -1.4907422704892692,
+          2.0720499806816095
+        ]
+      }
     },
     "Brooklyn 320|LH|16|Hamptons|Type 31": {
       "uid": "2a8b9dae65fb4c72800ce703d55a6e94",
@@ -20027,6 +20040,6 @@
     "pbrPresets": 22,
     "cameras": 60,
     "designSettings": 0,
-    "cameraOverrides": 10
+    "cameraOverrides": 11
   }
 }
