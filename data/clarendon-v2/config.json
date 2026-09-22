@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-22T05:15:16.162Z",
+  "exportedAt": "2026-09-22T05:22:03.723Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -16228,6 +16228,82 @@
         "WALL_RAIL",
         "WALL_RAIL_BRACKET"
       ]
+    },
+    "Grande 430|RH|16|Nouveau|Type 30": {
+      "uid": "23c01c8ca7b848b89948bf6be93cdf7c",
+      "houseType": "Grande 430",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "GLASS_PANEL",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "LANDING",
+        "NEWEL_POST",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "VOID_TRIM"
+      ],
+      "camera": {
+        "environmentRotation": 5.864306286700948,
+        "position": [
+          8.461635019163325,
+          -2.1511888731662028,
+          3.4290045970288157
+        ],
+        "target": [
+          -3.2387586565762554,
+          3.641441176994654,
+          1.6990545476689207
+        ]
+      }
+    },
+    "Grande 430|LH|16|Nouveau|Type 30": {
+      "uid": "3efd77c07788406cbe6ae6f758ba4c8e",
+      "houseType": "Grande 430",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "GLASS_PANEL",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "LANDING",
+        "NEWEL_POST",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "VOID_TRIM"
+      ],
+      "camera": {
+        "environmentRotation": 5.864306286700948,
+        "position": [
+          -9.248728082765455,
+          0.31729707433206755,
+          4.209686692905118
+        ],
+        "target": [
+          3.2387586565762554,
+          3.641441176994654,
+          1.6990545476689207
+        ]
+      }
     }
   },
   "ranges": {
@@ -18279,6 +18355,10 @@
       "componentKey": "GLASS_CLAMP",
       "smMaterial": "SS_Satin.001"
     },
+    "GLASS_CLAMP_SS_Satin.002": {
+      "componentKey": "GLASS_CLAMP",
+      "smMaterial": "SS_Satin.002"
+    },
     "BALUSTER": {
       "componentKey": "BALUSTER",
       "smMaterial": ""
@@ -19961,13 +20041,13 @@
     }
   },
   "_stats": {
-    "models": 698,
+    "models": 700,
     "cfoRows": 139,
-    "sfMaterials": 54,
+    "sfMaterials": 55,
     "smMaterials": 25,
     "pbrPresets": 22,
     "cameras": 60,
     "designSettings": 0,
-    "cameraOverrides": 9
+    "cameraOverrides": 11
   }
 }
