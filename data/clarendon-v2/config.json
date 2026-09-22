@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-22T07:11:48.145Z",
+  "exportedAt": "2026-09-22T09:07:40.489Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -16376,6 +16376,51 @@
           2.6404721234954005
         ]
       }
+    },
+    "Sheridan 340|LH|16|Nouveau|Type 30": {
+      "uid": "5a45352fa9cf4f1b95888b96bfe24e83",
+      "houseType": "Sheridan 340",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "GLASS_PANEL",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NEWEL",
+        "ROOM",
+        "STAIR"
+      ],
+      "camera": {
+        "environmentRotation": 5.864306286700948,
+        "position": [
+          7.993635719624034,
+          1.836765401343554,
+          3.836082259036756
+        ],
+        "target": [
+          0.7026592416580937,
+          -1.476855772928048,
+          2.013390673421609
+        ]
+      }
+    },
+    "Sheridan 340|RH|16|Nouveau|Type 30": {
+      "uid": "93bc884ff097445bbd82be327d2aff1e",
+      "houseType": "Sheridan 340",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Nouveau",
+      "designOption": "Type 30",
+      "components": [
+        "GLASS_PANEL",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NEWEL",
+        "ROOM",
+        "STAIR"
+      ]
     }
   },
   "ranges": {
@@ -18466,6 +18511,10 @@
     "STAIR_Carpeted": {
       "componentKey": "STAIR",
       "smMaterial": "Carpeted"
+    },
+    "NEWEL_Durian": {
+      "componentKey": "NEWEL",
+      "smMaterial": "Durian"
     }
   },
   "stairmasterMaterials": {
@@ -20105,13 +20154,13 @@
     }
   },
   "_stats": {
-    "models": 700,
+    "models": 702,
     "cfoRows": 139,
-    "sfMaterials": 53,
+    "sfMaterials": 54,
     "smMaterials": 25,
     "pbrPresets": 22,
     "cameras": 60,
     "designSettings": 0,
-    "cameraOverrides": 17
+    "cameraOverrides": 18
   }
 }
