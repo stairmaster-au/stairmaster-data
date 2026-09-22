@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-22T04:41:56.868Z",
+  "exportedAt": "2026-09-22T05:15:16.162Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -8007,82 +8007,6 @@
         "Upper_Rim",
         "VOID_TRIM"
       ]
-    },
-    "Grande 430|RH|16|Nouveau|Type 30": {
-      "uid": "8cd9de8b6e534d3eb2432b91505df230",
-      "houseType": "Grande 430",
-      "hand": "RH",
-      "riserCount": 16,
-      "range": "Nouveau",
-      "designOption": "Type 30",
-      "components": [
-        "BOTTOM_RAIL",
-        "BULLNOSE_RISER",
-        "BULLNOSE_TREAD",
-        "GLASS_PANEL",
-        "GROUND_FLOOR",
-        "HANDRAIL",
-        "LANDING",
-        "NEWEL_POST",
-        "NOSING",
-        "RISER",
-        "STRINGER",
-        "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
-        "VOID_TRIM"
-      ],
-      "camera": {
-        "environmentRotation": 5.864306286700948,
-        "position": [
-          6.95368459427168,
-          0.4922155903887466,
-          3.3426046835812304
-        ],
-        "target": [
-          -3.2387586565762554,
-          3.641441176994654,
-          1.6990545476689207
-        ]
-      }
-    },
-    "Grande 430|LH|16|Nouveau|Type 30": {
-      "uid": "0c6e8810cc0f4e13aba0c9d666b055ee",
-      "houseType": "Grande 430",
-      "hand": "LH",
-      "riserCount": 16,
-      "range": "Nouveau",
-      "designOption": "Type 30",
-      "components": [
-        "BOTTOM_RAIL",
-        "BULLNOSE_RISER",
-        "BULLNOSE_TREAD",
-        "GLASS_PANEL",
-        "GROUND_FLOOR",
-        "HANDRAIL",
-        "LANDING",
-        "NEWEL_POST",
-        "NOSING",
-        "RISER",
-        "STRINGER",
-        "TREAD",
-        "UPPER_FLOOR",
-        "Upper_Rim",
-        "VOID_TRIM"
-      ],
-      "camera": {
-        "environmentRotation": 5.864306286700948,
-        "position": [
-          -7.0002872537385326,
-          0.9158275455155453,
-          3.7576335344235177
-        ],
-        "target": [
-          3.2387586565762554,
-          3.641441176994654,
-          1.6990545476689207
-        ]
-      }
     },
     "Grande 480|RH|16|Classic|Type 1": {
       "uid": "a8a6abed646b43e4bc621150d6e92ed1",
@@ -18351,6 +18275,10 @@
       "componentKey": "WALL_RAIL_BRACKET",
       "smMaterial": "PineWhite"
     },
+    "GLASS_CLAMP_SS_Satin.001": {
+      "componentKey": "GLASS_CLAMP",
+      "smMaterial": "SS_Satin.001"
+    },
     "BALUSTER": {
       "componentKey": "BALUSTER",
       "smMaterial": ""
@@ -19762,14 +19690,14 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          5.025544000270427,
-          8.492528326585354,
-          4.453127065358857
+          7.310775744790471,
+          7.248683034737695,
+          2.9785484882106488
         ],
         "target": [
-          1.3682504250712393,
-          0.7663449950875045,
-          2.6744940900894107
+          1.3297219938643943,
+          1.094280507205248,
+          1.3712009883028986
         ]
       }
     },
@@ -19777,14 +19705,14 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          -5.025544000270427,
-          8.492528326585354,
-          4.453127065358857
+          -7.310775744790471,
+          7.248683034737695,
+          2.9785484882106488
         ],
         "target": [
-          -1.3682504250712393,
-          0.7663449950875045,
-          2.6744940900894107
+          -1.3297219938643943,
+          1.094280507205248,
+          1.3712009883028986
         ]
       }
     },
@@ -20033,13 +19961,13 @@
     }
   },
   "_stats": {
-    "models": 700,
+    "models": 698,
     "cfoRows": 139,
-    "sfMaterials": 53,
+    "sfMaterials": 54,
     "smMaterials": 25,
     "pbrPresets": 22,
     "cameras": 60,
     "designSettings": 0,
-    "cameraOverrides": 11
+    "cameraOverrides": 9
   }
 }
