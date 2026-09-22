@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-22T04:18:16.576Z",
+  "exportedAt": "2026-09-22T04:29:32.815Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -15284,7 +15284,7 @@
       ]
     },
     "Antigua 290|LH|16|Nouveau|Type 30": {
-      "uid": "cf5fb4bdbecf4835894a9108dd0aa8a4",
+      "uid": "9d136d02c0d64c81b0bbddb86849d1e4",
       "houseType": "Antigua 290",
       "hand": "LH",
       "riserCount": 16,
@@ -15302,9 +15302,9 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          8.847396065861563,
-          1.6843717033115184,
-          2.754095260866021
+          8.70586596551189,
+          2.012868266308224,
+          3.4812170400959395
         ],
         "target": [
           -0.20209233104121807,
@@ -15314,7 +15314,7 @@
       }
     },
     "Antigua 290|RH|16|Nouveau|Type 30": {
-      "uid": "09e5760c536e47b480a345e5d284d17f",
+      "uid": "740a3a671d4944a485573268c024dd50",
       "houseType": "Antigua 290",
       "hand": "RH",
       "riserCount": 16,
@@ -15332,9 +15332,9 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          -10.977048707378485,
-          0.4896975915186135,
-          2.364083839097146
+          -10.841031743999658,
+          1.2459394326035356,
+          2.9140317269864395
         ],
         "target": [
           0.052471898937577116,
