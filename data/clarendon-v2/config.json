@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-22T05:22:03.723Z",
+  "exportedAt": "2026-09-22T06:00:13.177Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -14757,7 +14757,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Hamptons|Type 31": {
-      "uid": "c2212f576f38432ea92480c35a277eab",
+      "uid": "af5d719b4bdd4437a97a3ac431e7d7e8",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -14767,7 +14767,7 @@
         "BALUSTER",
         "BOTTOM_RAIL",
         "HANDRAIL",
-        "NEWEL",
+        "NEWEL_POST",
         "NOSING",
         "RISER",
         "ROOM",
@@ -14778,7 +14778,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Hamptons|Type 31": {
-      "uid": "e1726ed9aef646c1bbd721c7c2a80402",
+      "uid": "6f0aeb045e6a4ac5b83a73da02c8a8f1",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -14788,7 +14788,7 @@
         "BALUSTER",
         "BOTTOM_RAIL",
         "HANDRAIL",
-        "NEWEL",
+        "NEWEL_POST",
         "NOSING",
         "RISER",
         "ROOM",
@@ -14799,7 +14799,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Nouveau|Type 30": {
-      "uid": "1bb7f1ea4625407297ba24ee9ea95e0c",
+      "uid": "bdc09fab16e6439c890410e4a47869f0",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -14810,7 +14810,6 @@
         "GLASS_CLAMP",
         "GLASS_PANEL",
         "HANDRAIL",
-        "NEWEL",
         "NEWEL_POST",
         "NOSING",
         "RISER",
@@ -14822,7 +14821,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Nouveau|Type 30": {
-      "uid": "2729ac3036994a04b8d468115712c2bb",
+      "uid": "17e5b1a7a87a4d5d8503ec0a2ca904af",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -14833,7 +14832,6 @@
         "GLASS_CLAMP",
         "GLASS_PANEL",
         "HANDRAIL",
-        "NEWEL",
         "NEWEL_POST",
         "NOSING",
         "RISER",
@@ -15756,7 +15754,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Classic|Type 1": {
-      "uid": "afd20c38738b44408b923178305842a4",
+      "uid": "e291ddf03a4d485da15f4584592e070f",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -15777,7 +15775,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Classic|Type 1": {
-      "uid": "ee8c64c0f4d0408589d66834ecd277f7",
+      "uid": "8490cc441cb5428e90ae37ab1f96cbd9",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -15798,7 +15796,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Classic|Type 10": {
-      "uid": "fd25c4ad0ddd444a94ee95cabdf69ee6",
+      "uid": "7516abd6c6204583b08e94de9e15f6aa",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -15819,7 +15817,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Classic|Type 10": {
-      "uid": "dd2dcee30803439cac6947f62e4ffc33",
+      "uid": "a6cb8006c6e8445f92a8b7a6ffb560cd",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -15840,7 +15838,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Classic|Type 20": {
-      "uid": "3956d7cd1a3140e5b68c0494d343da7a",
+      "uid": "e545cc5ed45944dd891dc89166630fb8",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -15861,7 +15859,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Classic|Type 20": {
-      "uid": "f440d144032e4440a00ee80c7473079d",
+      "uid": "865c3e3500714f31bc14d3f4c91f989d",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -15882,7 +15880,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Classic|Type 21": {
-      "uid": "9543249fb1764e70af3d08ec0822be0d",
+      "uid": "35b170f4feba4ccc9069be2915d87ddd",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -15903,7 +15901,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Classic|Type 21": {
-      "uid": "08009c6c333e4613bf8e1a2aa1f93e6b",
+      "uid": "03f1e9e3e8284893a5f6ef5bb3f7cd02",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -15924,7 +15922,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Classic|Type 30": {
-      "uid": "9b8dc1c060344fee80ed7ba561524c79",
+      "uid": "162556742b5a4165a5c63a0a67372f0d",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -15945,7 +15943,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Classic|Type 30": {
-      "uid": "ec854635bf04435a8271eb5eb748015b",
+      "uid": "e8ada4ce7b3942eabf4440973542b4ba",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -15966,7 +15964,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Coastal Hamptons|Type 31": {
-      "uid": "1764b32fde0e4e91b0cc09e8795d0697",
+      "uid": "d92b1cc8c46a475daae563643cff7897",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -15987,7 +15985,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Coastal Hamptons|Type 31": {
-      "uid": "12e0e220d9264023a28c73f3b90c101f",
+      "uid": "10036129509a4a5e8a753c11ba078c75",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -16008,7 +16006,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Neo Modern|Type 20": {
-      "uid": "d91db597d4d4437e9415b27f691d2338",
+      "uid": "2c40b861ac3d4012a7664715eb5d2ab6",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -16029,7 +16027,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Neo Modern|Type 20": {
-      "uid": "b8b140e446e24f5c962a69016eb97177",
+      "uid": "d12665bbb88c4455914f1119bc03b756",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -16086,7 +16084,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Mode|Type 1": {
-      "uid": "bf5a242d83454b789f957c08c67ca6fe",
+      "uid": "27864564dfc34b489298831d3f5a1e5e",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -16094,18 +16092,30 @@
       "designOption": "Type 1",
       "components": [
         "CAPPING",
+        "GLASS_CLAMP",
         "NEWEL",
-        "NOSING",
-        "RISER",
         "ROOM",
+        "STAIR",
         "STRINGER",
-        "TREAD",
         "WALL_RAIL",
         "WALL_RAIL_BRACKET"
-      ]
+      ],
+      "camera": {
+        "environmentRotation": 5.864306286700948,
+        "position": [
+          -5.46931693821316,
+          -0.6020200951227694,
+          3.325255246544607
+        ],
+        "target": [
+          -2.7807273618522284,
+          1.7946874971443687,
+          2.7774604454832135
+        ]
+      }
     },
     "Lilyfield 320 MKII|RH|16|Mode|Type 1": {
-      "uid": "f9cc4cd6f0364b8591642e7506e9b231",
+      "uid": "b8edd3b95e8c483daae03f3c47e7ebbd",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -16113,53 +16123,27 @@
       "designOption": "Type 1",
       "components": [
         "CAPPING",
+        "GLASS_CLAMP",
         "NEWEL",
-        "NOSING",
-        "RISER",
         "ROOM",
+        "STAIR",
         "STRINGER",
-        "TREAD",
         "WALL_RAIL",
         "WALL_RAIL_BRACKET"
-      ]
-    },
-    "Lilyfield 320 MKII|LH|16|Mode|Type 10": {
-      "uid": "f70256a886344e67b1cce4907e6d559e",
-      "houseType": "Lilyfield 320 MKII",
-      "hand": "LH",
-      "riserCount": 16,
-      "range": "Mode",
-      "designOption": "Type 10",
-      "components": [
-        "CAPPING",
-        "NEWEL",
-        "NOSING",
-        "RISER",
-        "ROOM",
-        "STRINGER",
-        "TREAD",
-        "WALL_RAIL",
-        "WALL_RAIL_BRACKET"
-      ]
-    },
-    "Lilyfield 320 MKII|RH|16|Mode|Type 10": {
-      "uid": "cbfaac3be2f946c992782a2b92fbd958",
-      "houseType": "Lilyfield 320 MKII",
-      "hand": "RH",
-      "riserCount": 16,
-      "range": "Mode",
-      "designOption": "Type 10",
-      "components": [
-        "CAPPING",
-        "NEWEL",
-        "NOSING",
-        "RISER",
-        "ROOM",
-        "STRINGER",
-        "TREAD",
-        "WALL_RAIL",
-        "WALL_RAIL_BRACKET"
-      ]
+      ],
+      "camera": {
+        "environmentRotation": 5.864306286700948,
+        "position": [
+          5.573459582259009,
+          0.031006606014966742,
+          3.609099933301044
+        ],
+        "target": [
+          1.1503612942451196,
+          3.1259166202363637,
+          2.939459345317626
+        ]
+      }
     },
     "Lilyfield 320 MKII|LH|16|Mode|Type 20": {
       "uid": "4179564edaa5494daf93e5a5422c8fdf",
@@ -16191,40 +16175,6 @@
         "RISER",
         "ROOM",
         "TREAD",
-        "WALL_RAIL",
-        "WALL_RAIL_BRACKET"
-      ]
-    },
-    "Lilyfield 320 MKII|LH|16|Mode|Type 21": {
-      "uid": "22d1746bbff449f7ab06384ca3e4c491",
-      "houseType": "Lilyfield 320 MKII",
-      "hand": "LH",
-      "riserCount": 16,
-      "range": "Mode",
-      "designOption": "Type 21",
-      "components": [
-        "CAPPING",
-        "NEWEL",
-        "ROOM",
-        "STAIR",
-        "STRINGER",
-        "WALL_RAIL",
-        "WALL_RAIL_BRACKET"
-      ]
-    },
-    "Lilyfield 320 MKII|RH|16|Mode|Type 21": {
-      "uid": "9f75d6b324c349ecb9d51bcf0f882914",
-      "houseType": "Lilyfield 320 MKII",
-      "hand": "RH",
-      "riserCount": 16,
-      "range": "Mode",
-      "designOption": "Type 21",
-      "components": [
-        "CAPPING",
-        "NEWEL",
-        "ROOM",
-        "STAIR",
-        "STRINGER",
         "WALL_RAIL",
         "WALL_RAIL_BRACKET"
       ]
@@ -18379,29 +18329,21 @@
       "componentKey": "WALL_RAIL",
       "smMaterial": "Durian"
     },
-    "HANDRAIL_W_Wall_x0020_Grey": {
+    "BALUSTER_PC_SatinChrome": {
+      "componentKey": "BALUSTER",
+      "smMaterial": "PC_SatinChrome"
+    },
+    "HANDRAIL_WallGrey": {
       "componentKey": "HANDRAIL",
-      "smMaterial": "W_Wall_x0020_Grey"
+      "smMaterial": "WallGrey"
     },
     "NEWEL_PineWhite": {
       "componentKey": "NEWEL",
       "smMaterial": "PineWhite"
     },
-    "WALL_RAIL_BRACKET_PC_SatinWhite": {
-      "componentKey": "WALL_RAIL_BRACKET",
-      "smMaterial": "PC_SatinWhite"
-    },
-    "BOTTOM_RAIL_con_durian": {
-      "componentKey": "BOTTOM_RAIL",
-      "smMaterial": "con_durian"
-    },
-    "NEWEL_POST_con_durian": {
-      "componentKey": "NEWEL_POST",
-      "smMaterial": "con_durian"
-    },
-    "BALUSTER_PC_SatinChrome": {
-      "componentKey": "BALUSTER",
-      "smMaterial": "PC_SatinChrome"
+    "STAIR_Carpeted": {
+      "componentKey": "STAIR",
+      "smMaterial": "Carpeted"
     }
   },
   "stairmasterMaterials": {
@@ -19650,9 +19592,9 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          -2.74016193453046,
-          -12.900971487315562,
-          2.716414897527269
+          -10.565886414637639,
+          -9.307118871787008,
+          3.4176475463359957
         ],
         "target": [
           -0.09997922011104043,
@@ -19665,9 +19607,9 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          2.74016193453046,
-          -12.900971487315562,
-          2.716414897527269
+          10.565886414637639,
+          -9.307118871787008,
+          3.4176475463359957
         ],
         "target": [
           0.09997922011104043,
@@ -20041,13 +19983,13 @@
     }
   },
   "_stats": {
-    "models": 700,
+    "models": 696,
     "cfoRows": 139,
-    "sfMaterials": 55,
+    "sfMaterials": 53,
     "smMaterials": 25,
     "pbrPresets": 22,
     "cameras": 60,
     "designSettings": 0,
-    "cameraOverrides": 11
+    "cameraOverrides": 13
   }
 }
