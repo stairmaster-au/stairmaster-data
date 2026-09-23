@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-22T09:07:40.489Z",
+  "exportedAt": "2026-09-23T01:44:18.135Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -14799,7 +14799,7 @@
       ]
     },
     "Lilyfield 320 MKII|LH|16|Nouveau|Type 30": {
-      "uid": "bdc09fab16e6439c890410e4a47869f0",
+      "uid": "2471a3a238214ae49c6c4c7fe71e98bd",
       "houseType": "Lilyfield 320 MKII",
       "hand": "LH",
       "riserCount": 16,
@@ -14821,7 +14821,7 @@
       ]
     },
     "Lilyfield 320 MKII|RH|16|Nouveau|Type 30": {
-      "uid": "17e5b1a7a87a4d5d8503ec0a2ca904af",
+      "uid": "20ba2abd97c5402ea57ebfee60d4ba07",
       "houseType": "Lilyfield 320 MKII",
       "hand": "RH",
       "riserCount": 16,
@@ -16378,7 +16378,7 @@
       }
     },
     "Sheridan 340|LH|16|Nouveau|Type 30": {
-      "uid": "5a45352fa9cf4f1b95888b96bfe24e83",
+      "uid": "468f0863884d483ca8f1042a2ea545a0",
       "houseType": "Sheridan 340",
       "hand": "LH",
       "riserCount": 16,
@@ -16395,19 +16395,19 @@
       "camera": {
         "environmentRotation": 5.864306286700948,
         "position": [
-          7.993635719624034,
-          1.836765401343554,
-          3.836082259036756
+          -7.630857205599356,
+          -1.7963376959839743,
+          3.6676859673005695
         ],
         "target": [
-          0.7026592416580937,
-          -1.476855772928048,
-          2.013390673421609
+          0.00974221344753852,
+          0.6005935559870136,
+          1.8410527265839098
         ]
       }
     },
     "Sheridan 340|RH|16|Nouveau|Type 30": {
-      "uid": "93bc884ff097445bbd82be327d2aff1e",
+      "uid": "3622fe34116c4d6d8985fcc14800c399",
       "houseType": "Sheridan 340",
       "hand": "RH",
       "riserCount": 16,
