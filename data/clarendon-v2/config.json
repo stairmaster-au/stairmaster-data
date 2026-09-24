@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-09-23T01:44:18.135Z",
+  "exportedAt": "2026-09-24T06:24:28.192Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -144,7 +144,7 @@
       ]
     },
     "Hamilton 340|RH|16|Hamptons|Type 31": {
-      "uid": "62cf5a7dbbc64758ab3956aeadad8d40",
+      "uid": "82dfd7941b2f4b9ebd0b86e82b22dc40",
       "houseType": "Hamilton 340",
       "hand": "RH",
       "riserCount": 16,
@@ -374,7 +374,7 @@
       ]
     },
     "Hamilton 340|LH|16|Hamptons|Type 31": {
-      "uid": "f72226726ff544669c084fd850508732",
+      "uid": "4c157e61ab924433b34ec1099734ebc7",
       "houseType": "Hamilton 340",
       "hand": "LH",
       "riserCount": 16,
