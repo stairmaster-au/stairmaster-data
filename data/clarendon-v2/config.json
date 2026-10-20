@@ -16668,13 +16668,13 @@
       "display": "Neo Modern",
       "description": "Clean lines"
     },
-    "Hamptons": {
-      "display": "Hamptons",
-      "description": "Coastal elegant"
-    },
     "Coastal Hamptons": {
       "display": "Coastal Hamptons",
       "description": "Beach house style"
+    },
+    "Hamptons": {
+      "display": "Hamptons",
+      "description": "Coastal elegant"
     }
   },
   "designOptions": {
