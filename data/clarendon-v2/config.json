@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-10-20T04:39:43.619Z",
+  "exportedAt": "2026-10-20T05:46:31.950Z",
   "exportedBy": "sm_publish.py",
   "builder": "Clarendon",
   "environmentUID": "2f833bbbc41045b584a59ecac4d29d5e",
@@ -16423,6 +16423,232 @@
         "ROOM",
         "STAIR"
       ]
+    },
+    "Bayside 360 MKii|LH|16|Coastal Hamptons|Type 31": {
+      "uid": "7b2a54d4ab5747b2a613f3da47c38f68",
+      "houseType": "Bayside 360 MKii",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "LANDING",
+        "NEWEL_POST",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "VOID_TRIM"
+      ]
+    },
+    "Bayside 360 MKii|RH|16|Coastal Hamptons|Type 31": {
+      "uid": "03c28395af6646b185c97d9f887e9720",
+      "houseType": "Bayside 360 MKii",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Coastal Hamptons",
+      "designOption": "Type 31",
+      "components": [
+        "BALUSTER",
+        "BOTTOM_RAIL",
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "LANDING",
+        "NEWEL_POST",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "VOID_TRIM"
+      ]
+    },
+    "Grande 480|RH|16|Mode|Type 1": {
+      "uid": "a16b854c47964463b5dd810ddbcb24c4",
+      "houseType": "Grande 480",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "CAPPING",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Grande 480|LH|16|Mode|Type 1": {
+      "uid": "5d462b016ce944179d4a587986eaa3b8",
+      "houseType": "Grande 480",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 1",
+      "components": [
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "CAPPING",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Grande 480|RH|16|Mode|Type 10": {
+      "uid": "f41e58f2485e43bdb950cd809d6f6111",
+      "houseType": "Grande 480",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 10",
+      "components": [
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "CAPPING",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Grande 480|LH|16|Mode|Type 10": {
+      "uid": "7046e0e2860d4eaba90cdb66b77b4f0d",
+      "houseType": "Grande 480",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 10",
+      "components": [
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "CAPPING",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Grande 480|RH|16|Mode|Type 20": {
+      "uid": "60a3af6e345641398c38c630648a3c85",
+      "houseType": "Grande 480",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20",
+      "components": [
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "CAPPING",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Grande 480|LH|16|Mode|Type 20": {
+      "uid": "db4d065e93f249b29dea05053917f92a",
+      "houseType": "Grande 480",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 20",
+      "components": [
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "CAPPING",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Grande 480|RH|16|Mode|Type 21": {
+      "uid": "1bcb77ee6bb046f0935efaf85778e97f",
+      "houseType": "Grande 480",
+      "hand": "RH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "CAPPING",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET"
+      ]
+    },
+    "Grande 480|LH|16|Mode|Type 21": {
+      "uid": "1e4817c497de484c997704d031c3c18b",
+      "houseType": "Grande 480",
+      "hand": "LH",
+      "riserCount": 16,
+      "range": "Mode",
+      "designOption": "Type 21",
+      "components": [
+        "BULLNOSE_RISER",
+        "BULLNOSE_TREAD",
+        "CAPPING",
+        "GROUND_FLOOR",
+        "HANDRAIL",
+        "NOSING",
+        "RISER",
+        "STRINGER",
+        "TREAD",
+        "UPPER_FLOOR",
+        "Upper_Rim",
+        "WALL_RAIL_BRACKET"
+      ]
     }
   },
   "ranges": {
@@ -20156,7 +20382,7 @@
     }
   },
   "_stats": {
-    "models": 702,
+    "models": 712,
     "cfoRows": 139,
     "sfMaterials": 54,
     "smMaterials": 25,
